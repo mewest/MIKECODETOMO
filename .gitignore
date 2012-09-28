@@ -12,3 +12,15 @@ PROGRAMS/0_START/START/start.exe
 *.grd
 
 *.dat
+
+*.ps
+
+*.cpt
+
+PROGRAMS/0_START/START/.gmtcommands4
+
+DATA/UT_SET01/CHECK_01/data/vel_p_12.dat
+
+DATA/UT_SET01/CHECK_01/data/ztcor_14.dat
+
+*.dat
