@@ -4,6 +4,7 @@
 *.grd
 *.dat
 *.ps
+*.pdf
 *.cpt
 PROGRAMS/0_START/START/.gmtcommands4
 
