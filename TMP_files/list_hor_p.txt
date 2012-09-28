@@ -1,0 +1,27 @@
+../../../TMP_files/hor/dv11 1.grd
+../../../TMP_files/hor/ztr 1.dat
+P anomalies, depth=  0 km
+../../../TMP_files/hor/dv11 2.grd
+../../../TMP_files/hor/ztr 2.dat
+P anomalies, depth=  5 km
+../../../TMP_files/hor/dv11 3.grd
+../../../TMP_files/hor/ztr 3.dat
+P anomalies, depth= 10 km
+../../../TMP_files/hor/dv11 4.grd
+../../../TMP_files/hor/ztr 4.dat
+P anomalies, depth= 15 km
+../../../TMP_files/hor/dv11 5.grd
+../../../TMP_files/hor/ztr 5.dat
+P anomalies, depth= 20 km
+../../../TMP_files/hor/dv11 6.grd
+../../../TMP_files/hor/ztr 6.dat
+P anomalies, depth= 25 km
+../../../TMP_files/hor/dv11 7.grd
+../../../TMP_files/hor/ztr 7.dat
+P anomalies, depth= 30 km
+../../../TMP_files/hor/dv11 8.grd
+../../../TMP_files/hor/ztr 8.dat
+P anomalies, depth= 50 km
+../../../TMP_files/hor/dv11 9.grd
+../../../TMP_files/hor/ztr 9.dat
+P anomalies, depth= 80 km

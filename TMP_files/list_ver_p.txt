@@ -1,0 +1,18 @@
+../../../TMP_files/vert/ver_11 1.grd
+../../../TMP_files/vert/ztr_ 1.dat
+P anomalies.  Section  1
+../../../TMP_files/vert/ver_11 2.grd
+../../../TMP_files/vert/ztr_ 2.dat
+P anomalies.  Section  2
+../../../TMP_files/vert/ver_11 3.grd
+../../../TMP_files/vert/ztr_ 3.dat
+P anomalies.  Section  3
+../../../TMP_files/vert/ver_11 4.grd
+../../../TMP_files/vert/ztr_ 4.dat
+P anomalies.  Section  4
+../../../TMP_files/vert/ver_11 5.grd
+../../../TMP_files/vert/ztr_ 5.dat
+P anomalies.  Section  5
+../../../TMP_files/vert/ver_11 6.grd
+../../../TMP_files/vert/ztr_ 6.dat
+P anomalies.  Section  6

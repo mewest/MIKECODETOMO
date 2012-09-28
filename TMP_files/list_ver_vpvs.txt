@@ -1,0 +1,18 @@
+../../../TMP_files/vert/vpvs_1 1.grd
+../../../TMP_files/vert/ztr_ 1.dat
+Vp/Vs. Section  1
+../../../TMP_files/vert/vpvs_1 2.grd
+../../../TMP_files/vert/ztr_ 2.dat
+Vp/Vs. Section  2
+../../../TMP_files/vert/vpvs_1 3.grd
+../../../TMP_files/vert/ztr_ 3.dat
+Vp/Vs. Section  3
+../../../TMP_files/vert/vpvs_1 4.grd
+../../../TMP_files/vert/ztr_ 4.dat
+Vp/Vs. Section  4
+../../../TMP_files/vert/vpvs_1 5.grd
+../../../TMP_files/vert/ztr_ 5.dat
+Vp/Vs. Section  5
+../../../TMP_files/vert/vpvs_1 6.grd
+../../../TMP_files/vert/ztr_ 6.dat
+Vp/Vs. Section  6

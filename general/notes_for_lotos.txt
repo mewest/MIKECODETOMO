@@ -1,0 +1,99 @@
+
+
+
+
+####### SEPTEMBER 13-14 ###########################################
+Worked on plotting functions in lotos_test
+Manipulated sethor.dat and setver.dat together with gmt.conf to tighten up figure and add more panels
+Calculated new cross section coordinates in general/find_cross_section_coordinates.m
+Learned to remove political boundaries from vis_result_gmt.pl
+
+## CHECK OUT AND COMPILE LOTOS
+svn checkout http://lotos.googlecode.com/svn/trunk/ lotos_test
+cd lotos_test/linux/PROGRAMS
+make
+export LROOT='/home/west/PLUTONS/LOTOS/lotos_test/linux/'
+
+## REMOVE PREVIOUS RUNS
+rm -rf  $LROOT/PICS  $LROOT/TMP_files  $LROOT/DATA/BOLIVIA_/MODEL_01/data
+
+## RUN
+cd $LROOT; time start.sh # 2> log; tail -f log
+
+## VIEW DATA
+cat $LROOT/PICS/ps/BOLIVIA_/MODEL_01/*ps > $LROOT/PICS/ps/BOLIVIA_/MODEL_01/all.ps
+ps2pdf $LROOT/PICS/ps/BOLIVIA_/MODEL_01/vis_result_P_1.ps $LROOT/PICS/ps/BOLIVIA_/MODEL_01/vis_result_P_1.pdf
+ar $LROOT/PICS/ps/BOLIVIA_/MODEL_01/vis_result_P_1.pdf
+#ps2pdf $LROOT/PICS/ps/BOLIVIA_/MODEL_01/all.ps $LROOT/PICS/ps/BOLIVIA_/MODEL_01/all.pdf
+#ar $LROOT/PICS/ps/BOLIVIA_/MODEL_01/all.pdf
+
+## TO RUN GMT *AFTER* LOTOS HAS COMPLETED ...
+cd $LROOT/PROGRAMS/3_VISUAL/_vis_n_ver_result
+run output lines such as:
+    perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl BOLIVIA_ MODEL_01 1 ../../../TMP_files/list_hor_p.txt ../../.. TMP_files/list_ver_p.txt P
+
+## TO REMOVE POLITICAL BOUNDARIES AND MANIPULATE GMT
+edit PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl
+remove -N flags or similar
+**Note that PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl is written fresh each run from COMMON/gmt/vis_result_gmt.pl
+
+
+
+
+####### SEPTEMBER 27 ###########################################
+SUMMARY
+Created picks_set01
+made non-test lotos directory with extra models and areas removed
+made custom a priori gmt script names $LROOT/COMMON/gmt/vis_result_gmt_ut.pl
+    added bullseyes. Minor appearance tweaks. psxy runs *very* slowly
+
+
+
+## SET UP NON-TEST LOTOS ENVIRONMENT
+svn checkout http://lotos.googlecode.com/svn/trunk/ lotos
+cd lotos/linux/PROGRAMS
+make
+export LROOT='/home/west/PLUTONS/LOTOS/lotos/linux/'
+removed GEO_DAT1  KLU_2003  KLU_2004  SPURR_SM  XYZ_DAT1 BOLIVAR_
+
+
+## MAKE UTURUNCU SPACE
+cd DATA
+mv BOLIVIA_ UT_SET01
+cd $LROOT/DATA/UT_SET01/inidata
+Use picks_set01
+	rm -rf rays.dat stat_ft.dat
+	mv sources_ini.dat sources_ini.dat.orig
+	mv stat_actual.dat stat_actual.dat.orig
+	mv stat_xy.dat stat_xy.dat.orig
+	cp /home/west/PLUTONS/LOTOS/make_input_databases/picks_set01/*dat .
+Set plotting to previous many-panel config
+	copy gmt.cong
+	setver.dat and sethor.dat based on find_cross_section_coordinates.m
+
+## CHECKERBOARD
+Make model CHECK_01
+
+
+## RUN
+cd $LROOT; time start.sh 2> log; tail -f log
+
+## VIEW DATA
+cat $LROOT/PICS/ps/UT_SET01/CHECK_01/vis*ps > $LROOT/PICS/ps/UT_SET01/CHECK_01/all.ps
+ps2pdf $LROOT/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.ps $LROOT/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
+ar $LROOT/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
+
+## A PRIORI PLOTTING
+     cd $LROOT/PROGRAMS/3_VISUAL/_vis_n_ver_result
+     perl $LROOT/COMMON/gmt/vis_result_gmt_ut.pl UT_SET01 CHECK_01 1 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P          
+
+
+
+
+
+
+
+
+
+
+
