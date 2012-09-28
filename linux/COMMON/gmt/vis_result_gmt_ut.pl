@@ -501,14 +501,14 @@ sub draw_marks($$$$)
  #   }
 #    close(MARK);
     
-#    $cmd="psxy '$mark_dat' -Rg$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -S0.13c -fig ";
+#    $cmd="psxy '$mark_dat' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -S0.13c -fig ";
     
 #    $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
 #    print $cmd . "\n";
 #    system($cmd) == 0 or die "Error call psxy : $?";
     
     
-    $cmd="psxy '$mark_bln' -Rg$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -SqD50k:+LDk -H -fig -W0.05c";
+    $cmd="psxy '$mark_bln' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -SqD50k:+LDk -H -fig -W0.05c";
     
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     print $cmd . "\n";
@@ -554,22 +554,22 @@ sub draw_map($$$$$$)
     
 
     ### COUNTRY BOUNDARIES
-    #$cmd="pscoast -Rg$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Di -N1/3,100/0/0 -I1/3,blue -W3";
+    #$cmd="pscoast -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Di -N1/3,100/0/0 -I1/3,blue -W3";
     #$cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";	
     #system($cmd) == 0 or die "Error call pscoast : $?";
    
 
     ### HYPOCENTERS
-    #$cmd="psxy '$ztr' -Rg$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Sc0.13c";
+    #$cmd="psxy '$ztr' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Sc0.13c";
     #$cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     #system($cmd) == 0 or die "Error call psxy : $?";
-    $cmd="psxy '$ztr' -Rg$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Sc0.13c -m -W0.25p,150/150/150";
+    $cmd="psxy '$ztr' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Sc0.13c -m -W0.25p,150/150/150";
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
 
     ### BULLSEYE
-    my $bullseyeFile = '/home/west/PLUTONS/LOTOS/lotos/linux/COMMON/gmt/bullseye.xy';
-    $cmd="psxy '$bullseyeFile' -Rg$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -m -W0.25p,0/0/0,.";
+    my $bullseyeFile = '../../../COMMON/gmt/bullseye.xy';
+    $cmd="psxy '$bullseyeFile' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -m -W0.25p,0/0/0,.";
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
     print "$cmd\n";
@@ -612,15 +612,16 @@ sub draw_map_ver($$$$$$)
     system($cmd) == 0 or die "Error call pscontour : $?";
     
     
-    #$cmd="pscoast -Rg$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c -Di -N1/3,100/0/0 -I1/3,blue -W3";
+    #$cmd="pscoast -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c -Di -N1/3,100/0/0 -I1/3,blue -W3";
     
     #$cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";	
     #system($cmd) == 0 or die "Error call pscoast : $?";
    
     #$cmd="psxy '$ztr' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c -Gblack -fig -Sc0.13c";
-    ##"  psxy circle.dat -Rg-180/-120/50/70 -Jx0.16id -Gred -B4/4 -fig -Sc0.03c 
+    ##"  psxy circle.dat -R-180/-120/50/70 -Jx0.16id -Gred -B4/4 -fig -Sc0.03c 
     #$cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
-    $cmd="psxy '$ztr' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Sc0.13c -m -W0.25p,150/150/150";
+    
+    $cmd="psxy '$ztr' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c -Sc0.13c -m -W0.25p,150/150/150";
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
 }
