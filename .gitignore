@@ -1,26 +1,51 @@
-
-junkfile.txt
-
-junkfile2.txt
-
-PROGRAMS/0_START/START/start.exe
-
-*.exe
-
+# PROJECT-SPECIFIC #
+####################
 *.xyz
-
 *.grd
-
 *.dat
-
 *.ps
-
 *.cpt
-
 PROGRAMS/0_START/START/.gmtcommands4
 
-DATA/UT_SET01/CHECK_01/data/vel_p_12.dat
 
-DATA/UT_SET01/CHECK_01/data/ztcor_14.dat
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-*.dat
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
