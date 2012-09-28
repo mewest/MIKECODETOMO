@@ -1,0 +1,15 @@
+# GMT common arguments shelf
+-B50:distance along profile, km:/50:depth, km::.S anomalies. Section  1:WeSn
+-JX10c/10c
+-R-10/10/-0.1/10
+-Xa0
+-xa4
+-Ya0
+-ya22.20779183891
+-jX10c/10c
+EOF
+ya26.70779183891c
+-jX3.69660361538462c/5c
+EOF
+0408054499c
+EOF
