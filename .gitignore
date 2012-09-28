@@ -10,3 +10,5 @@ PROGRAMS/0_START/START/start.exe
 *.xyz
 
 *.grd
+
+*.dat
