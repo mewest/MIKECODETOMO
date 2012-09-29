@@ -62,3 +62,7 @@ linux/PROGRAMS/0_START/START/.gmtdefaults4
 linux/PROGRAMS/3_VISUAL/_vis_n_ver_result/.gmtcommands4
 
 linux/PROGRAMS/3_VISUAL/_vis_n_ver_result/.gmtdefaults4
+
+linux/TMP_files/info_map.txt
+
+linux/DATA/UT_SET01/CHECK_01/info_resid.dat

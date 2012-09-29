@@ -5,7 +5,7 @@
 cenLat = -22.263;     % Uturuncu summit
 cenLon = -67.181;
 offset = km2deg(30);  % distance of the cross sections from center point
-widthLat = 1.0;       % boundaries of plot boxes (end of cross sections)
+widthLat = 0.5;       % boundaries of plot boxes (end of cross sections)
 widthLon = widthLat / cosd(cenLat);   
 
 
@@ -48,6 +48,16 @@ for n = 1:numel(startLat)
     fprintf(fid,'%f %f\n%f %f\n',startLon(n),startLat(n),endLon(n),endLat(n));
 end;
 fclose(fid);
+
+
+
+disp('Cross-section distances ...');
+for n = 1:numel(startLat)
+    dist = deg2km(distance(startLat(n),startLon(n),endLat(n),endLon(n)));
+    disp(num2str(dist,'%6.2f'));
+end;
+
+
 
 
 
