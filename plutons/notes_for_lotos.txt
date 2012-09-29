@@ -90,10 +90,12 @@ pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.ps
 ar $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
 
 
-
-
-
-
+## TO ADJUST FIGURE PLOT SIZE
+Run find_cross_section_coordinates.m
+cp ../plutons/general/crosshairs.xy COMMON/gmt/
+cut/paste snippets into sethor.dat and setver.dat
+editing gmt.conf is not essential but possibly necessary
+may have to rerun inversion with new settings??
 
 
 

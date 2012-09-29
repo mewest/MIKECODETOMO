@@ -1,6 +1,6 @@
 9			                 Number of sections
 0 5 10 15 20 25 30 50 80		 Depths of sections
--0.540 0.540 0.02 -0.500 0.500 0.02     fi1, fi2, dfi, tet1, tet2, dtet
+-0.810 0.810 0.02 -0.750 0.750 0.02     fi1, fi2, dfi, tet1, tet2, dtet
 8		                         distance from nearest node
 0		                         Smoothing factor1		Number of summary
 
