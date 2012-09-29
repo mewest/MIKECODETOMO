@@ -568,11 +568,11 @@ sub draw_map($$$$$$)
     system($cmd) == 0 or die "Error call psxy : $?";
 
     ### BULLSEYE
-    my $bullseyeFile = '../../../COMMON/gmt/bullseye.xy';
-    $cmd="psxy '$bullseyeFile' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -m -W0.25p,0/0/0,.";
+    my $linesFile = '../../../COMMON/gmt/crosshairs.xy';
+    $cmd="psxy '$linesFile' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -m -W0.25p,0/0/0,.";
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
-    print "$cmd\n";
+    #print "$cmd\n";
 
 }
 

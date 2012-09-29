@@ -41,3 +41,14 @@ txt = sprintf('%5.3f %5.3f XXdfiXX %5.3f %5.3f XXdtetXX',-1*widthLon,widthLon,-1
 disp(txt);
 
 
+
+fid = fopen('crosshairs.xy','w');
+for n = 1:numel(startLat)
+    fprintf(fid,'>\n');
+    fprintf(fid,'%f %f\n%f %f\n',startLon(n),startLat(n),endLon(n),endLat(n));
+end;
+fclose(fid);
+
+
+
+

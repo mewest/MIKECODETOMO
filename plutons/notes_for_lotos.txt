@@ -78,15 +78,15 @@ Make model CHECK_01
 ## RUN
 cd $LROOT; time start.sh 2> log; tail -f log
 
-## VIEW DATA
-cat $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
-ps2pdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.ps $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
-ar $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
-
 ## A PRIORI PLOTTING
      cd PROGRAMS/3_VISUAL/_vis_n_ver_result
      perl ../../../COMMON/gmt/vis_result_gmt_ut.pl UT_SET01 CHECK_01 1 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P          
 
+
+## VIEW DATA
+cat $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
+pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.ps
+ar $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
 
 
 

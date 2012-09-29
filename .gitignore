@@ -12,7 +12,7 @@ list*.txt
 mark*bln
 topo_*.bln
 fort.16
-
+*~
 
 # Compiled source #
 ###################
