@@ -5,7 +5,8 @@
 cenLat = -22.263;     % Uturuncu summit
 cenLon = -67.181;
 offset = km2deg(30);  % distance of the cross sections from center point
-widthLat = 0.75;       % boundaries of plot boxes (end of cross sections)
+widthLat = 0.7195;    % boundaries of plot boxes (end of cross sections)
+                      % 0.7195 is 160km. So 80km is in the center
 widthLon = widthLat / cosd(cenLat);   
 
 
