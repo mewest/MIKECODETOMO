@@ -2,19 +2,21 @@
 
 
 
-## REMOVE PREVIOUS RUNS
-rm -rf  $LROOT/PICS  $LROOT/TMP_files  $LROOT/DATA/BOLIVIA_/MODEL_01/data
-
+## REMOVE PREVIOUS RUNS (not usually necessary)
+rm -rf  $TOMO/linux/PICS  $TOMO/linux/TMP_files $TOMO/linux/DATA/UT_SET01/*/data
 
 ## RUN
 export TOMO=/Users/west/Repositories/TOMO
 
 
 ## RUN
-cd $LROOT; time start.sh &> log; tail -f log
+cd $TOMO/linux; time start.sh &> log;   # tail -f log
 cat $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
 pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
-ar $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.pdf
+mv $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.pdf $TOMO/plutons/figures
+ar $TOMO/plutons/figures/all.pdf
+
+
 
 
 ## TO PLOT AFTER THE FACT
@@ -25,20 +27,19 @@ pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.ps
 ar $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
 
 
-## VIEW DATA
-cat $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
-pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
-pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_0.ps
-ar $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
-
-
 ## NOTES TO ADJUST FIGURE PLOT SIZE
 Run find_cross_section_coordinates.m
-cp ../plutons/general/crosshairs.xy COMMON/gmt/
+cp $TOMO/plutons/general/crosshairs.xy $TOMO/linux/COMMON/gmt/
 cut/paste snippets into sethor.dat and setver.dat
 editing gmt.conf is not essential but possibly necessary
 may have to rerun inversion with new settings??
 
 
-
+## CHECKERBOARD TEST SPACING
+for 5, 15, 45 km grids use a 22.5 km crosshair width
+anomaly.dat spacings:
+	-803. 803.  4. 1.0 
+	-200 -200	 8  2
+	-200 -200  	16  4
+	-200 -200 	36  4
 
