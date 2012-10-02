@@ -11,9 +11,8 @@ export TOMO=/Users/west/Repositories/TOMO
 
 ## RUN
 cd $TOMO/linux; time start.sh &> log;   # tail -f log
-cat $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
-pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.ps
-mv $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/all.pdf $TOMO/plutons/figures
+cat $TOMO/linux/PICS/ps/UT_SET01/COLUMN10/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/COLUMN10/all.ps
+pstopdf $TOMO/linux/PICS/ps/UT_SET01/COLUMN10/all.ps $TOMO/plutons/figures/all.pdf
 ar $TOMO/plutons/figures/all.pdf
 
 
@@ -22,9 +21,9 @@ ar $TOMO/plutons/figures/all.pdf
 ## TO PLOT AFTER THE FACT
 #  may only work on plots for final iteration??
 cd PROGRAMS/3_VISUAL/_vis_n_ver_result
-perl ../../../COMMON/gmt/vis_result_gmt.pl UT_SET01 CHECK_01 0 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P   
-pstopdf $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.ps
-ar $TOMO/linux/PICS/ps/UT_SET01/CHECK_01/vis_result_P_1.pdf
+perl ../../../COMMON/gmt/vis_result_gmt.pl UT_SET01 COLUMN10 0 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P   
+pstopdf $TOMO/linux/PICS/ps/UT_SET01/COLUMN10/vis_result_P_1.ps
+ar $TOMO/linux/PICS/ps/UT_SET01/COLUMN10/vis_result_P_1.pdf
 
 
 ## NOTES TO ADJUST FIGURE PLOT SIZE
