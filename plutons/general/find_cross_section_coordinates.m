@@ -7,6 +7,7 @@ cenLon = -67.181;
 offset = km2deg(30);  % distance of the cross sections from center point
 widthLat = 0.7195;    % boundaries of plot boxes (end of cross sections)
                       % 0.7195 is 160km. So 80km is in the center
+radius = 50;          % radius of circle
 widthLon = widthLat / cosd(cenLat);   
 
 
@@ -29,28 +30,6 @@ h = worldmap(cenLat+[-1.2 1.2],cenLon+[-1.2 1.2]);
 geoshow('landareas.shp', 'FaceColor', [0.8 1.0 0.8])
 hold on;
 
-disp('Snippets for setver.dat ...');
-for n = 1:6
-   txt = sprintf('%5.3f %5.3f %5.3f %5.3f',startLon(n),startLat(n),endLon(n),endLat(n));
-   disp(txt);
-   plotm([startLat(n) endLat(n)],[startLon(n) endLon(n)],'r-');
-end
-
-
-disp('Snippets for sethor.dat ...');
-txt = sprintf('%5.3f %5.3f XXdfiXX %5.3f %5.3f XXdtetXX',-1*widthLon,widthLon,-1*widthLat,widthLat);
-disp(txt);
-
-
-
-fid = fopen('crosshairs.xy','w');
-for n = 1:numel(startLat)
-    fprintf(fid,'>\n');
-    fprintf(fid,'%f %f\n%f %f\n',startLon(n),startLat(n),endLon(n),endLat(n));
-end;
-fclose(fid);
-
-
 
 disp('Cross-section distances ...');
 for n = 1:numel(startLat)
@@ -59,7 +38,27 @@ for n = 1:numel(startLat)
 end;
 
 
+disp('Snippets for setver.dat ...');
+for n = 1:6
+   txt = sprintf('%5.3f %5.3f %5.3f %5.3f',startLon(n),startLat(n),endLon(n),endLat(n));
+   disp(txt);
+   plotm([startLat(n) endLat(n)],[startLon(n) endLon(n)],'r-');
+end
+
+disp('Snippets for sethor.dat ...');
+txt = sprintf('%5.3f %5.3f XXdfiXX %5.3f %5.3f XXdtetXX',-1*widthLon,widthLon,-1*widthLat,widthLat);
+disp(txt);
 
 
-
-
+disp('Writing crosshairs and circle coordinates ...');
+fid = fopen('crosshairs.xy','w');
+for n = 1:numel(startLat)
+    fprintf(fid,'>\n');
+    fprintf(fid,'%f %f\n%f %f\n',startLon(n),startLat(n),endLon(n),endLat(n));
+end;
+ll = scircle1(cenLat,cenLon,km2deg(radius),[],[],'degrees',100);
+fprintf(fid,'>\n');
+for n = 1:numel(ll(:,1))
+    fprintf(fid,'%f %f\n',ll(n,2),ll(n,1));
+end
+fclose(fid);
