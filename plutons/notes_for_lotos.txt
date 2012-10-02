@@ -38,7 +38,7 @@ may have to rerun inversion with new settings??
 ## CHECKERBOARD TEST SPACING
 for 5, 15, 45 km grids use a 22.5 km crosshair width
 anomaly.dat spacings:
-	-205. 205.   8. 2.
-	-209. 209.  16. 4.
-	-195. 195.  26. 4.
+-205. 205.   8. 2.
+-209. 209.  16. 4.
+-194. 194.  26. 4.
 
