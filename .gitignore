@@ -2,7 +2,6 @@
 ####################
 *.xyz
 *.grd
-*.dat
 *.ps
 *.pdf
 *.cpt
@@ -13,6 +12,13 @@ mark*bln
 topo_*.bln
 fort.16
 *~
+final_resid.dat
+info_resid.dat
+tmp.dat
+SET.DAT
+
+
+
 
 # Compiled source #
 ###################
@@ -55,6 +61,11 @@ fort.16
 Icon?
 ehthumbs.db
 Thumbs.db
+
+
+
+# Manual additions#
+######################
 linux/PROGRAMS/0_START/START/.gmtcommands4
 
 linux/PROGRAMS/0_START/START/.gmtdefaults4
@@ -74,3 +85,5 @@ linux/log
 linux/DATA/UT_SET01/COLUMNXX/info_resid.dat
 
 linux/DATA/UT_SET01/COLUMNXX/final_resid.dat
+
+linux/COMMON/various/aver_koef.dat
