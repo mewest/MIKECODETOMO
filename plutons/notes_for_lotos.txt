@@ -10,6 +10,7 @@ export TOMO=/Users/west/Repositories/TOMO
 
 
 ## RUN #########
+export SET=UT_SET02
 export MOD=MODEL_01
 cd $TOMO/linux; time start.sh &> log;   # tail -f log
 cat $TOMO/linux/PICS/ps/UT_SET01/MOD/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/MOD/all.ps

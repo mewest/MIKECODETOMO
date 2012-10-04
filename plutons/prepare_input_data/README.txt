@@ -25,7 +25,7 @@ db2kml -sbl picks_set01/picks_set01 > picks_set01/picks_set01.kml
 # SHELL
 cat FIG*.ps > picks_set01_FIGS.ps
 ps2pdf picks_set01_FIGS.ps
-rm -rf picks_set01_FIGS.ps
+rm -rf *.ps
 
 
 
@@ -57,7 +57,7 @@ db2kml -sbl picks_set02/picks_set02 > picks_set02/picks_set02.kml
 # SHELL
 cat FIG*.ps > picks_set02_FIGS.ps
 ps2pdf picks_set02_FIGS.ps
-rm -rf picks_set02_FIGS.ps
+rm -rf *.ps
 
 
 
