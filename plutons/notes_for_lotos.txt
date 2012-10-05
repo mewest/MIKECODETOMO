@@ -10,14 +10,16 @@ export TOMO=/Users/west/Repositories/TOMO
 
 
 ## RUN #########
+cd $TOMO/linux; time start.sh &> log;   # tail -f log
+
+## PLOT
 export SET=UT_SET02
 export MOD=MODEL_01
-cd $TOMO/linux; time start.sh &> log;   # tail -f log
-cat $TOMO/linux/PICS/ps/UT_SET01/MOD/vis*ps > $TOMO/linux/PICS/ps/UT_SET01/MOD/all.ps
-pstopdf $TOMO/linux/PICS/ps/UT_SET01/MOD/all.ps
-mv $TOMO/linux/PICS/ps/UT_SET01/MOD/all.pdf $TOMO/plutons/figures
+cat $TOMO/linux/PICS/ps/$SET/$MOD/vis*ps > $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
+pstopdf $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
+mv $TOMO/linux/PICS/ps/$SET/$MOD/all.pdf $TOMO/plutons/figures
 ar $TOMO/plutons/figures/all.pdf
-
+ 
 
 
 
