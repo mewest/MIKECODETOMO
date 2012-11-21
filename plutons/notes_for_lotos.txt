@@ -14,7 +14,7 @@ cd $TOMO/linux; time start.sh &> log;   # tail -f log
 
 ## PLOT
 export SET=UT_SET02
-export MOD=MODEL_01
+export MOD=MODEL_02
 cat $TOMO/linux/PICS/ps/$SET/$MOD/vis*ps > $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
 pstopdf $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
 mv $TOMO/linux/PICS/ps/$SET/$MOD/all.pdf $TOMO/plutons/figures

@@ -1,7 +1,9 @@
 function uturuncu_section(dbName)
 
 %UTURUNCU_SECTION plot depth sections of ray coverage.
-% UTURUNCU_SECTION(dbName) plot custom cross section for Uturuncu
+% UTURUNCU_SECTION(dbName) plot custom cross section for Uturuncu. It is a crude plot 
+% that connects quakes and stations with straight lines. However it provides a solid 
+% view of the ray coverage.
 
 
 % LOAD DATABASE
