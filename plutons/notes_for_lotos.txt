@@ -46,3 +46,10 @@ anomaly.dat spacings:
 -209. 209.  16. 4.
 -194. 194.  26. 4.
 
+
+
+## RERASTER TESTS
+
+cd /Users/west/Repositories/TOMO/linux/DATA/UT_SET02/MODEL_02
+
+grdreraster 
