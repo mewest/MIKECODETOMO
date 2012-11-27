@@ -1,0 +1,3270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+	<name>picks_set05</name>
+	<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+	<Style id="inactive-hypo">
+		<IconStyle><Icon><href>http://www.avo.alaska.edu/eq/kml/icons/hypocenter_0.png</href></Icon></IconStyle>
+		<LabelStyle><scale>0</scale></LabelStyle>
+	<BalloonStyle><text>$[description]</text><bgColor>ffffffff</bgColor></BalloonStyle>
+	</Style>
+	<Style id="active-hypo">
+		<IconStyle><Icon><href>http://www.avo.alaska.edu/eq/kml/icons/hypocenter_0.png</href></Icon></IconStyle>
+		<LabelStyle><scale>1</scale></LabelStyle>
+		<BalloonStyle><text>$[description]</text><bgColor>ffffffff</bgColor></BalloonStyle>
+	</Style>
+	<StyleMap id="hypo">
+		<Pair><key>normal</key><styleUrl>#inactive-hypo</styleUrl></Pair>
+		<Pair><key>highlight</key><styleUrl>#active-hypo</styleUrl></Pair>
+		</StyleMap>
+	<Style id="inactive-station">
+		<IconStyle><Icon><href>http://www.avo.alaska.edu/eq/kml/icons/seismometer_2.png</href></Icon></IconStyle>
+		<LabelStyle><scale>0</scale></LabelStyle>
+		<BalloonStyle><text>$[description]</text><bgColor>ffffffff</bgColor></BalloonStyle>
+	</Style>
+	<Style id="active-station">
+		<IconStyle><Icon><href>http://www.avo.alaska.edu/eq/kml/icons/seismometer_2.png</href></Icon></IconStyle>
+		<LabelStyle><scale>0.7</scale></LabelStyle>
+		<BalloonStyle><text>$[description]</text><bgColor>ffffffff</bgColor></BalloonStyle>
+	</Style>
+	<StyleMap id="station">
+		<Pair><key>normal</key><styleUrl>#inactive-station</styleUrl></Pair>
+		<Pair><key>highlight</key><styleUrl>#active-station</styleUrl></Pair>
+	</StyleMap>
+	<Style id="checkHideChildrenStyle">
+		<ListStyle><listItemType>checkHideChildren</listItemType></ListStyle>
+	</Style>
+	<Folder>
+		<visibility>0</visibility>
+		<name>Stations</name>
+	<LookAt>		<longitude>-149</longitude>		<latitude>61</latitude>		<altitude>0</altitude>		<range>4000000</range>		<tilt>0</tilt>		<heading>0</heading>	</LookAt>
+		<Placemark>
+			<name>PL03</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PL03</b><br>Plutons 03, Uturuncu, Bolivia<br>lat: -22.0156 lon: -66.9451<br>elevation: 4628.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-66.9451</longitude>
+				<latitude>-22.0156</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-66.9451,-22.0156,4628.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PL07</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PL07</b><br>Plutons 07, Uturuncu, Bolivia<br>lat: -22.3938 lon: -67.0205<br>elevation: 4641.4 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.0205</longitude>
+				<latitude>-22.3938</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.0205,-22.3938,4641.4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLAN</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLAN</b><br>Plutons AN, Uturuncu, Bolivia<br>lat: -22.6445 lon: -67.3866<br>elevation: 4696.7 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.3866</longitude>
+				<latitude>-22.6445</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.3866,-22.6445,4696.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLAR</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLAR</b><br>Plutons Argentina, Uturuncu, Bolivia<br>lat: -22.4873 lon: -66.9778<br>elevation: 4632 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-66.9778</longitude>
+				<latitude>-22.4873</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-66.9778,-22.4873,4632</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLBR</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLBR</b><br>Plutons BR, Uturuncu, Bolivia<br>lat: -22.3055 lon: -67.2356<br>elevation: 4795 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.2356</longitude>
+				<latitude>-22.3055</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.2356,-22.3055,4795</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLCL</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLCL</b><br>Plutons CL, Uturuncu, Bolivia<br>lat: -21.9065 lon: -67.0294<br>elevation: 4354.3 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.0294</longitude>
+				<latitude>-21.9065</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.0294,-21.9065,4354.3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLCM</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLCM</b><br>Plutons CM, Uturuncu, Bolivia<br>lat: -22.2419 lon: -67.2054<br>elevation: 5150 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.2054</longitude>
+				<latitude>-22.2419</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.2054,-22.2419,5150</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLCO</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLCO</b><br>Plutons CO, Uturuncu, Bolivia<br>lat: -22.4615 lon: -67.4372<br>elevation: 4688.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.4372</longitude>
+				<latitude>-22.4615</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.4372,-22.4615,4688.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLDK</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLDK</b><br>Plutons DK, Uturuncu, Bolivia<br>lat: -22.1551 lon: -66.9784<br>elevation: 4552.4 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-66.9784</longitude>
+				<latitude>-22.1551</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-66.9784,-22.1551,4552.4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLLB</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLLB</b><br>Plutons Llama Bones, Uturuncu, Bolivia<br>lat: -21.8955 lon: -67.3796<br>elevation: 4085.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.3796</longitude>
+				<latitude>-21.8955</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.3796,-21.8955,4085.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLKN</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLKN</b><br>Plutons KN, Uturuncu, Bolivia<br>lat: -21.9576 lon: -67.2604<br>elevation: 4542.3 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.2604</longitude>
+				<latitude>-21.9576</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.2604,-21.9576,4542.3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLHS</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLHS</b><br>Plutons HS, Uturuncu, Bolivia<br>lat: -21.9566 lon: -67.2594<br>elevation: 4533.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.2594</longitude>
+				<latitude>-21.9566</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.2594,-21.9566,4533.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLJR</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLJR</b><br>Plutons JR, Uturuncu, Bolivia<br>lat: -22.0475 lon: -67.3487<br>elevation: 4243.7 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.3487</longitude>
+				<latitude>-22.0475</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.3487,-22.0475,4243.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLLA</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLLA</b><br>Plutons LA, Uturuncu, Bolivia<br>lat: -22.3126 lon: -67.3796<br>elevation: 4242 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.3796</longitude>
+				<latitude>-22.3126</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.3796,-22.3126,4242</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLLC</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLLC</b><br>Plutons LC, Uturuncu, Bolivia<br>lat: -22.1415 lon: -67.5879<br>elevation: 4749.4 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.5879</longitude>
+				<latitude>-22.1415</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.5879,-22.1415,4749.4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLSM</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLSM</b><br>Plutons SM, Uturuncu, Bolivia<br>lat: -22.1130 lon: -67.2844<br>elevation: 4216 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.2844</longitude>
+				<latitude>-22.1130</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.2844,-22.1130,4216</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLLL</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLLL</b><br>Plutons LL, Uturuncu, Bolivia<br>lat: -22.4205 lon: -67.1500<br>elevation: 4750.3 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.1500</longitude>
+				<latitude>-22.4205</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.1500,-22.4205,4750.3</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLLO</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLLO</b><br>Plutons LO, Uturuncu, Bolivia<br>lat: -22.3337 lon: -67.0793<br>elevation: 4579 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.0793</longitude>
+				<latitude>-22.3337</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.0793,-22.3337,4579</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLMD</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLMD</b><br>Plutons MD, Uturuncu, Bolivia<br>lat: -22.5490 lon: -67.1912<br>elevation: 4633.9 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.1912</longitude>
+				<latitude>-22.5490</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.1912,-22.5490,4633.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLMK</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLMK</b><br>Plutons MK, Uturuncu, Bolivia<br>lat: -22.2515 lon: -67.0769<br>elevation: 4483.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.0769</longitude>
+				<latitude>-22.2515</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.0769,-22.2515,4483.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLMN</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLMN</b><br>Plutons MN, Uturuncu, Bolivia<br>lat: -22.1607 lon: -67.1207<br>elevation: 4512.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.1207</longitude>
+				<latitude>-22.1607</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.1207,-22.1607,4512.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLQU</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLQU</b><br>Plutons Quetana, Uturuncu, Bolivia<br>lat: -22.1906 lon: -67.3389<br>elevation: 4152.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.3389</longitude>
+				<latitude>-22.1906</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.3389,-22.1906,4152.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLRR</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLRR</b><br>Plutons Red Rock, Uturuncu, Bolivia<br>lat: -22.2611 lon: -66.8820<br>elevation: 4480.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-66.8820</longitude>
+				<latitude>-22.2611</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-66.8820,-22.2611,4480.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLRV</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLRV</b><br>Plutons RV, Uturuncu, Bolivia<br>lat: -22.2843 lon: -67.5933<br>elevation: 4865.9 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.5933</longitude>
+				<latitude>-22.2843</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.5933,-22.2843,4865.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLSE</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLSE</b><br>Plutons South East, Uturuncu, Bolivia<br>lat: -22.4466 lon: -67.2902<br>elevation: 4679.9 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.2902</longitude>
+				<latitude>-22.4466</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.2902,-22.4466,4679.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLSP</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLSP</b><br>Plutons SP, Uturuncu, Bolivia<br>lat: -22.6698 lon: -67.1208<br>elevation: 4726.7 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.1208</longitude>
+				<latitude>-22.6698</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.1208,-22.6698,4726.7</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLSQ</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLSQ</b><br>Plutons SQ, Uturuncu, Bolivia<br>lat: -22.4197 lon: -67.6381<br>elevation: 4811.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.6381</longitude>
+				<latitude>-22.4197</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.6381,-22.4197,4811.5</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLSS</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLSS</b><br>Plutons SS, Uturuncu, Bolivia<br>lat: -22.3168 lon: -67.1715<br>elevation: 4686.4 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.1715</longitude>
+				<latitude>-22.3168</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.1715,-22.3168,4686.4</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLTM</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLTM</b><br>Plutons TM, Uturuncu, Bolivia<br>lat: -22.0634 lon: -67.1671<br>elevation: 4702.8 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.1671</longitude>
+				<latitude>-22.0634</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.1671,-22.0634,4702.8</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLTP</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLTP</b><br>Plutons TP, Uturuncu, Bolivia<br>lat: -22.0413 lon: -66.7865<br>elevation: 4388.1 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-66.7865</longitude>
+				<latitude>-22.0413</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-66.7865,-22.0413,4388.1</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLVB</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLVB</b><br>Plutons VB, Uturuncu, Bolivia<br>lat: -22.0632 lon: -67.1676<br>elevation: 4709.9 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-67.1676</longitude>
+				<latitude>-22.0632</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-67.1676,-22.0632,4709.9</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>PLWB</name>
+			<visibility>0</visibility>
+			<description>
+				<![CDATA[<b>PLWB</b><br>Plutons WB, Uturuncu, Bolivia<br>lat: -22.3537 lon: -66.8347<br>elevation: 4491.5 meters]]>
+			</description>
+			<LookAt>
+				<longitude>-66.8347</longitude>
+				<latitude>-22.3537</latitude>
+				<altitude>10</altitude>
+				<range>20000</range>
+				<tilt>0</tilt>
+				<heading>0</heading>
+			</LookAt>
+			<styleUrl>#active-station</styleUrl>
+			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>-66.8347,-22.3537,4491.5</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Earthquakes</name>
+		<visibility>1</visibility>
+		<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+		<Folder>
+			<name>04/17/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.26 04/17/2010</name>
+				<description>
+					<![CDATA[<b>04/17/2010 20:22:15 UTC<br>ml: 4.26</b><br>lat: -21.8050 lon: -66.4170<br>depth: 230.0 <br>author: OSC<br>event type: -<br>origin id: 2503]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.845</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.4170,-21.8050,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-04-17T20:22:15Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/21/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.26 04/21/2010</name>
+				<description>
+					<![CDATA[<b>04/21/2010 17:54:25 UTC<br>ml: 4.26</b><br>lat: -22.2430 lon: -68.6440<br>depth: 95.0 <br>author: OSC<br>event type: -<br>origin id: 2504]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.845</scale><color>FF408600</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.6440,-22.2430,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-04-21T17:54:25Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/01/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.65 05/01/2010</name>
+				<description>
+					<![CDATA[<b>05/01/2010 21:01:33 UTC<br>ml: 4.65</b><br>lat: -21.1260 lon: -68.6040<br>depth: 105.0 <br>author: OSC<br>event type: -<br>origin id: 2597]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.89375</scale><color>FF408600</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.6040,-21.1260,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-05-01T21:01:33Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/04/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.68 05/04/2010</name>
+				<description>
+					<![CDATA[<b>05/04/2010 16:12:59 UTC<br>ml: 4.68</b><br>lat: -21.5770 lon: -68.1140<br>depth: 120.0 <br>author: OSC<br>event type: -<br>origin id: 2598]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8975</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.1140,-21.5770,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-05-04T16:12:59Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/20/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.40 05/20/2010</name>
+				<description>
+					<![CDATA[<b>05/20/2010 21:44:55 UTC<br>ml: 3.40</b><br>lat: -21.8020 lon: -66.7680<br>depth: 210.0 <br>author: OSC<br>event type: -<br>origin id: 2560]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7375</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.7680,-21.8020,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-05-20T21:44:55Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/10/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.30 06/10/2010</name>
+				<description>
+					<![CDATA[<b>06/10/2010 06:10:20 UTC<br>ml: 4.30</b><br>lat: -21.2420 lon: -67.6680<br>depth: 147.0 <br>author: OSC<br>event type: -<br>origin id: 2505]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.85</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.6680,-21.2420,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-06-10T06:10:20Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/13/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.85 06/13/2010</name>
+				<description>
+					<![CDATA[<b>06/13/2010 12:21:14 UTC<br>ml: 3.85</b><br>lat: -22.1070 lon: -67.1830<br>depth: 164.1 <br>author: OSC<br>event type: -<br>origin id: 2568]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.79375</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1830,-22.1070,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-06-13T12:21:14Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/24/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.27 06/24/2010</name>
+				<description>
+					<![CDATA[<b>06/24/2010 16:09:32 UTC<br>ml: 3.27</b><br>lat: -22.4430 lon: -67.5850<br>depth: 149.0 <br>author: OSC<br>event type: -<br>origin id: 2565]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.72125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.5850,-22.4430,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-06-24T16:09:32Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/25/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.23 06/25/2010</name>
+				<description>
+					<![CDATA[<b>06/25/2010 09:49:44 UTC<br>ml: 3.23</b><br>lat: -21.7200 lon: -65.4070<br>depth: 295.0 <br>author: OSC<br>event type: -<br>origin id: 2571]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.71625</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.4070,-21.7200,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-06-25T09:49:44Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/30/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.99 06/30/2010</name>
+				<description>
+					<![CDATA[<b>06/30/2010 22:24:29 UTC<br>ml: 3.99</b><br>lat: -20.8860 lon: -68.2300<br>depth: 120.0 <br>author: OSC<br>event type: -<br>origin id: 2566]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.81125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.2300,-20.8860,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-06-30T22:24:29Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/11/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.07 07/11/2010</name>
+				<description>
+					<![CDATA[<b>07/11/2010 16:28:27 UTC<br>ml: 4.07</b><br>lat: -21.7100 lon: -67.9400<br>depth: 123.0 <br>author: OSC<br>event type: -<br>origin id: 2587]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.82125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.9400,-21.7100,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-07-11T16:28:27Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/12/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 6.14 07/12/2010</name>
+				<description>
+					<![CDATA[<b>07/12/2010 00:11:19 UTC<br>ml: 6.14</b><br>lat: -22.0510 lon: -68.2300<br>depth: 115.0 <br>author: OSC<br>event type: -<br>origin id: 2531]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>1.08</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.2300,-22.0510,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-07-12T00:11:19Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/14/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.17 07/14/2010</name>
+				<description>
+					<![CDATA[<b>07/14/2010 07:06:29 UTC<br>ml: 3.17</b><br>lat: -21.3690 lon: -67.3460<br>depth: 160.0 <br>author: OSC<br>event type: -<br>origin id: 2569]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.70875</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3460,-21.3690,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-07-14T07:06:29Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/16/10 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.42 07/16/2010</name>
+				<description>
+					<![CDATA[<b>07/16/2010 02:25:25 UTC<br>ml: 4.42</b><br>lat: -20.9880 lon: -68.1700<br>depth: 120.0 <br>author: OSC<br>event type: -<br>origin id: 2506]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.865</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.1700,-20.9880,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-07-16T02:25:25Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.64 07/16/2010</name>
+				<description>
+					<![CDATA[<b>07/16/2010 12:47:40 UTC<br>ml: 3.64</b><br>lat: -22.3840 lon: -67.6980<br>depth: 145.0 <br>author: OSC<br>event type: -<br>origin id: 2567]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7675</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.6980,-22.3840,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-07-16T12:47:40Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/25/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.24 07/25/2010</name>
+				<description>
+					<![CDATA[<b>07/25/2010 09:34:44 UTC<br>ml: 3.24</b><br>lat: -21.3700 lon: -66.8280<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2583]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7175</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.8280,-21.3700,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-07-25T09:34:44Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/26/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.63 07/26/2010</name>
+				<description>
+					<![CDATA[<b>07/26/2010 04:23:23 UTC<br>ml: 3.63</b><br>lat: -22.9700 lon: -65.4080<br>depth: 32.0 <br>author: OSC<br>event type: -<br>origin id: 2574]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.76625</scale><color>FF0000BF</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.4080,-22.9700,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-07-26T04:23:23Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/01/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.16 08/01/2010</name>
+				<description>
+					<![CDATA[<b>08/01/2010 13:03:36 UTC<br>ml: 3.16</b><br>lat: -21.2230 lon: -66.9060<br>depth: 200.0 <br>author: OSC<br>event type: -<br>origin id: 2582]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7075</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.9060,-21.2230,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-01T13:03:36Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/04/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.29 08/04/2010</name>
+				<description>
+					<![CDATA[<b>08/04/2010 04:24:48 UTC<br>ml: 4.29</b><br>lat: -22.6160 lon: -66.6670<br>depth: 200.0 <br>author: OSC<br>event type: -<br>origin id: 2507]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.84875</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.6670,-22.6160,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-04T04:24:48Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/06/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.87 08/06/2010</name>
+				<description>
+					<![CDATA[<b>08/06/2010 17:11:27 UTC<br>ml: 3.87</b><br>lat: -22.1600 lon: -66.4510<br>depth: 245.8 <br>author: OSC<br>event type: -<br>origin id: 2588]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.79625</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.4510,-22.1600,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-06T17:11:27Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/08/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.53 08/08/2010</name>
+				<description>
+					<![CDATA[<b>08/08/2010 13:38:04 UTC<br>ml: 3.53</b><br>lat: -21.9890 lon: -65.8450<br>depth: 259.0 <br>author: OSC<br>event type: -<br>origin id: 2551]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.75375</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.8450,-21.9890,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-08T13:38:04Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/13/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.17 08/13/2010</name>
+				<description>
+					<![CDATA[<b>08/13/2010 22:56:37 UTC<br>ml: 3.17</b><br>lat: -22.4060 lon: -66.6560<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2594]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.70875</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.6560,-22.4060,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-13T22:56:37Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/16/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.30 08/16/2010</name>
+				<description>
+					<![CDATA[<b>08/16/2010 04:54:05 UTC<br>ml: 3.30</b><br>lat: -22.8910 lon: -65.9630<br>depth: 235.0 <br>author: OSC<br>event type: -<br>origin id: 2577]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.725</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.9630,-22.8910,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-16T04:54:05Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/22/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.66 08/22/2010</name>
+				<description>
+					<![CDATA[<b>08/22/2010 08:06:30 UTC<br>ml: 4.66</b><br>lat: -20.9080 lon: -66.5030<br>depth: 228.0 <br>author: OSC<br>event type: -<br>origin id: 2512]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.895</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.5030,-20.9080,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-22T08:06:30Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/24/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.18 08/24/2010</name>
+				<description>
+					<![CDATA[<b>08/24/2010 09:27:31 UTC<br>ml: 3.18</b><br>lat: -22.6500 lon: -65.7610<br>depth: 250.0 <br>author: OSC<br>event type: -<br>origin id: 2575]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.71</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.7610,-22.6500,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-24T09:27:31Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/25/10 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.49 08/25/2010</name>
+				<description>
+					<![CDATA[<b>08/25/2010 02:35:03 UTC<br>ml: 4.49</b><br>lat: -20.8820 lon: -68.3560<br>depth: 115.0 <br>author: OSC<br>event type: -<br>origin id: 2513]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.87375</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.3560,-20.8820,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-25T02:35:03Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 4.56 08/25/2010</name>
+				<description>
+					<![CDATA[<b>08/25/2010 12:02:38 UTC<br>ml: 4.56</b><br>lat: -22.4850 lon: -68.8250<br>depth: 79.0 <br>author: OSC<br>event type: -<br>origin id: 2514]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8825</scale><color>FF408600</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.8250,-22.4850,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-08-25T12:02:38Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/08/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.78 09/08/2010</name>
+				<description>
+					<![CDATA[<b>09/08/2010 12:00:57 UTC<br>ml: 3.78</b><br>lat: -22.7070 lon: -65.7670<br>depth: 260.0 <br>author: OSC<br>event type: -<br>origin id: 2576]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.785</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.7670,-22.7070,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-09-08T12:00:57Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/17/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 5.01 09/17/2010</name>
+				<description>
+					<![CDATA[<b>09/17/2010 03:25:27 UTC<br>ml: 5.01</b><br>lat: -21.4860 lon: -66.8390<br>depth: 210.0 <br>author: OSC<br>event type: -<br>origin id: 2515]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.93875</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.8390,-21.4860,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-09-17T03:25:27Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/19/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.18 09/19/2010</name>
+				<description>
+					<![CDATA[<b>09/19/2010 00:22:24 UTC<br>ml: 3.18</b><br>lat: -21.6040 lon: -67.7590<br>depth: 145.0 <br>author: OSC<br>event type: -<br>origin id: 2585]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.71</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.7590,-21.6040,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-09-19T00:22:24Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/27/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.53 09/27/2010</name>
+				<description>
+					<![CDATA[<b>09/27/2010 20:05:13 UTC<br>ml: 3.53</b><br>lat: -20.8860 lon: -66.3220<br>depth: 245.0 <br>author: OSC<br>event type: -<br>origin id: 2552]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.75375</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.3220,-20.8860,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-09-27T20:05:13Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>10/04/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.25 10/04/2010</name>
+				<description>
+					<![CDATA[<b>10/04/2010 12:03:45 UTC<br>ml: 3.25</b><br>lat: -22.5270 lon: -65.3680<br>depth: 275.0 <br>author: OSC<br>event type: -<br>origin id: 2579]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.71875</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.3680,-22.5270,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-10-04T12:03:45Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>11/14/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.36 11/14/2010</name>
+				<description>
+					<![CDATA[<b>11/14/2010 22:59:48 UTC<br>ml: 4.36</b><br>lat: -22.4270 lon: -66.1550<br>depth: 235.0 <br>author: OSC<br>event type: -<br>origin id: 2508]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8575</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.1550,-22.4270,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-11-14T22:59:48Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/02/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.78 12/02/2010</name>
+				<description>
+					<![CDATA[<b>12/02/2010 03:05:28 UTC<br>ml: 3.78</b><br>lat: -21.1590 lon: -68.4900<br>depth: 120.0 <br>author: OSC<br>event type: -<br>origin id: 2539]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.785</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.4900,-21.1590,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-12-02T03:05:28Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/03/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.50 12/03/2010</name>
+				<description>
+					<![CDATA[<b>12/03/2010 20:39:34 UTC<br>ml: 3.50</b><br>lat: -22.5990 lon: -65.3380<br>depth: 295.0 <br>author: OSC<br>event type: -<br>origin id: 2578]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.75</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.3380,-22.5990,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-12-03T20:39:34Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/13/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.19 12/13/2010</name>
+				<description>
+					<![CDATA[<b>12/13/2010 20:57:21 UTC<br>ml: 3.19</b><br>lat: -21.1330 lon: -65.7280<br>depth: 279.0 <br>author: OSC<br>event type: -<br>origin id: 2573]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.71125</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.7280,-21.1330,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-12-13T20:57:21Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/16/10 (3 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.43 12/16/2010</name>
+				<description>
+					<![CDATA[<b>12/16/2010 19:36:18 UTC<br>ml: 4.43</b><br>lat: -20.9490 lon: -66.8620<br>depth: 200.0 <br>author: OSC<br>event type: -<br>origin id: 2516]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.86625</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.8620,-20.9490,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-12-16T19:36:18Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.13 12/16/2010</name>
+				<description>
+					<![CDATA[<b>12/16/2010 20:18:46 UTC<br>ml: 3.13</b><br>lat: -21.4650 lon: -66.6300<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2584]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.70375</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.6300,-21.4650,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-12-16T20:18:46Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 4.08 12/16/2010</name>
+				<description>
+					<![CDATA[<b>12/16/2010 22:45:12 UTC<br>ml: 4.08</b><br>lat: -21.2150 lon: -68.5050<br>depth: 114.0 <br>author: OSC<br>event type: -<br>origin id: 2509]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8225</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5050,-21.2150,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-12-16T22:45:12Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/24/10 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.42 12/24/2010</name>
+				<description>
+					<![CDATA[<b>12/24/2010 23:10:53 UTC<br>ml: 4.42</b><br>lat: -22.4280 lon: -65.6410<br>depth: 273.0 <br>author: OSC<br>event type: -<br>origin id: 2517]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.865</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.6410,-22.4280,0</coordinates>
+				</Point>
+				<TimeStamp><when>2010-12-24T23:10:53Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>01/25/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.47 01/25/2011</name>
+				<description>
+					<![CDATA[<b>01/25/2011 14:03:34 UTC<br>ml: 3.47</b><br>lat: -22.6800 lon: -67.7390<br>depth: 135.0 <br>author: OSC<br>event type: -<br>origin id: 2564]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.74625</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.7390,-22.6800,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-01-25T14:03:34Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>01/28/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.55 01/28/2011</name>
+				<description>
+					<![CDATA[<b>01/28/2011 22:20:14 UTC<br>ml: 3.55</b><br>lat: -21.1370 lon: -68.4420<br>depth: 110.0 <br>author: OSC<br>event type: -<br>origin id: 2540]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.75625</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.4420,-21.1370,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-01-28T22:20:14Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>01/31/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.44 01/31/2011</name>
+				<description>
+					<![CDATA[<b>01/31/2011 23:55:52 UTC<br>ml: 3.44</b><br>lat: -21.8110 lon: -68.1810<br>depth: 120.0 <br>author: OSC<br>event type: -<br>origin id: 2559]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7425</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.1810,-21.8110,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-01-31T23:55:52Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>02/07/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.39 02/07/2011</name>
+				<description>
+					<![CDATA[<b>02/07/2011 09:48:44 UTC<br>ml: 3.39</b><br>lat: -21.0910 lon: -66.1560<br>depth: 198.0 <br>author: OSC<br>event type: -<br>origin id: 2563]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.73625</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.1560,-21.0910,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-02-07T09:48:44Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>02/16/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.55 02/16/2011</name>
+				<description>
+					<![CDATA[<b>02/16/2011 09:37:02 UTC<br>ml: 3.55</b><br>lat: -21.0390 lon: -67.0650<br>depth: 185.0 <br>author: OSC<br>event type: -<br>origin id: 2541]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.75625</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.0650,-21.0390,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-02-16T09:37:02Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>02/20/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.60 02/20/2011</name>
+				<description>
+					<![CDATA[<b>02/20/2011 17:57:01 UTC<br>ml: 3.60</b><br>lat: -20.9060 lon: -66.0640<br>depth: 268.0 <br>author: OSC<br>event type: -<br>origin id: 2542]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7625</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.0640,-20.9060,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-02-20T17:57:01Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>03/04/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.99 03/04/2011</name>
+				<description>
+					<![CDATA[<b>03/04/2011 03:10:41 UTC<br>ml: 3.99</b><br>lat: -22.8150 lon: -66.2170<br>depth: 225.0 <br>author: OSC<br>event type: -<br>origin id: 2518]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.81125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.2170,-22.8150,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-03-04T03:10:41Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>03/15/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.57 03/15/2011</name>
+				<description>
+					<![CDATA[<b>03/15/2011 09:26:44 UTC<br>ml: 3.57</b><br>lat: -21.3900 lon: -65.4890<br>depth: 298.0 <br>author: OSC<br>event type: -<br>origin id: 2543]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.75875</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.4890,-21.3900,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-03-15T09:26:44Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>03/19/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.58 03/19/2011</name>
+				<description>
+					<![CDATA[<b>03/19/2011 08:34:56 UTC<br>ml: 4.58</b><br>lat: -22.1290 lon: -68.4230<br>depth: 98.0 <br>author: OSC<br>event type: -<br>origin id: 2519]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.885</scale><color>FF408600</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.4230,-22.1290,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-03-19T08:34:56Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>03/23/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.39 03/23/2011</name>
+				<description>
+					<![CDATA[<b>03/23/2011 14:21:18 UTC<br>ml: 3.39</b><br>lat: -21.6010 lon: -66.3620<br>depth: 235.0 <br>author: OSC<br>event type: -<br>origin id: 2561]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.73625</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.3620,-21.6010,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-03-23T14:21:18Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/03/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/03/2011</name>
+				<description>
+					<![CDATA[<b>04/03/2011 21:06:57 UTC<br>Unknown magnitude: 0</b><br>lat: -23.4070 lon: -67.4010<br>depth: 230.8 <br>author: UdC<br>event type: -<br>origin id: 2600]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.4010,-23.4070,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-03T21:06:57Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/04/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/04/2011</name>
+				<description>
+					<![CDATA[<b>04/04/2011 10:56:13 UTC<br>Unknown magnitude: 0</b><br>lat: -22.5080 lon: -68.1780<br>depth: 167.0 <br>author: UdC<br>event type: -<br>origin id: 2601]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.1780,-22.5080,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-04T10:56:13Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/05/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/05/2011</name>
+				<description>
+					<![CDATA[<b>04/05/2011 10:52:15 UTC<br>Unknown magnitude: 0</b><br>lat: -21.4760 lon: -68.5790<br>depth: 145.2 <br>author: UdC<br>event type: -<br>origin id: 2602]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5790,-21.4760,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-05T10:52:15Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/08/11 (3 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/08/2011</name>
+				<description>
+					<![CDATA[<b>04/08/2011 10:12:07 UTC<br>Unknown magnitude: 0</b><br>lat: -22.2100 lon: -67.8820<br>depth: 198.0 <br>author: UdC<br>event type: -<br>origin id: 2603]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.8820,-22.2100,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-08T10:12:07Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/08/2011</name>
+				<description>
+					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>Unknown magnitude: 0</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2604]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3140,-20.6700,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-08T22:09:18Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.58 04/08/2011</name>
+				<description>
+					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>ml: 3.58</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2544]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.76</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3140,-20.6700,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-08T22:09:18Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/09/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/09/2011</name>
+				<description>
+					<![CDATA[<b>04/09/2011 05:31:36 UTC<br>Unknown magnitude: 0</b><br>lat: -22.1740 lon: -67.8690<br>depth: 191.4 <br>author: UdC<br>event type: -<br>origin id: 2605]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.8690,-22.1740,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-09T05:31:36Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/11/11 (4 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/11/2011</name>
+				<description>
+					<![CDATA[<b>04/11/2011 07:55:11 UTC<br>Unknown magnitude: 0</b><br>lat: -23.6930 lon: -67.3710<br>depth: 245.8 <br>author: UdC<br>event type: -<br>origin id: 2606]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3710,-23.6930,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-11T07:55:11Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.63 04/11/2011</name>
+				<description>
+					<![CDATA[<b>04/11/2011 13:43:18 UTC<br>ml: 3.63</b><br>lat: -22.3510 lon: -66.3280<br>depth: 280.8 <br>author: OSC<br>event type: -<br>origin id: 2595]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.76625</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.3280,-22.3510,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-11T13:43:18Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/11/2011</name>
+				<description>
+					<![CDATA[<b>04/11/2011 13:43:22 UTC<br>Unknown magnitude: 0</b><br>lat: -22.3090 lon: -66.4290<br>depth: 290.0 <br>author: UdC<br>event type: -<br>origin id: 2607]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.4290,-22.3090,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-11T13:43:22Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/11/2011</name>
+				<description>
+					<![CDATA[<b>04/11/2011 15:22:07 UTC<br>Unknown magnitude: 0</b><br>lat: -21.8190 lon: -68.5420<br>depth: 130.0 <br>author: UdC<br>event type: -<br>origin id: 2608]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5420,-21.8190,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-11T15:22:07Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/13/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/13/2011</name>
+				<description>
+					<![CDATA[<b>04/13/2011 13:05:37 UTC<br>Unknown magnitude: 0</b><br>lat: -21.6680 lon: -68.6310<br>depth: 130.1 <br>author: UdC<br>event type: -<br>origin id: 2612]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.6310,-21.6680,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-13T13:05:37Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/14/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/14/2011</name>
+				<description>
+					<![CDATA[<b>04/14/2011 07:55:18 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5070 lon: -68.5640<br>depth: 150.2 <br>author: UdC<br>event type: -<br>origin id: 2614]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5640,-21.5070,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-14T07:55:18Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/15/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/15/2011</name>
+				<description>
+					<![CDATA[<b>04/15/2011 18:15:03 UTC<br>Unknown magnitude: 0</b><br>lat: -21.1100 lon: -68.6620<br>depth: 131.2 <br>author: UdC<br>event type: -<br>origin id: 2618]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.6620,-21.1100,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-15T18:15:03Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/15/2011</name>
+				<description>
+					<![CDATA[<b>04/15/2011 18:37:17 UTC<br>Unknown magnitude: 0</b><br>lat: -21.8320 lon: -67.6390<br>depth: 230.3 <br>author: UdC<br>event type: -<br>origin id: 2619]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.6390,-21.8320,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-15T18:37:17Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/17/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/17/2011</name>
+				<description>
+					<![CDATA[<b>04/17/2011 20:17:23 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0850 lon: -67.8410<br>depth: 193.1 <br>author: UdC<br>event type: -<br>origin id: 2621]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.8410,-21.0850,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-17T20:17:23Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/19/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/19/2011</name>
+				<description>
+					<![CDATA[<b>04/19/2011 18:44:04 UTC<br>Unknown magnitude: 0</b><br>lat: -23.5320 lon: -67.3760<br>depth: 248.8 <br>author: UdC<br>event type: -<br>origin id: 2622]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3760,-23.5320,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-19T18:44:04Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/20/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/20/2011</name>
+				<description>
+					<![CDATA[<b>04/20/2011 14:43:55 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0040 lon: -67.7160<br>depth: 174.0 <br>author: OSC<br>event type: -<br>origin id: 2623]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.7160,-21.0040,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-20T14:43:55Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/23/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/23/2011</name>
+				<description>
+					<![CDATA[<b>04/23/2011 16:56:47 UTC<br>Unknown magnitude: 0</b><br>lat: -21.9070 lon: -67.1930<br>depth: 170.0 <br>author: OSC<br>event type: -<br>origin id: 2624]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1930,-21.9070,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-23T16:56:47Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/24/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.01 04/24/2011</name>
+				<description>
+					<![CDATA[<b>04/24/2011 09:17:52 UTC<br>ml: 3.01</b><br>lat: -22.3790 lon: -66.7010<br>depth: 219.0 <br>author: OSC<br>event type: -<br>origin id: 2593]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.68875</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.7010,-22.3790,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-24T09:17:52Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/26/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/26/2011</name>
+				<description>
+					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2625]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.9360,-22.0640,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-26T06:19:49Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.92 04/26/2011</name>
+				<description>
+					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>ml: 3.92</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2520]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8025</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.9360,-22.0640,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-26T06:19:49Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/27/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/27/2011</name>
+				<description>
+					<![CDATA[<b>04/27/2011 09:39:34 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9820 lon: -67.1770<br>depth: 263.8 <br>author: UdC<br>event type: -<br>origin id: 2626]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1770,-22.9820,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-27T09:39:34Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/28/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/28/2011</name>
+				<description>
+					<![CDATA[<b>04/28/2011 01:17:19 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2050 lon: -67.4730<br>depth: 272.5 <br>author: UdC<br>event type: -<br>origin id: 2627]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.4730,-23.2050,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-28T01:17:19Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/28/2011</name>
+				<description>
+					<![CDATA[<b>04/28/2011 18:58:46 UTC<br>Unknown magnitude: 0</b><br>lat: -21.2870 lon: -68.0750<br>depth: 124.0 <br>author: OSC<br>event type: -<br>origin id: 2628]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.0750,-21.2870,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-28T18:58:46Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>04/29/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/29/2011</name>
+				<description>
+					<![CDATA[<b>04/29/2011 01:33:38 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0280 lon: -67.8660<br>depth: 226.9 <br>author: UdC<br>event type: -<br>origin id: 2629]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.8660,-22.0280,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-29T01:33:38Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/29/2011</name>
+				<description>
+					<![CDATA[<b>04/29/2011 08:46:30 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0750 lon: -68.5560<br>depth: 161.4 <br>author: UdC<br>event type: -<br>origin id: 2630]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5560,-21.0750,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-29T08:46:30Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/01/11 (4 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/01/2011</name>
+				<description>
+					<![CDATA[<b>05/01/2011 02:40:07 UTC<br>Unknown magnitude: 0</b><br>lat: -22.7500 lon: -67.2720<br>depth: 232.4 <br>author: UdC<br>event type: -<br>origin id: 2631]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2720,-22.7500,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-01T02:40:07Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/01/2011</name>
+				<description>
+					<![CDATA[<b>05/01/2011 02:56:07 UTC<br>Unknown magnitude: 0</b><br>lat: -23.5010 lon: -67.3720<br>depth: 216.3 <br>author: UdC<br>event type: -<br>origin id: 2632]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3720,-23.5010,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-01T02:56:07Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/01/2011</name>
+				<description>
+					<![CDATA[<b>05/01/2011 15:52:49 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9840 lon: -67.2600<br>depth: 247.4 <br>author: UdC<br>event type: -<br>origin id: 2633]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2600,-22.9840,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-01T15:52:49Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/01/2011</name>
+				<description>
+					<![CDATA[<b>05/01/2011 21:52:56 UTC<br>Unknown magnitude: 0</b><br>lat: -21.1900 lon: -66.2920<br>depth: 247.9 <br>author: OSC<br>event type: -<br>origin id: 2634]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.2920,-21.1900,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-01T21:52:56Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/02/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/02/2011</name>
+				<description>
+					<![CDATA[<b>05/02/2011 20:45:20 UTC<br>Unknown magnitude: 0</b><br>lat: -21.7940 lon: -68.6860<br>depth: 141.4 <br>author: UdC<br>event type: -<br>origin id: 2635]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.6860,-21.7940,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-02T20:45:20Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/04/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/04/2011</name>
+				<description>
+					<![CDATA[<b>05/04/2011 09:15:57 UTC<br>Unknown magnitude: 0</b><br>lat: -21.9410 lon: -66.7050<br>depth: 325.6 <br>author: UdC<br>event type: -<br>origin id: 2636]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF9F0086</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.7050,-21.9410,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-04T09:15:57Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/05/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/05/2011</name>
+				<description>
+					<![CDATA[<b>05/05/2011 07:41:06 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0800 lon: -67.8780<br>depth: 200.9 <br>author: UdC<br>event type: -<br>origin id: 2637]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.8780,-22.0800,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-05T07:41:06Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/06/11 (3 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/06/2011</name>
+				<description>
+					<![CDATA[<b>05/06/2011 03:51:06 UTC<br>Unknown magnitude: 0</b><br>lat: -23.6630 lon: -67.7260<br>depth: 242.6 <br>author: UdC<br>event type: -<br>origin id: 2638]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.7260,-23.6630,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-06T03:51:06Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/06/2011</name>
+				<description>
+					<![CDATA[<b>05/06/2011 13:12:32 UTC<br>Unknown magnitude: 0</b><br>lat: -22.1730 lon: -67.2360<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2639]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2360,-22.1730,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-06T13:12:32Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.69 05/06/2011</name>
+				<description>
+					<![CDATA[<b>05/06/2011 23:30:39 UTC<br>ml: 3.69</b><br>lat: -21.2410 lon: -67.6190<br>depth: 148.0 <br>author: OSC<br>event type: -<br>origin id: 2532]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.77375</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.6190,-21.2410,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-06T23:30:39Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/07/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/07/2011</name>
+				<description>
+					<![CDATA[<b>05/07/2011 15:28:45 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9750 lon: -67.3520<br>depth: 260.5 <br>author: UdC<br>event type: -<br>origin id: 2640]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3520,-22.9750,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-07T15:28:45Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/08/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/08/2011</name>
+				<description>
+					<![CDATA[<b>05/08/2011 23:22:06 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2440 lon: -67.1780<br>depth: 264.4 <br>author: UdC<br>event type: -<br>origin id: 2641]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1780,-23.2440,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-08T23:22:06Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/11/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/11/2011</name>
+				<description>
+					<![CDATA[<b>05/11/2011 12:03:31 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1360 lon: -67.4810<br>depth: 259.5 <br>author: UdC<br>event type: -<br>origin id: 2642]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.4810,-23.1360,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-11T12:03:31Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/13/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.49 05/13/2011</name>
+				<description>
+					<![CDATA[<b>05/13/2011 03:34:27 UTC<br>ml: 3.49</b><br>lat: -21.5640 lon: -67.1550<br>depth: 178.0 <br>author: OSC<br>event type: -<br>origin id: 2546]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.74875</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1550,-21.5640,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-13T03:34:27Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/16/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.38 05/16/2011</name>
+				<description>
+					<![CDATA[<b>05/16/2011 10:58:36 UTC<br>ml: 3.38</b><br>lat: -21.6910 lon: -67.9100<br>depth: 125.0 <br>author: OSC<br>event type: -<br>origin id: 2586]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.735</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.9100,-21.6910,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-16T10:58:36Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.50 05/16/2011</name>
+				<description>
+					<![CDATA[<b>05/16/2011 14:21:32 UTC<br>ml: 3.50</b><br>lat: -21.5970 lon: -66.6930<br>depth: 216.0 <br>author: OSC<br>event type: -<br>origin id: 2547]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.75</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.6930,-21.5970,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-16T14:21:32Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/19/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.44 05/19/2011</name>
+				<description>
+					<![CDATA[<b>05/19/2011 15:20:24 UTC<br>ml: 3.44</b><br>lat: -22.1740 lon: -65.6950<br>depth: 290.0 <br>author: OSC<br>event type: -<br>origin id: 2553]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7425</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.6950,-22.1740,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-19T15:20:24Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.73 05/19/2011</name>
+				<description>
+					<![CDATA[<b>05/19/2011 23:01:29 UTC<br>ml: 3.73</b><br>lat: -22.4380 lon: -68.6040<br>depth: 25.0 <br>author: OSC<br>event type: -<br>origin id: 2533]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.77875</scale><color>FF0000DF</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.6040,-22.4380,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-19T23:01:29Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/23/11 (3 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/23/2011</name>
+				<description>
+					<![CDATA[<b>05/23/2011 07:42:54 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5050 lon: -68.4560<br>depth: 144.3 <br>author: UdC<br>event type: -<br>origin id: 2643]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.4560,-21.5050,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-23T07:42:54Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.59 05/23/2011</name>
+				<description>
+					<![CDATA[<b>05/23/2011 09:29:51 UTC<br>ml: 3.59</b><br>lat: -22.2590 lon: -68.2030<br>depth: 125.0 <br>author: OSC<br>event type: -<br>origin id: 2548]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.76125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.2030,-22.2590,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-23T09:29:51Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/23/2011</name>
+				<description>
+					<![CDATA[<b>05/23/2011 09:29:52 UTC<br>Unknown magnitude: 0</b><br>lat: -22.3940 lon: -68.5040<br>depth: 147.7 <br>author: UdC<br>event type: -<br>origin id: 2644]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5040,-22.3940,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-23T09:29:52Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>05/24/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 05/24/2011</name>
+				<description>
+					<![CDATA[<b>05/24/2011 16:08:54 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5310 lon: -68.5060<br>depth: 153.5 <br>author: UdC<br>event type: -<br>origin id: 2645]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5060,-21.5310,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-05-24T16:08:54Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/01/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.86 06/01/2011</name>
+				<description>
+					<![CDATA[<b>06/01/2011 00:14:33 UTC<br>ml: 3.86</b><br>lat: -21.7760 lon: -68.7400<br>depth: 98.0 <br>author: OSC<br>event type: -<br>origin id: 2521]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.795</scale><color>FF408600</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.7400,-21.7760,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-01T00:14:33Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 06/01/2011</name>
+				<description>
+					<![CDATA[<b>06/01/2011 15:46:13 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2850 lon: -67.2130<br>depth: 224.5 <br>author: UdC<br>event type: -<br>origin id: 2646]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2130,-23.2850,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-01T15:46:13Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/04/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.74 06/04/2011</name>
+				<description>
+					<![CDATA[<b>06/04/2011 07:09:05 UTC<br>ml: 3.74</b><br>lat: -21.7750 lon: -67.1160<br>depth: 175.0 <br>author: OSC<br>event type: -<br>origin id: 2534]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.78</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1160,-21.7750,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-04T07:09:05Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/06/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.04 06/06/2011</name>
+				<description>
+					<![CDATA[<b>06/06/2011 10:08:01 UTC<br>ml: 4.04</b><br>lat: -22.1730 lon: -68.5180<br>depth: 124.0 <br>author: OSC<br>event type: -<br>origin id: 2522]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8175</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5180,-22.1730,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-06T10:08:01Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/08/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.14 06/08/2011</name>
+				<description>
+					<![CDATA[<b>06/08/2011 03:55:56 UTC<br>ml: 4.14</b><br>lat: -21.1370 lon: -68.0470<br>depth: 125.0 <br>author: OSC<br>event type: -<br>origin id: 2510]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.83</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.0470,-21.1370,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-08T03:55:56Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/14/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.39 06/14/2011</name>
+				<description>
+					<![CDATA[<b>06/14/2011 15:26:40 UTC<br>ml: 3.39</b><br>lat: -21.9780 lon: -68.5580<br>depth: 10.0 <br>author: OSC<br>event type: -<br>origin id: 2562]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.73625</scale><color>FF0060FF</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.5580,-21.9780,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-14T15:26:40Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/20/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 5.78 06/20/2011</name>
+				<description>
+					<![CDATA[<b>06/20/2011 16:35:55 UTC<br>ml: 5.78</b><br>lat: -21.8820 lon: -68.2520<br>depth: 117.0 <br>author: OSC<br>event type: -<br>origin id: 2523]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>1.035</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.2520,-21.8820,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-20T16:35:55Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.47 06/20/2011</name>
+				<description>
+					<![CDATA[<b>06/20/2011 20:33:51 UTC<br>ml: 3.47</b><br>lat: -21.5720 lon: -68.2250<br>depth: 124.0 <br>author: OSC<br>event type: -<br>origin id: 2554]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.74625</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.2250,-21.5720,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-20T20:33:51Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/23/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.46 06/23/2011</name>
+				<description>
+					<![CDATA[<b>06/23/2011 06:42:31 UTC<br>ml: 3.46</b><br>lat: -21.7330 lon: -65.6440<br>depth: 278.0 <br>author: OSC<br>event type: -<br>origin id: 2570]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.745</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.6440,-21.7330,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-23T06:42:31Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/26/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.72 06/26/2011</name>
+				<description>
+					<![CDATA[<b>06/26/2011 13:07:55 UTC<br>ml: 3.72</b><br>lat: -22.5330 lon: -66.5110<br>depth: 200.0 <br>author: OSC<br>event type: -<br>origin id: 2535]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7775</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.5110,-22.5330,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-26T13:07:55Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>06/27/11 (3 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.36 06/27/2011</name>
+				<description>
+					<![CDATA[<b>06/27/2011 00:56:36 UTC<br>ml: 4.36</b><br>lat: -22.1320 lon: -67.2720<br>depth: 150.0 <br>author: OSC<br>event type: -<br>origin id: 2524]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8575</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2720,-22.1320,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-27T00:56:36Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.87 06/27/2011</name>
+				<description>
+					<![CDATA[<b>06/27/2011 06:08:15 UTC<br>ml: 3.87</b><br>lat: -21.6030 lon: -66.7360<br>depth: 215.0 <br>author: OSC<br>event type: -<br>origin id: 2525]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.79625</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.7360,-21.6030,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-27T06:08:15Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.49 06/27/2011</name>
+				<description>
+					<![CDATA[<b>06/27/2011 16:14:23 UTC<br>ml: 3.49</b><br>lat: -22.2280 lon: -65.4310<br>depth: 275.0 <br>author: OSC<br>event type: -<br>origin id: 2549]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.74875</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.4310,-22.2280,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-06-27T16:14:23Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/04/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 07/04/2011</name>
+				<description>
+					<![CDATA[<b>07/04/2011 19:28:03 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3160 lon: -68.0870<br>depth: 141.0 <br>author: UdC<br>event type: -<br>origin id: 2647]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.0870,-23.3160,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-04T19:28:03Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/06/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.30 07/06/2011</name>
+				<description>
+					<![CDATA[<b>07/06/2011 14:51:30 UTC<br>ml: 3.30</b><br>lat: -22.1750 lon: -66.4210<br>depth: 240.0 <br>author: OSC<br>event type: -<br>origin id: 2591]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.725</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.4210,-22.1750,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-06T14:51:30Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/07/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.62 07/07/2011</name>
+				<description>
+					<![CDATA[<b>07/07/2011 06:00:28 UTC<br>ml: 3.62</b><br>lat: -22.1130 lon: -66.3370<br>depth: 248.0 <br>author: OSC<br>event type: -<br>origin id: 2536]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.765</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.3370,-22.1130,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-07T06:00:28Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/08/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.40 07/08/2011</name>
+				<description>
+					<![CDATA[<b>07/08/2011 21:22:01 UTC<br>ml: 3.40</b><br>lat: -21.0660 lon: -67.7800<br>depth: 150.0 <br>author: OSC<br>event type: -<br>origin id: 2555]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.7375</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.7800,-21.0660,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-08T21:22:01Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/09/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 07/09/2011</name>
+				<description>
+					<![CDATA[<b>07/09/2011 18:08:45 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2460 lon: -68.1870<br>depth: 155.8 <br>author: UdC<br>event type: -<br>origin id: 2648]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.1870,-23.2460,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-09T18:08:45Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/13/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.86 07/13/2011</name>
+				<description>
+					<![CDATA[<b>07/13/2011 03:16:53 UTC<br>ml: 3.86</b><br>lat: -22.7850 lon: -66.7620<br>depth: 198.0 <br>author: OSC<br>event type: -<br>origin id: 2537]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.795</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.7620,-22.7850,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-13T03:16:53Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/14/11 (3 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.64 07/14/2011</name>
+				<description>
+					<![CDATA[<b>07/14/2011 01:47:00 UTC<br>ml: 4.64</b><br>lat: -22.2690 lon: -65.8020<br>depth: 297.6 <br>author: OSC<br>event type: -<br>origin id: 2526]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.8925</scale><color>FFBF0059</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-65.8020,-22.2690,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-14T01:47:00Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 07/14/2011</name>
+				<description>
+					<![CDATA[<b>07/14/2011 03:09:09 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2140 lon: -67.1580<br>depth: 202.6 <br>author: UdC<br>event type: -<br>origin id: 2649]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1580,-23.2140,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-14T03:09:09Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 07/14/2011</name>
+				<description>
+					<![CDATA[<b>07/14/2011 03:49:28 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1520 lon: -68.4320<br>depth: 146.2 <br>author: UdC<br>event type: -<br>origin id: 2650]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.4320,-23.1520,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-14T03:49:28Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/15/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 5.15 07/15/2011</name>
+				<description>
+					<![CDATA[<b>07/15/2011 14:55:31 UTC<br>ml: 5.15</b><br>lat: -20.7880 lon: -67.9880<br>depth: 200.0 <br>author: OSC<br>event type: -<br>origin id: 2527]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.95625</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.9880,-20.7880,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-15T14:55:31Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/22/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 07/22/2011</name>
+				<description>
+					<![CDATA[<b>07/22/2011 13:15:23 UTC<br>Unknown magnitude: 0</b><br>lat: -21.7700 lon: -67.7600<br>depth: 205.2 <br>author: UdC<br>event type: -<br>origin id: 2651]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.7600,-21.7700,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-22T13:15:23Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/23/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 07/23/2011</name>
+				<description>
+					<![CDATA[<b>07/23/2011 17:44:00 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1780 lon: -67.0990<br>depth: 241.8 <br>author: UdC<br>event type: -<br>origin id: 2652]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.0990,-23.1780,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-23T17:44:00Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.22 07/23/2011</name>
+				<description>
+					<![CDATA[<b>07/23/2011 17:47:04 UTC<br>ml: 3.22</b><br>lat: -22.6820 lon: -66.6090<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2528]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.715</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.6090,-22.6820,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-23T17:47:04Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>07/27/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 4.14 07/27/2011</name>
+				<description>
+					<![CDATA[<b>07/27/2011 03:27:46 UTC<br>ml: 4.14</b><br>lat: -21.3000 lon: -68.4520<br>depth: 120.0 <br>author: OSC<br>event type: -<br>origin id: 2511]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.83</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.4520,-21.3000,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-07-27T03:27:46Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/08/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.34 08/08/2011</name>
+				<description>
+					<![CDATA[<b>08/08/2011 23:20:02 UTC<br>ml: 3.34</b><br>lat: -22.2450 lon: -66.8560<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2592]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.73</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.8560,-22.2450,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-08T23:20:02Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/11/11 (3 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.54 08/11/2011</name>
+				<description>
+					<![CDATA[<b>08/11/2011 04:36:15 UTC<br>ml: 3.54</b><br>lat: -22.9370 lon: -66.5520<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2550]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.755</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.5520,-22.9370,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-11T04:36:15Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>ml: 3.99 08/11/2011</name>
+				<description>
+					<![CDATA[<b>08/11/2011 07:30:30 UTC<br>ml: 3.99</b><br>lat: -22.9710 lon: -66.7740<br>depth: 198.0 <br>author: OSC<br>event type: -<br>origin id: 2529]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.81125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.7740,-22.9710,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-11T07:30:30Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 08/11/2011</name>
+				<description>
+					<![CDATA[<b>08/11/2011 07:30:34 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0110 lon: -67.2530<br>depth: 259.9 <br>author: UdC<br>event type: -<br>origin id: 2653]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2530,-23.0110,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-11T07:30:34Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/16/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.65 08/16/2011</name>
+				<description>
+					<![CDATA[<b>08/16/2011 13:59:13 UTC<br>ml: 3.65</b><br>lat: -22.4860 lon: -66.7690<br>depth: 199.0 <br>author: OSC<br>event type: -<br>origin id: 2538]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.76875</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.7690,-22.4860,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-16T13:59:13Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/17/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 08/17/2011</name>
+				<description>
+					<![CDATA[<b>08/17/2011 08:52:23 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2280 lon: -67.3970<br>depth: 249.7 <br>author: UdC<br>event type: -<br>origin id: 2654]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3970,-23.2280,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-17T08:52:23Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/20/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 08/20/2011</name>
+				<description>
+					<![CDATA[<b>08/20/2011 05:23:20 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1260 lon: -67.2160<br>depth: 224.9 <br>author: UdC<br>event type: -<br>origin id: 2655]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2160,-23.1260,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-20T05:23:20Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>08/22/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.45 08/22/2011</name>
+				<description>
+					<![CDATA[<b>08/22/2011 09:46:29 UTC<br>ml: 3.45</b><br>lat: -21.2010 lon: -68.3300<br>depth: 110.0 <br>author: OSC<br>event type: -<br>origin id: 2556]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.74375</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.3300,-21.2010,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-08-22T09:46:29Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/08/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.41 09/08/2011</name>
+				<description>
+					<![CDATA[<b>09/08/2011 14:51:36 UTC<br>ml: 3.41</b><br>lat: -20.8570 lon: -66.6850<br>depth: 200.0 <br>author: OSC<br>event type: -<br>origin id: 2557]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.73875</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.6850,-20.8570,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-09-08T14:51:36Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/09/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 5.05 09/09/2011</name>
+				<description>
+					<![CDATA[<b>09/09/2011 02:33:50 UTC<br>ml: 5.05</b><br>lat: -22.3530 lon: -68.6400<br>depth: 98.0 <br>author: OSC<br>event type: -<br>origin id: 2530]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.94375</scale><color>FF408600</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.6400,-22.3530,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-09-09T02:33:50Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/11/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 09/11/2011</name>
+				<description>
+					<![CDATA[<b>09/11/2011 13:57:08 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9850 lon: -67.3290<br>depth: 242.2 <br>author: UdC<br>event type: -<br>origin id: 2656]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3290,-22.9850,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-09-11T13:57:08Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/23/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.38 09/23/2011</name>
+				<description>
+					<![CDATA[<b>09/23/2011 15:01:32 UTC<br>ml: 3.38</b><br>lat: -20.8780 lon: -68.0950<br>depth: 125.0 <br>author: OSC<br>event type: -<br>origin id: 2581]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.735</scale><color>FF805900</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.0950,-20.8780,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-09-23T15:01:32Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/27/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 09/27/2011</name>
+				<description>
+					<![CDATA[<b>09/27/2011 13:00:36 UTC<br>Unknown magnitude: 0</b><br>lat: -22.6010 lon: -66.5310<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2657]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.5310,-22.6010,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-09-27T13:00:36Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>09/29/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.23 09/29/2011</name>
+				<description>
+					<![CDATA[<b>09/29/2011 07:52:16 UTC<br>ml: 3.23</b><br>lat: -22.1670 lon: -66.3300<br>depth: 249.9 <br>author: OSC<br>event type: -<br>origin id: 2589]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.71625</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.3300,-22.1670,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-09-29T07:52:16Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>10/02/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>ml: 3.01 10/02/2011</name>
+				<description>
+					<![CDATA[<b>10/02/2011 11:22:39 UTC<br>ml: 3.01</b><br>lat: -22.1940 lon: -66.2320<br>depth: 248.0 <br>author: OSC<br>event type: -<br>origin id: 2590]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.68875</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.2320,-22.1940,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-10-02T11:22:39Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>10/06/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 10/06/2011</name>
+				<description>
+					<![CDATA[<b>10/06/2011 17:05:30 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0280 lon: -66.9620<br>depth: 257.7 <br>author: UdC<br>event type: -<br>origin id: 2658]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.9620,-23.0280,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-10-06T17:05:30Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>10/18/11 (2 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 10/18/2011</name>
+				<description>
+					<![CDATA[<b>10/18/2011 01:39:34 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1910 lon: -67.3670<br>depth: 243.0 <br>author: UdC<br>event type: -<br>origin id: 2659]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3670,-23.1910,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-10-18T01:39:34Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 10/18/2011</name>
+				<description>
+					<![CDATA[<b>10/18/2011 08:26:30 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3700 lon: -67.3990<br>depth: 204.4 <br>author: UdC<br>event type: -<br>origin id: 2660]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3990,-23.3700,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-10-18T08:26:30Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>10/20/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 10/20/2011</name>
+				<description>
+					<![CDATA[<b>10/20/2011 23:26:45 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0050 lon: -66.6690<br>depth: 216.3 <br>author: UdC<br>event type: -<br>origin id: 2661]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-66.6690,-23.0050,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-10-20T23:26:45Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>11/13/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 11/13/2011</name>
+				<description>
+					<![CDATA[<b>11/13/2011 00:01:36 UTC<br>Unknown magnitude: 0</b><br>lat: -23.4410 lon: -67.0820<br>depth: 205.9 <br>author: UdC<br>event type: -<br>origin id: 2662]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.0820,-23.4410,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-11-13T00:01:36Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/02/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 12/02/2011</name>
+				<description>
+					<![CDATA[<b>12/02/2011 09:02:58 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0220 lon: -67.0860<br>depth: 230.7 <br>author: UdC<br>event type: -<br>origin id: 2663]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.0860,-23.0220,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-12-02T09:02:58Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/05/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 12/05/2011</name>
+				<description>
+					<![CDATA[<b>12/05/2011 05:19:21 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1260 lon: -68.4950<br>depth: 18.9 <br>author: UdC<br>event type: -<br>origin id: 2664]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FF0000FF</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-68.4950,-23.1260,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-12-05T05:19:21Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>12/06/11 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 12/06/2011</name>
+				<description>
+					<![CDATA[<b>12/06/2011 00:58:22 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0330 lon: -67.1570<br>depth: 244.4 <br>author: UdC<br>event type: -<br>origin id: 2665]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.1570,-23.0330,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-12-06T00:58:22Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>01/16/12 (1 events)</name>
+			<styleUrl>#checkHideChildrenStyle</styleUrl>
+			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
+			<Placemark>
+			<name>Unknown magnitude: 0 01/16/2012</name>
+				<description>
+					<![CDATA[<b>01/16/2012 10:44:01 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3180 lon: -67.2980<br>depth: 254.6 <br>author: UdC<br>event type: -<br>origin id: 2666]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.2980,-23.3180,0</coordinates>
+				</Point>
+				<TimeStamp><when>2012-01-16T10:44:01Z</when></TimeStamp>
+			</Placemark>
+		</Folder>
+	</Folder>
+	<ScreenOverlay>
+		<name>Legend</name>
+		<Icon>
+			<href>http://www.avo.alaska.edu/eq/kml/icons/depth_mag_scale.png</href>
+		</Icon>
+		<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.01" y="8" xunits="fraction" yunits="insetPixels"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="0" y="0" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+</Document>
+</kml>
