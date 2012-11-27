@@ -93,4 +93,71 @@ ps2pdf picks_set03_FIGS.ps
 rm -rf *.ps
 
 
+############## PICKS_SET04 ##########################
+#      11/27/2012
+# This is a subset of the picks_set03 that excludes the so-called slab catalog events 
+#####################################################
+
+rm -rf picks_set04/*
+dbjoin /home/admin/databases/PLUTONS/origin/total/total.origin event |\
+   dbsubset - "prefor==orid" |\
+   dbsubset - "time>='04/15/2010'" |\
+   dbsubset - "deg2km(distance(origin.lat,origin.lon,-22.26,-67.18))<200" |\
+   dbsubset - 'auth!="OSC" && auth!="UdC"' |\
+   dbjoin - assoc arrival |\
+   dbsubset - "iphase=~/P|S/" |\
+   dbjoin - site |\
+   dbsubset - "deg2km(distance(site.lat,site.lon,-22.26,-67.18))<100" |\
+   dbunjoin -o picks_set04/picks_set04 -
+     
+db2kml -sbl picks_set04/picks_set04 > picks_set04/picks_set04.kml
+
+# IN MATLAB
+     cd picks_set04
+     ttimes.do_all('picks_set04')
+     addpath('..');
+     uturuncu_section('picks_set04')
+     cd ..
+
+# SHELL
+cat FIG*.ps > picks_set04_FIGS.ps
+ps2pdf picks_set04_FIGS.ps
+rm -rf *.ps
+
+
+
+
+############## PICKS_SET05 ##########################
+#      11/27/2012
+# This is a subset of the picks_set03 that includes ONLY the slab catalog events 
+#####################################################
+
+rm -rf picks_set05/*
+dbjoin /home/admin/databases/PLUTONS/origin/total/total.origin event |\
+   dbsubset - "prefor==orid" |\
+   dbsubset - "time>='04/15/2010'" |\
+   dbsubset - "deg2km(distance(origin.lat,origin.lon,-22.26,-67.18))<200" |\
+   dbsubset - 'auth=="OSC" || auth=="UdC"' |\
+   dbjoin - assoc arrival |\
+   dbsubset - "iphase=~/P|S/" |\
+   dbjoin - site |\
+   dbsubset - "deg2km(distance(site.lat,site.lon,-22.26,-67.18))<100" |\
+   dbunjoin -o picks_set05/picks_set05 -
+     
+db2kml -sbl picks_set05/picks_set05 > picks_set05/picks_set05.kml
+
+# IN MATLAB
+     cd picks_set05
+     ttimes.do_all('picks_set05')
+     addpath('..');
+     uturuncu_section('picks_set05')
+     cd ..
+
+# SHELL
+cat FIG*.ps > picks_set05_FIGS.ps
+ps2pdf picks_set05_FIGS.ps
+rm -rf *.ps
+
+
+
 
