@@ -731,174 +731,6 @@
 				<coordinates>-66.8347,-22.3537,4491.5</coordinates>
 			</Point>
 		</Placemark>
-		<Placemark>
-			<name>LZ1</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZ1</b><br>Lazufre 1, Lazufre, Chile<br>lat: -25.3255 lon: -68.6031<br>elevation: 4220.9 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.6031</longitude>
-				<latitude>-25.3255</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.6031,-25.3255,4220.9</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LZ2</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZ2</b><br>Lazufre 2, Lazufre, Chile<br>lat: -25.2307 lon: -68.6215<br>elevation: 4429.3 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.6215</longitude>
-				<latitude>-25.2307</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.6215,-25.2307,4429.3</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LZ3</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZ3</b><br>Lazufre 3, Lazufre, Chile<br>lat: -25.1480 lon: -68.6036<br>elevation: 4304 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.6036</longitude>
-				<latitude>-25.1480</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.6036,-25.1480,4304</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LZBB</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZBB</b><br>Lazufre BB, Lazufre, Chile<br>lat: -25.1298 lon: -68.5072<br>elevation: 4639.5 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.5072</longitude>
-				<latitude>-25.1298</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.5072,-25.1298,4639.5</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LZAZ</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZAZ</b><br>Lazufre AZ, Lazufre, Chile<br>lat: -25.1095 lon: -68.4607<br>elevation: 4468.6 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.4607</longitude>
-				<latitude>-25.1095</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.4607,-25.1095,4468.6</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LZLA</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZLA</b><br>Lazufre LA, Lazufre, Argentina<br>lat: -25.2108 lon: -68.4412<br>elevation: 4456 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.4412</longitude>
-				<latitude>-25.2108</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.4412,-25.2108,4456</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LZAC</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZAC</b><br>Lazufre AC, Lazufre, Argentina<br>lat: -25.2679 lon: -68.4814<br>elevation: 4646 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.4814</longitude>
-				<latitude>-25.2679</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.4814,-25.2679,4646</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>LZAE</name>
-			<visibility>0</visibility>
-			<description>
-				<![CDATA[<b>LZAE</b><br>Lazufre AE, Lazufre, Argentina<br>lat: -25.3074 lon: -68.3992<br>elevation: 4427 meters]]>
-			</description>
-			<LookAt>
-				<longitude>-68.3992</longitude>
-				<latitude>-25.3074</latitude>
-				<altitude>10</altitude>
-				<range>20000</range>
-				<tilt>0</tilt>
-				<heading>0</heading>
-			</LookAt>
-			<styleUrl>#active-station</styleUrl>
-			<Style><IconStyle><scale>.7</scale><color>FFFFFFFF</color></IconStyle></Style>
-			<Point>
-				<altitudeMode>absolute</altitudeMode>
-				<coordinates>-68.3992,-25.3074,4427</coordinates>
-			</Point>
-		</Placemark>
 	</Folder>
 	<Folder>
 		<name>Earthquakes</name>
@@ -4256,22 +4088,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>08/23/10 (2 events)</name>
+			<name>08/23/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 3.04 08/23/2010</name>
-				<description>
-					<![CDATA[<b>08/23/2010 06:41:39 UTC<br>ml: 3.04</b><br>lat: -22.5140 lon: -65.2100<br>depth: 300.0 <br>author: OSC<br>event type: -<br>origin id: 2580]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.6925</scale><color>FFBF0059</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-65.2100,-22.5140,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-23T06:41:39Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 1.47 08/23/2010</name>
 				<description>
@@ -5810,24 +5629,6 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>12/15/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 3.48 12/15/2010</name>
-				<description>
-					<![CDATA[<b>12/15/2010 10:52:25 UTC<br>ml: 3.48</b><br>lat: -20.5670 lon: -68.1280<br>depth: 125.0 <br>author: OSC<br>event type: -<br>origin id: 2558]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.7475</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.1280,-20.5670,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-12-15T10:52:25Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>12/16/10 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
@@ -6114,24 +5915,6 @@
 					<coordinates>-67.4189,-22.5192,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-01-06T21:08:11Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>01/07/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 01/07/2011</name>
-				<description>
-					<![CDATA[<b>01/07/2011 04:55:50 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5010 lon: -65.1190<br>depth: 315.0 <br>author: OSC<br>event type: -<br>origin id: 2599]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFBF0059</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-65.1190,-21.5010,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-01-07T04:55:50Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -7478,53 +7261,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/12/11 (1 events)</name>
+			<name>04/13/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/12/2011</name>
-				<description>
-					<![CDATA[<b>04/12/2011 21:57:16 UTC<br>Unknown magnitude: 0</b><br>lat: -22.6980 lon: -69.4800<br>depth: 73.2 <br>author: UdC<br>event type: -<br>origin id: 2609]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-69.4800,-22.6980,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-12T21:57:16Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>04/13/11 (4 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/13/2011</name>
-				<description>
-					<![CDATA[<b>04/13/2011 06:34:44 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0860 lon: -68.6600<br>depth: 138.1 <br>author: UdC<br>event type: -<br>origin id: 2610]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.6600,-21.0860,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-13T06:34:44Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/13/2011</name>
-				<description>
-					<![CDATA[<b>04/13/2011 11:27:16 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1520 lon: -69.3800<br>depth: 79.6 <br>author: UdC<br>event type: -<br>origin id: 2611]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-69.3800,-23.1520,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-13T11:27:16Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>Unknown magnitude: 0 04/13/2011</name>
 				<description>
@@ -7538,22 +7277,9 @@
 				</Point>
 				<TimeStamp><when>2011-04-13T13:05:37Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/13/2011</name>
-				<description>
-					<![CDATA[<b>04/13/2011 14:05:12 UTC<br>Unknown magnitude: 0</b><br>lat: -21.1950 lon: -69.0390<br>depth: 106.1 <br>author: UdC<br>event type: -<br>origin id: 2613]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-69.0390,-21.1950,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-13T14:05:12Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/14/11 (5 events)</name>
+			<name>04/14/11 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -7570,19 +7296,6 @@
 				<TimeStamp><when>2011-04-14T07:55:18Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>Unknown magnitude: 0 04/14/2011</name>
-				<description>
-					<![CDATA[<b>04/14/2011 09:05:02 UTC<br>Unknown magnitude: 0</b><br>lat: -20.9170 lon: -68.9830<br>depth: 104.1 <br>author: UdC<br>event type: -<br>origin id: 2615]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.9830,-20.9170,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-14T09:05:02Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
 			<name>ml: 0.07 04/14/2011</name>
 				<description>
 					<![CDATA[<b>04/14/2011 16:01:03 UTC<br>ml: 0.07</b><br>lat: -22.4401 lon: -66.9724<br>depth:  5.7 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2146]]>
@@ -7595,35 +7308,9 @@
 				</Point>
 				<TimeStamp><when>2011-04-14T16:01:03Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/14/2011</name>
-				<description>
-					<![CDATA[<b>04/14/2011 19:52:53 UTC<br>Unknown magnitude: 0</b><br>lat: -24.1420 lon: -67.7790<br>depth: 225.8 <br>author: UdC<br>event type: -<br>origin id: 2616]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7790,-24.1420,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-14T19:52:53Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/14/2011</name>
-				<description>
-					<![CDATA[<b>04/14/2011 23:12:42 UTC<br>Unknown magnitude: 0</b><br>lat: -20.4070 lon: -69.2050<br>depth: 93.4 <br>author: UdC<br>event type: -<br>origin id: 2617]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-69.2050,-20.4070,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-14T23:12:42Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/15/11 (3 events)</name>
+			<name>04/15/11 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -7652,37 +7339,11 @@
 				</Point>
 				<TimeStamp><when>2011-04-15T18:37:17Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/15/2011</name>
-				<description>
-					<![CDATA[<b>04/15/2011 20:09:19 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9630 lon: -70.9710<br>depth: 23.6 <br>author: UdC<br>event type: -<br>origin id: 2620]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF0000DF</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-70.9710,-22.9630,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-15T20:09:19Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/16/11 (3 events)</name>
+			<name>04/16/11 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 3.54 04/16/2011</name>
-				<description>
-					<![CDATA[<b>04/16/2011 00:25:22 UTC<br>ml: 3.54</b><br>lat: -20.5580 lon: -67.9840<br>depth: 125.0 <br>author: OSC<br>event type: -<br>origin id: 2545]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.755</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.9840,-20.5580,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-16T00:25:22Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 0.82 04/16/2011</name>
 				<description>
@@ -8007,12 +7668,12 @@
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
-			<name>Unknown magnitude: 0 04/26/2011</name>
+			<name>ml: 3.92 04/26/2011</name>
 				<description>
-					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2625]]>
+					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>ml: 3.92</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2520]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Style><IconStyle><scale>0.8025</scale><color>FFDF002D</color></IconStyle></Style>
 				<Point>
 				<altitudeMode>clampToGround></altitudeMode>
 					<coordinates>-65.9360,-22.0640,0</coordinates>
@@ -8020,12 +7681,12 @@
 				<TimeStamp><when>2011-04-26T06:19:49Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>ml: 3.92 04/26/2011</name>
+			<name>Unknown magnitude: 0 04/26/2011</name>
 				<description>
-					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>ml: 3.92</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2520]]>
+					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2625]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.8025</scale><color>FFDF002D</color></IconStyle></Style>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
 				<Point>
 				<altitudeMode>clampToGround></altitudeMode>
 					<coordinates>-65.9360,-22.0640,0</coordinates>
@@ -8060,7 +7721,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/27/11 (2 events)</name>
+			<name>04/27/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -8075,19 +7736,6 @@
 					<coordinates>-67.1770,-22.9820,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-04-27T09:39:34Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 3.77 04/27/2011</name>
-				<description>
-					<![CDATA[<b>04/27/2011 11:21:01 UTC<br>ml: 3.77</b><br>lat: -20.3470 lon: -66.4800<br>depth: 225.0 <br>author: OSC<br>event type: -<br>origin id: 2596]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.78375</scale><color>FFFF0000</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-66.4800,-20.3470,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-27T11:21:01Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -11283,7 +10931,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>08/29/11 (5 events)</name>
+			<name>08/29/11 (4 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -11337,19 +10985,6 @@
 					<coordinates>-67.1367,-22.2684,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-08-29T11:35:02Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 3.30 08/29/2011</name>
-				<description>
-					<![CDATA[<b>08/29/2011 11:47:17 UTC<br>ml: 3.30</b><br>lat: -21.8210 lon: -65.2950<br>depth: 300.0 <br>author: OSC<br>event type: -<br>origin id: 2572]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.725</scale><color>FFBF0059</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-65.2950,-21.8210,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-08-29T11:47:17Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
