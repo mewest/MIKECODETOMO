@@ -2,4 +2,5 @@
 2: name of the model (any 8 characters)
 3: number of iterations
 **********************************************
-UT_SET03 MODEL_02 1
+UT_SET03 MODEL_01 5
+UT_SET03 MODEL_02 5

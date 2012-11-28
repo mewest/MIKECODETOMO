@@ -199,7 +199,7 @@ sub draw_hor_sections()
 	$title = <LIST_HOR>;
 	chomp $title;
 	$xyz_out = $grd_in . ".xyz";
-	$gmt_out = $xyz_out.'.grd';
+	$gmt_out = $xyz_out . ".grd";
 
 	
 	push @list_xyz ,  $xyz_out . '|' . $title . '|' . $ztr_file;   
@@ -257,6 +257,8 @@ sub draw_hor_sections()
 	    #print "i = $i j=$j\n";
 	    
 	    ($xyz_out,$title,$ztr_file) = split(/\|/,$info);
+	    $gmt_out = $xyz_out . ".grd";
+
 	    if ($i+1 == $N_ROWS_HOR)
 	    {
 		if ($j == 0)
@@ -570,6 +572,7 @@ sub draw_map($$$$$$$)
         
     system($cmd) == 0 or die "Error call grdimage : $?";
     open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+    print "$cmd\n";
 
     
 
@@ -595,7 +598,6 @@ sub draw_map($$$$$$$)
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
     open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
-
     #print "$cmd\n";
 
 }
@@ -636,9 +638,9 @@ sub draw_map_ver($$$$$$$)
     }
     
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
-    ###print "$cmd\n";
     system($cmd) == 0 or die "Error call pscontour : $?";
     open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+    #print "$cmd\n";
 
     
     
