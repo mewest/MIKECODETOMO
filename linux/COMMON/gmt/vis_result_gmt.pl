@@ -189,7 +189,7 @@ sub draw_hor_sections()
     my ($title) = "";
 
     my $n_map = 0;
-    
+        
     while (defined($grd_in = <LIST_HOR>))
     {
 	$n_map++;
@@ -415,7 +415,7 @@ sub draw_vert_sections()
 	    $xyz_out = $grd_in . ".xyz";
 	    my $gmt_out = $xyz_out.'.grd';   # Seems like this should be passed in to function and not redefined. But this is the precident	
 	    convert2xyz($grd_in,$xyz_out);
-	    convert2gmt($grd_in,$xyz_out);
+	    convert2gmt($grd_in,$xyz_out,$gmt_out);
 	    if ($XMAP_VER == 0)
 	    {
 		$XMAP_VER = ($x_max-$x_min)/($y_max-$y_min)*$YMAP_VER;
@@ -749,10 +749,10 @@ sub convert2xyz($$)
 sub convert2gmt($$$)
 {
     my ($grd_in,$xyz_out,$gmt_out) = @_;
-    
+        
     open(IN,"<",$grd_in) or die "Can't open '$grd_in' : $!";
     
-    print "Start converting $grd_in to GMT table...\n";
+    print "Converting $grd_in and $xyz_out to GMT table $gmt_out ...\n";
     
     my ($header,$nx,$ny,$z_min,$z_max,$line);
     
@@ -781,6 +781,10 @@ sub convert2gmt($$$)
     
     ###print "       $x_min $x_max $xinc          $y_min $y_max $yinc\n\n";
         
+	my $cmd = "xyz2grd '$xyz_out' -G'$gmt_out' -I$nx+/$ny+ -R$x_min/$x_max/$y_min/$y_max";     
+	system($cmd);
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
 }
 
 ################ MEW - END
