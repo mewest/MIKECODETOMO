@@ -7031,7 +7031,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/03/11 (2 events)</name>
+			<name>04/03/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -7047,19 +7047,6 @@
 				</Point>
 				<TimeStamp><when>2011-04-03T04:35:02Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/03/2011</name>
-				<description>
-					<![CDATA[<b>04/03/2011 21:06:57 UTC<br>Unknown magnitude: 0</b><br>lat: -23.4070 lon: -67.4010<br>depth: 230.8 <br>author: UdC<br>event type: -<br>origin id: 2600]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.4010,-23.4070,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-03T21:06:57Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>04/04/11 (1 events)</name>
@@ -7068,7 +7055,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/04/2011</name>
 				<description>
-					<![CDATA[<b>04/04/2011 10:56:13 UTC<br>Unknown magnitude: 0</b><br>lat: -22.5080 lon: -68.1780<br>depth: 167.0 <br>author: UdC<br>event type: -<br>origin id: 2601]]>
+					<![CDATA[<b>04/04/2011 10:56:13 UTC<br>Unknown magnitude: 0</b><br>lat: -22.5080 lon: -68.1780<br>depth: 167.0 <br>author: UdC<br>event type: -<br>origin id: 2609]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -7086,7 +7073,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/05/2011</name>
 				<description>
-					<![CDATA[<b>04/05/2011 10:52:15 UTC<br>Unknown magnitude: 0</b><br>lat: -21.4760 lon: -68.5790<br>depth: 145.2 <br>author: UdC<br>event type: -<br>origin id: 2602]]>
+					<![CDATA[<b>04/05/2011 10:52:15 UTC<br>Unknown magnitude: 0</b><br>lat: -21.4760 lon: -68.5790<br>depth: 145.2 <br>author: UdC<br>event type: -<br>origin id: 2610]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -7135,7 +7122,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/08/2011</name>
 				<description>
-					<![CDATA[<b>04/08/2011 10:12:07 UTC<br>Unknown magnitude: 0</b><br>lat: -22.2100 lon: -67.8820<br>depth: 198.0 <br>author: UdC<br>event type: -<br>origin id: 2603]]>
+					<![CDATA[<b>04/08/2011 10:12:07 UTC<br>Unknown magnitude: 0</b><br>lat: -22.2100 lon: -67.8820<br>depth: 198.0 <br>author: UdC<br>event type: -<br>origin id: 2611]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -7144,6 +7131,19 @@
 					<coordinates>-67.8820,-22.2100,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-04-08T10:12:07Z</when></TimeStamp>
+			</Placemark>
+			<Placemark>
+			<name>Unknown magnitude: 0 04/08/2011</name>
+				<description>
+					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>Unknown magnitude: 0</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2612]]>
+				</description>
+				<styleUrl>#hypo</styleUrl>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Point>
+				<altitudeMode>clampToGround></altitudeMode>
+					<coordinates>-67.3140,-20.6700,0</coordinates>
+				</Point>
+				<TimeStamp><when>2011-04-08T22:09:18Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
 			<name>ml: 3.58 04/08/2011</name>
@@ -7158,19 +7158,6 @@
 				</Point>
 				<TimeStamp><when>2011-04-08T22:09:18Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/08/2011</name>
-				<description>
-					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>Unknown magnitude: 0</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2604]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.3140,-20.6700,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-08T22:09:18Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>04/09/11 (2 events)</name>
@@ -7179,7 +7166,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/09/2011</name>
 				<description>
-					<![CDATA[<b>04/09/2011 05:31:36 UTC<br>Unknown magnitude: 0</b><br>lat: -22.1740 lon: -67.8690<br>depth: 191.4 <br>author: UdC<br>event type: -<br>origin id: 2605]]>
+					<![CDATA[<b>04/09/2011 05:31:36 UTC<br>Unknown magnitude: 0</b><br>lat: -22.1740 lon: -67.8690<br>depth: 191.4 <br>author: UdC<br>event type: -<br>origin id: 2613]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -7210,7 +7197,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/11/2011</name>
 				<description>
-					<![CDATA[<b>04/11/2011 07:55:11 UTC<br>Unknown magnitude: 0</b><br>lat: -23.6930 lon: -67.3710<br>depth: 245.8 <br>author: UdC<br>event type: -<br>origin id: 2606]]>
+					<![CDATA[<b>04/11/2011 07:55:11 UTC<br>Unknown magnitude: 0</b><br>lat: -23.6930 lon: -67.3710<br>depth: 245.8 <br>author: UdC<br>event type: -<br>origin id: 2614]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -7236,7 +7223,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/11/2011</name>
 				<description>
-					<![CDATA[<b>04/11/2011 13:43:22 UTC<br>Unknown magnitude: 0</b><br>lat: -22.3090 lon: -66.4290<br>depth: 290.0 <br>author: UdC<br>event type: -<br>origin id: 2607]]>
+					<![CDATA[<b>04/11/2011 13:43:22 UTC<br>Unknown magnitude: 0</b><br>lat: -22.3090 lon: -66.4290<br>depth: 290.0 <br>author: UdC<br>event type: -<br>origin id: 2615]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF0059</color></IconStyle></Style>
@@ -7249,7 +7236,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/11/2011</name>
 				<description>
-					<![CDATA[<b>04/11/2011 15:22:07 UTC<br>Unknown magnitude: 0</b><br>lat: -21.8190 lon: -68.5420<br>depth: 130.0 <br>author: UdC<br>event type: -<br>origin id: 2608]]>
+					<![CDATA[<b>04/11/2011 15:22:07 UTC<br>Unknown magnitude: 0</b><br>lat: -21.8190 lon: -68.5420<br>depth: 130.0 <br>author: UdC<br>event type: -<br>origin id: 2616]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
@@ -7267,7 +7254,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/13/2011</name>
 				<description>
-					<![CDATA[<b>04/13/2011 13:05:37 UTC<br>Unknown magnitude: 0</b><br>lat: -21.6680 lon: -68.6310<br>depth: 130.1 <br>author: UdC<br>event type: -<br>origin id: 2612]]>
+					<![CDATA[<b>04/13/2011 13:05:37 UTC<br>Unknown magnitude: 0</b><br>lat: -21.6680 lon: -68.6310<br>depth: 130.1 <br>author: UdC<br>event type: -<br>origin id: 2619]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
@@ -7285,7 +7272,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/14/2011</name>
 				<description>
-					<![CDATA[<b>04/14/2011 07:55:18 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5070 lon: -68.5640<br>depth: 150.2 <br>author: UdC<br>event type: -<br>origin id: 2614]]>
+					<![CDATA[<b>04/14/2011 07:55:18 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5070 lon: -68.5640<br>depth: 150.2 <br>author: UdC<br>event type: -<br>origin id: 2620]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -7316,7 +7303,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/15/2011</name>
 				<description>
-					<![CDATA[<b>04/15/2011 18:15:03 UTC<br>Unknown magnitude: 0</b><br>lat: -21.1100 lon: -68.6620<br>depth: 131.2 <br>author: UdC<br>event type: -<br>origin id: 2618]]>
+					<![CDATA[<b>04/15/2011 18:15:03 UTC<br>Unknown magnitude: 0</b><br>lat: -21.1100 lon: -68.6620<br>depth: 131.2 <br>author: UdC<br>event type: -<br>origin id: 2622]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
@@ -7329,7 +7316,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/15/2011</name>
 				<description>
-					<![CDATA[<b>04/15/2011 18:37:17 UTC<br>Unknown magnitude: 0</b><br>lat: -21.8320 lon: -67.6390<br>depth: 230.3 <br>author: UdC<br>event type: -<br>origin id: 2619]]>
+					<![CDATA[<b>04/15/2011 18:37:17 UTC<br>Unknown magnitude: 0</b><br>lat: -21.8320 lon: -67.6390<br>depth: 230.3 <br>author: UdC<br>event type: -<br>origin id: 2623]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -7372,7 +7359,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/17/11 (2 events)</name>
+			<name>04/17/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -7387,19 +7374,6 @@
 					<coordinates>-67.1726,-22.2208,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-04-17T15:57:09Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/17/2011</name>
-				<description>
-					<![CDATA[<b>04/17/2011 20:17:23 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0850 lon: -67.8410<br>depth: 193.1 <br>author: UdC<br>event type: -<br>origin id: 2621]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8410,-21.0850,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-17T20:17:23Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -7427,7 +7401,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/19/2011</name>
 				<description>
-					<![CDATA[<b>04/19/2011 18:44:04 UTC<br>Unknown magnitude: 0</b><br>lat: -23.5320 lon: -67.3760<br>depth: 248.8 <br>author: UdC<br>event type: -<br>origin id: 2622]]>
+					<![CDATA[<b>04/19/2011 18:44:04 UTC<br>Unknown magnitude: 0</b><br>lat: -23.5320 lon: -67.3760<br>depth: 248.8 <br>author: UdC<br>event type: -<br>origin id: 2624]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -7445,7 +7419,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/20/2011</name>
 				<description>
-					<![CDATA[<b>04/20/2011 14:43:55 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0040 lon: -67.7160<br>depth: 174.0 <br>author: OSC<br>event type: -<br>origin id: 2623]]>
+					<![CDATA[<b>04/20/2011 14:43:55 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0040 lon: -67.7160<br>depth: 174.0 <br>author: OSC<br>event type: -<br>origin id: 2625]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -7551,7 +7525,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/23/2011</name>
 				<description>
-					<![CDATA[<b>04/23/2011 16:56:47 UTC<br>Unknown magnitude: 0</b><br>lat: -21.9070 lon: -67.1930<br>depth: 170.0 <br>author: OSC<br>event type: -<br>origin id: 2624]]>
+					<![CDATA[<b>04/23/2011 16:56:47 UTC<br>Unknown magnitude: 0</b><br>lat: -21.9070 lon: -67.1930<br>depth: 170.0 <br>author: OSC<br>event type: -<br>origin id: 2626]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -7668,12 +7642,12 @@
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
-			<name>ml: 3.92 04/26/2011</name>
+			<name>Unknown magnitude: 0 04/26/2011</name>
 				<description>
-					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>ml: 3.92</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2520]]>
+					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2627]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.8025</scale><color>FFDF002D</color></IconStyle></Style>
+				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
 				<Point>
 				<altitudeMode>clampToGround></altitudeMode>
 					<coordinates>-65.9360,-22.0640,0</coordinates>
@@ -7681,12 +7655,12 @@
 				<TimeStamp><when>2011-04-26T06:19:49Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>Unknown magnitude: 0 04/26/2011</name>
+			<name>ml: 3.92 04/26/2011</name>
 				<description>
-					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2625]]>
+					<![CDATA[<b>04/26/2011 06:19:49 UTC<br>ml: 3.92</b><br>lat: -22.0640 lon: -65.9360<br>depth: 265.0 <br>author: OSC<br>event type: -<br>origin id: 2520]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
+				<Style><IconStyle><scale>0.8025</scale><color>FFDF002D</color></IconStyle></Style>
 				<Point>
 				<altitudeMode>clampToGround></altitudeMode>
 					<coordinates>-65.9360,-22.0640,0</coordinates>
@@ -7727,7 +7701,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/27/2011</name>
 				<description>
-					<![CDATA[<b>04/27/2011 09:39:34 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9820 lon: -67.1770<br>depth: 263.8 <br>author: UdC<br>event type: -<br>origin id: 2626]]>
+					<![CDATA[<b>04/27/2011 09:39:34 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9820 lon: -67.1770<br>depth: 263.8 <br>author: UdC<br>event type: -<br>origin id: 2628]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -7739,13 +7713,13 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/28/11 (2 events)</name>
+			<name>04/28/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
 			<name>Unknown magnitude: 0 04/28/2011</name>
 				<description>
-					<![CDATA[<b>04/28/2011 01:17:19 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2050 lon: -67.4730<br>depth: 272.5 <br>author: UdC<br>event type: -<br>origin id: 2627]]>
+					<![CDATA[<b>04/28/2011 01:17:19 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2050 lon: -67.4730<br>depth: 272.5 <br>author: UdC<br>event type: -<br>origin id: 2629]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -7755,19 +7729,6 @@
 				</Point>
 				<TimeStamp><when>2011-04-28T01:17:19Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 04/28/2011</name>
-				<description>
-					<![CDATA[<b>04/28/2011 18:58:46 UTC<br>Unknown magnitude: 0</b><br>lat: -21.2870 lon: -68.0750<br>depth: 124.0 <br>author: OSC<br>event type: -<br>origin id: 2628]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.0750,-21.2870,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-04-28T18:58:46Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>04/29/11 (4 events)</name>
@@ -7776,7 +7737,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/29/2011</name>
 				<description>
-					<![CDATA[<b>04/29/2011 01:33:38 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0280 lon: -67.8660<br>depth: 226.9 <br>author: UdC<br>event type: -<br>origin id: 2629]]>
+					<![CDATA[<b>04/29/2011 01:33:38 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0280 lon: -67.8660<br>depth: 226.9 <br>author: UdC<br>event type: -<br>origin id: 2630]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -7802,7 +7763,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 04/29/2011</name>
 				<description>
-					<![CDATA[<b>04/29/2011 08:46:30 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0750 lon: -68.5560<br>depth: 161.4 <br>author: UdC<br>event type: -<br>origin id: 2630]]>
+					<![CDATA[<b>04/29/2011 08:46:30 UTC<br>Unknown magnitude: 0</b><br>lat: -21.0750 lon: -68.5560<br>depth: 161.4 <br>author: UdC<br>event type: -<br>origin id: 2631]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -7845,13 +7806,13 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/01/11 (5 events)</name>
+			<name>05/01/11 (4 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
 			<name>Unknown magnitude: 0 05/01/2011</name>
 				<description>
-					<![CDATA[<b>05/01/2011 02:40:07 UTC<br>Unknown magnitude: 0</b><br>lat: -22.7500 lon: -67.2720<br>depth: 232.4 <br>author: UdC<br>event type: -<br>origin id: 2631]]>
+					<![CDATA[<b>05/01/2011 02:40:07 UTC<br>Unknown magnitude: 0</b><br>lat: -22.7500 lon: -67.2720<br>depth: 232.4 <br>author: UdC<br>event type: -<br>origin id: 2632]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -7864,7 +7825,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/01/2011</name>
 				<description>
-					<![CDATA[<b>05/01/2011 02:56:07 UTC<br>Unknown magnitude: 0</b><br>lat: -23.5010 lon: -67.3720<br>depth: 216.3 <br>author: UdC<br>event type: -<br>origin id: 2632]]>
+					<![CDATA[<b>05/01/2011 02:56:07 UTC<br>Unknown magnitude: 0</b><br>lat: -23.5010 lon: -67.3720<br>depth: 216.3 <br>author: UdC<br>event type: -<br>origin id: 2633]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -7890,19 +7851,6 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/01/2011</name>
 				<description>
-					<![CDATA[<b>05/01/2011 15:52:49 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9840 lon: -67.2600<br>depth: 247.4 <br>author: UdC<br>event type: -<br>origin id: 2633]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2600,-22.9840,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-01T15:52:49Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 05/01/2011</name>
-				<description>
 					<![CDATA[<b>05/01/2011 21:52:56 UTC<br>Unknown magnitude: 0</b><br>lat: -21.1900 lon: -66.2920<br>depth: 247.9 <br>author: OSC<br>event type: -<br>origin id: 2634]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
@@ -7912,24 +7860,6 @@
 					<coordinates>-66.2920,-21.1900,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-05-01T21:52:56Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>05/02/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 05/02/2011</name>
-				<description>
-					<![CDATA[<b>05/02/2011 20:45:20 UTC<br>Unknown magnitude: 0</b><br>lat: -21.7940 lon: -68.6860<br>depth: 141.4 <br>author: UdC<br>event type: -<br>origin id: 2635]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.6860,-21.7940,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-02T20:45:20Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -7970,7 +7900,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/04/2011</name>
 				<description>
-					<![CDATA[<b>05/04/2011 09:15:57 UTC<br>Unknown magnitude: 0</b><br>lat: -21.9410 lon: -66.7050<br>depth: 325.6 <br>author: UdC<br>event type: -<br>origin id: 2636]]>
+					<![CDATA[<b>05/04/2011 09:15:57 UTC<br>Unknown magnitude: 0</b><br>lat: -21.9410 lon: -66.7050<br>depth: 325.6 <br>author: UdC<br>event type: -<br>origin id: 2635]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FF9F0086</color></IconStyle></Style>
@@ -8014,7 +7944,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/05/2011</name>
 				<description>
-					<![CDATA[<b>05/05/2011 07:41:06 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0800 lon: -67.8780<br>depth: 200.9 <br>author: UdC<br>event type: -<br>origin id: 2637]]>
+					<![CDATA[<b>05/05/2011 07:41:06 UTC<br>Unknown magnitude: 0</b><br>lat: -22.0800 lon: -67.8780<br>depth: 200.9 <br>author: UdC<br>event type: -<br>origin id: 2636]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -8039,22 +7969,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/06/11 (7 events)</name>
+			<name>05/06/11 (6 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 05/06/2011</name>
-				<description>
-					<![CDATA[<b>05/06/2011 03:51:06 UTC<br>Unknown magnitude: 0</b><br>lat: -23.6630 lon: -67.7260<br>depth: 242.6 <br>author: UdC<br>event type: -<br>origin id: 2638]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7260,-23.6630,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-06T03:51:06Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: -0.65 05/06/2011</name>
 				<description>
@@ -8071,7 +7988,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/06/2011</name>
 				<description>
-					<![CDATA[<b>05/06/2011 13:12:32 UTC<br>Unknown magnitude: 0</b><br>lat: -22.1730 lon: -67.2360<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2639]]>
+					<![CDATA[<b>05/06/2011 13:12:32 UTC<br>Unknown magnitude: 0</b><br>lat: -22.1730 lon: -67.2360<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2637]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -8154,7 +8071,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/07/2011</name>
 				<description>
-					<![CDATA[<b>05/07/2011 15:28:45 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9750 lon: -67.3520<br>depth: 260.5 <br>author: UdC<br>event type: -<br>origin id: 2640]]>
+					<![CDATA[<b>05/07/2011 15:28:45 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9750 lon: -67.3520<br>depth: 260.5 <br>author: UdC<br>event type: -<br>origin id: 2638]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -8211,7 +8128,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/08/2011</name>
 				<description>
-					<![CDATA[<b>05/08/2011 23:22:06 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2440 lon: -67.1780<br>depth: 264.4 <br>author: UdC<br>event type: -<br>origin id: 2641]]>
+					<![CDATA[<b>05/08/2011 23:22:06 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2440 lon: -67.1780<br>depth: 264.4 <br>author: UdC<br>event type: -<br>origin id: 2639]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -8317,7 +8234,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/11/2011</name>
 				<description>
-					<![CDATA[<b>05/11/2011 12:03:31 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1360 lon: -67.4810<br>depth: 259.5 <br>author: UdC<br>event type: -<br>origin id: 2642]]>
+					<![CDATA[<b>05/11/2011 12:03:31 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1360 lon: -67.4810<br>depth: 259.5 <br>author: UdC<br>event type: -<br>origin id: 2640]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -8699,22 +8616,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/23/11 (4 events)</name>
+			<name>05/23/11 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 05/23/2011</name>
-				<description>
-					<![CDATA[<b>05/23/2011 07:42:54 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5050 lon: -68.4560<br>depth: 144.3 <br>author: UdC<br>event type: -<br>origin id: 2643]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.4560,-21.5050,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-23T07:42:54Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 3.59 05/23/2011</name>
 				<description>
@@ -8731,7 +8635,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 05/23/2011</name>
 				<description>
-					<![CDATA[<b>05/23/2011 09:29:52 UTC<br>Unknown magnitude: 0</b><br>lat: -22.3940 lon: -68.5040<br>depth: 147.7 <br>author: UdC<br>event type: -<br>origin id: 2644]]>
+					<![CDATA[<b>05/23/2011 09:29:52 UTC<br>Unknown magnitude: 0</b><br>lat: -22.3940 lon: -68.5040<br>depth: 147.7 <br>author: UdC<br>event type: -<br>origin id: 2641]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -8753,24 +8657,6 @@
 					<coordinates>-67.3702,-22.5250,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-05-23T11:39:55Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>05/24/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 05/24/2011</name>
-				<description>
-					<![CDATA[<b>05/24/2011 16:08:54 UTC<br>Unknown magnitude: 0</b><br>lat: -21.5310 lon: -68.5060<br>depth: 153.5 <br>author: UdC<br>event type: -<br>origin id: 2645]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.5060,-21.5310,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-24T16:08:54Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -9394,7 +9280,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/01/11 (2 events)</name>
+			<name>06/01/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -9409,19 +9295,6 @@
 					<coordinates>-68.7400,-21.7760,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-06-01T00:14:33Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>Unknown magnitude: 0 06/01/2011</name>
-				<description>
-					<![CDATA[<b>06/01/2011 15:46:13 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2850 lon: -67.2130<br>depth: 224.5 <br>author: UdC<br>event type: -<br>origin id: 2646]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2130,-23.2850,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-06-01T15:46:13Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -9916,7 +9789,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 07/04/2011</name>
 				<description>
-					<![CDATA[<b>07/04/2011 19:28:03 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3160 lon: -68.0870<br>depth: 141.0 <br>author: UdC<br>event type: -<br>origin id: 2647]]>
+					<![CDATA[<b>07/04/2011 19:28:03 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3160 lon: -68.0870<br>depth: 141.0 <br>author: UdC<br>event type: -<br>origin id: 2642]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FF805900</color></IconStyle></Style>
@@ -10053,7 +9926,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 07/09/2011</name>
 				<description>
-					<![CDATA[<b>07/09/2011 18:08:45 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2460 lon: -68.1870<br>depth: 155.8 <br>author: UdC<br>event type: -<br>origin id: 2648]]>
+					<![CDATA[<b>07/09/2011 18:08:45 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2460 lon: -68.1870<br>depth: 155.8 <br>author: UdC<br>event type: -<br>origin id: 2643]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -10151,7 +10024,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 07/14/2011</name>
 				<description>
-					<![CDATA[<b>07/14/2011 03:09:09 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2140 lon: -67.1580<br>depth: 202.6 <br>author: UdC<br>event type: -<br>origin id: 2649]]>
+					<![CDATA[<b>07/14/2011 03:09:09 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2140 lon: -67.1580<br>depth: 202.6 <br>author: UdC<br>event type: -<br>origin id: 2644]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -10164,7 +10037,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 07/14/2011</name>
 				<description>
-					<![CDATA[<b>07/14/2011 03:49:28 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1520 lon: -68.4320<br>depth: 146.2 <br>author: UdC<br>event type: -<br>origin id: 2650]]>
+					<![CDATA[<b>07/14/2011 03:49:28 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1520 lon: -68.4320<br>depth: 146.2 <br>author: UdC<br>event type: -<br>origin id: 2645]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
@@ -10200,7 +10073,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 07/22/2011</name>
 				<description>
-					<![CDATA[<b>07/22/2011 13:15:23 UTC<br>Unknown magnitude: 0</b><br>lat: -21.7700 lon: -67.7600<br>depth: 205.2 <br>author: UdC<br>event type: -<br>origin id: 2651]]>
+					<![CDATA[<b>07/22/2011 13:15:23 UTC<br>Unknown magnitude: 0</b><br>lat: -21.7700 lon: -67.7600<br>depth: 205.2 <br>author: UdC<br>event type: -<br>origin id: 2646]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -10212,22 +10085,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>07/23/11 (2 events)</name>
+			<name>07/23/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 07/23/2011</name>
-				<description>
-					<![CDATA[<b>07/23/2011 17:44:00 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1780 lon: -67.0990<br>depth: 241.8 <br>author: UdC<br>event type: -<br>origin id: 2652]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0990,-23.1780,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-07-23T17:44:00Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 3.22 07/23/2011</name>
 				<description>
@@ -10606,7 +10466,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 08/11/2011</name>
 				<description>
-					<![CDATA[<b>08/11/2011 07:30:34 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0110 lon: -67.2530<br>depth: 259.9 <br>author: UdC<br>event type: -<br>origin id: 2653]]>
+					<![CDATA[<b>08/11/2011 07:30:34 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0110 lon: -67.2530<br>depth: 259.9 <br>author: UdC<br>event type: -<br>origin id: 2647]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -10673,7 +10533,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 08/17/2011</name>
 				<description>
-					<![CDATA[<b>08/17/2011 08:52:23 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2280 lon: -67.3970<br>depth: 249.7 <br>author: UdC<br>event type: -<br>origin id: 2654]]>
+					<![CDATA[<b>08/17/2011 08:52:23 UTC<br>Unknown magnitude: 0</b><br>lat: -23.2280 lon: -67.3970<br>depth: 249.7 <br>author: UdC<br>event type: -<br>origin id: 2648]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -10704,7 +10564,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 08/20/2011</name>
 				<description>
-					<![CDATA[<b>08/20/2011 05:23:20 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1260 lon: -67.2160<br>depth: 224.9 <br>author: UdC<br>event type: -<br>origin id: 2655]]>
+					<![CDATA[<b>08/20/2011 05:23:20 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1260 lon: -67.2160<br>depth: 224.9 <br>author: UdC<br>event type: -<br>origin id: 2649]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -11074,7 +10934,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 09/11/2011</name>
 				<description>
-					<![CDATA[<b>09/11/2011 13:57:08 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9850 lon: -67.3290<br>depth: 242.2 <br>author: UdC<br>event type: -<br>origin id: 2656]]>
+					<![CDATA[<b>09/11/2011 13:57:08 UTC<br>Unknown magnitude: 0</b><br>lat: -22.9850 lon: -67.3290<br>depth: 242.2 <br>author: UdC<br>event type: -<br>origin id: 2650]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -11337,7 +11197,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 09/27/2011</name>
 				<description>
-					<![CDATA[<b>09/27/2011 13:00:36 UTC<br>Unknown magnitude: 0</b><br>lat: -22.6010 lon: -66.5310<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2657]]>
+					<![CDATA[<b>09/27/2011 13:00:36 UTC<br>Unknown magnitude: 0</b><br>lat: -22.6010 lon: -66.5310<br>depth: 220.0 <br>author: OSC<br>event type: -<br>origin id: 2651]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -11580,7 +11440,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 10/06/2011</name>
 				<description>
-					<![CDATA[<b>10/06/2011 17:05:30 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0280 lon: -66.9620<br>depth: 257.7 <br>author: UdC<br>event type: -<br>origin id: 2658]]>
+					<![CDATA[<b>10/06/2011 17:05:30 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0280 lon: -66.9620<br>depth: 257.7 <br>author: UdC<br>event type: -<br>origin id: 2652]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -11709,7 +11569,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 10/18/2011</name>
 				<description>
-					<![CDATA[<b>10/18/2011 01:39:34 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1910 lon: -67.3670<br>depth: 243.0 <br>author: UdC<br>event type: -<br>origin id: 2659]]>
+					<![CDATA[<b>10/18/2011 01:39:34 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1910 lon: -67.3670<br>depth: 243.0 <br>author: UdC<br>event type: -<br>origin id: 2653]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -11722,7 +11582,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 10/18/2011</name>
 				<description>
-					<![CDATA[<b>10/18/2011 08:26:30 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3700 lon: -67.3990<br>depth: 204.4 <br>author: UdC<br>event type: -<br>origin id: 2660]]>
+					<![CDATA[<b>10/18/2011 08:26:30 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3700 lon: -67.3990<br>depth: 204.4 <br>author: UdC<br>event type: -<br>origin id: 2654]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -11766,7 +11626,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 10/20/2011</name>
 				<description>
-					<![CDATA[<b>10/20/2011 23:26:45 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0050 lon: -66.6690<br>depth: 216.3 <br>author: UdC<br>event type: -<br>origin id: 2661]]>
+					<![CDATA[<b>10/20/2011 23:26:45 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0050 lon: -66.6690<br>depth: 216.3 <br>author: UdC<br>event type: -<br>origin id: 2655]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -12063,7 +11923,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 11/13/2011</name>
 				<description>
-					<![CDATA[<b>11/13/2011 00:01:36 UTC<br>Unknown magnitude: 0</b><br>lat: -23.4410 lon: -67.0820<br>depth: 205.9 <br>author: UdC<br>event type: -<br>origin id: 2662]]>
+					<![CDATA[<b>11/13/2011 00:01:36 UTC<br>Unknown magnitude: 0</b><br>lat: -23.4410 lon: -67.0820<br>depth: 205.9 <br>author: UdC<br>event type: -<br>origin id: 2656]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFFF0000</color></IconStyle></Style>
@@ -12246,7 +12106,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 12/02/2011</name>
 				<description>
-					<![CDATA[<b>12/02/2011 09:02:58 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0220 lon: -67.0860<br>depth: 230.7 <br>author: UdC<br>event type: -<br>origin id: 2663]]>
+					<![CDATA[<b>12/02/2011 09:02:58 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0220 lon: -67.0860<br>depth: 230.7 <br>author: UdC<br>event type: -<br>origin id: 2657]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -12289,31 +12149,13 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>12/05/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>Unknown magnitude: 0 12/05/2011</name>
-				<description>
-					<![CDATA[<b>12/05/2011 05:19:21 UTC<br>Unknown magnitude: 0</b><br>lat: -23.1260 lon: -68.4950<br>depth: 18.9 <br>author: UdC<br>event type: -<br>origin id: 2664]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FF0000FF</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.4950,-23.1260,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-12-05T05:19:21Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>12/06/11 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
 			<name>Unknown magnitude: 0 12/06/2011</name>
 				<description>
-					<![CDATA[<b>12/06/2011 00:58:22 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0330 lon: -67.1570<br>depth: 244.4 <br>author: UdC<br>event type: -<br>origin id: 2665]]>
+					<![CDATA[<b>12/06/2011 00:58:22 UTC<br>Unknown magnitude: 0</b><br>lat: -23.0330 lon: -67.1570<br>depth: 244.4 <br>author: UdC<br>event type: -<br>origin id: 2658]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
@@ -13220,7 +13062,7 @@
 			<Placemark>
 			<name>Unknown magnitude: 0 01/16/2012</name>
 				<description>
-					<![CDATA[<b>01/16/2012 10:44:01 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3180 lon: -67.2980<br>depth: 254.6 <br>author: UdC<br>event type: -<br>origin id: 2666]]>
+					<![CDATA[<b>01/16/2012 10:44:01 UTC<br>Unknown magnitude: 0</b><br>lat: -23.3180 lon: -67.2980<br>depth: 254.6 <br>author: UdC<br>event type: -<br>origin id: 2659]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
 				<Style><IconStyle><scale>0.3125</scale><color>FFDF002D</color></IconStyle></Style>
