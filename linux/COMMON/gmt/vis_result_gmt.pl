@@ -413,7 +413,7 @@ sub draw_vert_sections()
 	    
 	    ($grd_in,$title,$ztr_file) = split(/\|/,$info);
 	    $xyz_out = $grd_in . ".xyz";
-	    my $gmt_out = $xyz_out.'.grd';   # Seems like this should be passed in to function and not redefined. But this is the precident	
+	    my $gmt_out = $xyz_out.'.grd';   # Seems like this should be passed in to function and not redefined. But this is the precedent	
 	    convert2xyz($grd_in,$xyz_out);
 	    convert2gmt($grd_in,$xyz_out,$gmt_out);
 	    if ($XMAP_VER == 0)
@@ -538,9 +538,7 @@ sub draw_map($$$$$$$)
     #$axis  2 - x-axis label
     #$axis 3 - x- and y-axis labels    
     my ($xyz_out,$gmt_out,$ztr,$title,$OFF_X,$OFF_Y,$axis) = @_;
-    
-    print "----- AXIS: $axis\n\n";
-    
+        
     my $cmd;
     if ($axis == 1)
     {
@@ -569,9 +567,7 @@ sub draw_map($$$$$$$)
     }
     
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
-    
-    print "   $cmd\n"; #####
-    
+        
     system($cmd) == 0 or die "Error call grdimage : $?";
     open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
 
@@ -752,7 +748,7 @@ sub convert2gmt($$$)
         
     open(IN,"<",$grd_in) or die "Can't open '$grd_in' : $!";
     
-    print "Converting $grd_in and $xyz_out to GMT table $gmt_out ...\n";
+    #print "Converting $grd_in and $xyz_out to GMT table $gmt_out ...\n";
     
     my ($header,$nx,$ny,$z_min,$z_max,$line);
     
