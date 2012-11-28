@@ -936,7 +936,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/22/10 (2 events)</name>
+			<name>04/22/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -952,37 +952,11 @@
 				</Point>
 				<TimeStamp><when>2010-04-22T03:10:45Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>ml: 1.07 04/22/2010</name>
-				<description>
-					<![CDATA[<b>04/22/2010 04:45:08 UTC<br>ml: 1.07</b><br>lat: -21.8583 lon: -67.4530<br>depth: 98.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1776]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.44625</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.4530,-21.8583,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-04-22T04:45:08Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/23/10 (6 events)</name>
+			<name>04/23/10 (5 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.29 04/23/2010</name>
-				<description>
-					<![CDATA[<b>04/23/2010 01:34:53 UTC<br>ml: 1.29</b><br>lat: -22.1901 lon: -67.4027<br>depth: 97.3 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1777]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.47375</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.4027,-22.1901,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-04-23T01:34:53Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 1.46 04/23/2010</name>
 				<description>
@@ -1164,22 +1138,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>04/27/10 (5 events)</name>
+			<name>04/27/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 2.81 04/27/2010</name>
-				<description>
-					<![CDATA[<b>04/27/2010 00:39:18 UTC<br>ml: 2.81</b><br>lat: -22.3198 lon: -68.3811<br>depth: 83.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1781]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.66375</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.3811,-22.3198,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-04-27T00:39:18Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 0.81 04/27/2010</name>
 				<description>
@@ -1194,32 +1155,6 @@
 				<TimeStamp><when>2010-04-27T04:29:32Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>ml: 0.75 04/27/2010</name>
-				<description>
-					<![CDATA[<b>04/27/2010 04:37:09 UTC<br>ml: 0.75</b><br>lat: -22.0941 lon: -67.6997<br>depth: 50.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1782]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.40625</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.6997,-22.0941,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-04-27T04:37:09Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 2.31 04/27/2010</name>
-				<description>
-					<![CDATA[<b>04/27/2010 05:25:18 UTC<br>ml: 2.31</b><br>lat: -22.3337 lon: -67.9624<br>depth: 89.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2112]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.60125</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.9624,-22.3337,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-04-27T05:25:18Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
 			<name>ml: 1.38 04/27/2010</name>
 				<description>
 					<![CDATA[<b>04/27/2010 23:30:21 UTC<br>ml: 1.38</b><br>lat: -22.3554 lon: -67.6509<br>depth:  0.0 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1783]]>
@@ -1231,24 +1166,6 @@
 					<coordinates>-67.6509,-22.3554,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-04-27T23:30:21Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>04/28/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 0.38 04/28/2010</name>
-				<description>
-					<![CDATA[<b>04/28/2010 10:34:17 UTC<br>ml: 0.38</b><br>lat: -22.1880 lon: -67.2536<br>depth: 99.9 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1784]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.36</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2536,-22.1880,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-04-28T10:34:17Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -1345,22 +1262,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/04/10 (4 events)</name>
+			<name>05/04/10 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.27 05/04/2010</name>
-				<description>
-					<![CDATA[<b>05/04/2010 01:45:05 UTC<br>ml: 1.27</b><br>lat: -22.2023 lon: -67.8055<br>depth: 60.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1790]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.47125</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8055,-22.2023,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-05-04T01:45:05Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: -0.07 05/04/2010</name>
 				<description>
@@ -1402,22 +1306,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/05/10 (2 events)</name>
+			<name>05/05/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.08 05/05/2010</name>
-				<description>
-					<![CDATA[<b>05/05/2010 06:45:21 UTC<br>ml: 1.08</b><br>lat: -22.8289 lon: -67.2383<br>depth: 90.0 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1794]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4475</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2383,-22.8289,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-05-05T06:45:21Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 2.27 05/05/2010</name>
 				<description>
@@ -1565,7 +1456,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/11/10 (3 events)</name>
+			<name>05/11/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -1580,19 +1471,6 @@
 					<coordinates>-67.2102,-22.2421,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-05-11T01:31:27Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 0.51 05/11/2010</name>
-				<description>
-					<![CDATA[<b>05/11/2010 04:32:02 UTC<br>ml: 0.51</b><br>lat: -21.7475 lon: -67.1920<br>depth: 249.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2120]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.37625</scale><color>FFDF002D</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1920,-21.7475,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-05-11T04:32:02Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
 			<name>ml: 0.57 05/11/2010</name>
@@ -1813,7 +1691,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/23/10 (3 events)</name>
+			<name>05/23/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -1842,37 +1720,11 @@
 				</Point>
 				<TimeStamp><when>2010-05-23T23:15:51Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>ml: 0.94 05/23/2010</name>
-				<description>
-					<![CDATA[<b>05/23/2010 23:50:52 UTC<br>ml: 0.94</b><br>lat: -22.0219 lon: -67.6752<br>depth: 58.9 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1808]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.43</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.6752,-22.0219,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-05-23T23:50:52Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/31/10 (2 events)</name>
+			<name>05/31/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.47 05/31/2010</name>
-				<description>
-					<![CDATA[<b>05/31/2010 01:40:35 UTC<br>ml: 1.47</b><br>lat: -22.0612 lon: -67.3424<br>depth: 177.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2143]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.49625</scale><color>FFBF2D00</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.3424,-22.0612,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-05-31T01:40:35Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 0.05 05/31/2010</name>
 				<description>
@@ -2405,7 +2257,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/03/10 (2 events)</name>
+			<name>06/03/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -2421,81 +2273,11 @@
 				</Point>
 				<TimeStamp><when>2010-06-03T00:10:04Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>ml: 1.68 06/03/2010</name>
-				<description>
-					<![CDATA[<b>06/03/2010 04:27:11 UTC<br>ml: 1.68</b><br>lat: -21.7330 lon: -67.1148<br>depth: 106.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2084]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.5225</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1148,-21.7330,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-03T04:27:11Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/04/10 (2 events)</name>
+			<name>06/05/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.50 06/04/2010</name>
-				<description>
-					<![CDATA[<b>06/04/2010 01:47:48 UTC<br>ml: 1.50</b><br>lat: -21.9240 lon: -67.6883<br>depth: 53.0 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1835]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.5</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.6883,-21.9240,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-04T01:47:48Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.88 06/04/2010</name>
-				<description>
-					<![CDATA[<b>06/04/2010 12:30:02 UTC<br>ml: 1.88</b><br>lat: -22.4828 lon: -67.6754<br>depth: 53.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1836]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.5475</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.6754,-22.4828,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-04T12:30:02Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>06/05/10 (3 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.13 06/05/2010</name>
-				<description>
-					<![CDATA[<b>06/05/2010 11:30:41 UTC<br>ml: 1.13</b><br>lat: -21.7813 lon: -67.1746<br>depth: 82.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1837]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.45375</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1746,-21.7813,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-05T11:30:41Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.30 06/05/2010</name>
-				<description>
-					<![CDATA[<b>06/05/2010 14:19:09 UTC<br>ml: 1.30</b><br>lat: -22.1990 lon: -67.8766<br>depth: 51.1 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1838]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.475</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8766,-22.1990,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-05T14:19:09Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 2.77 06/05/2010</name>
 				<description>
@@ -2511,22 +2293,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/07/10 (3 events)</name>
+			<name>06/07/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.41 06/07/2010</name>
-				<description>
-					<![CDATA[<b>06/07/2010 01:27:00 UTC<br>ml: 1.41</b><br>lat: -22.0727 lon: -67.7492<br>depth: 56.2 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1840]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.48875</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7492,-22.0727,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-07T01:27:00Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 1.78 06/07/2010</name>
 				<description>
@@ -2555,7 +2324,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/08/10 (3 events)</name>
+			<name>06/08/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -2572,19 +2341,6 @@
 				<TimeStamp><when>2010-06-08T10:19:47Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>ml: 0.59 06/08/2010</name>
-				<description>
-					<![CDATA[<b>06/08/2010 12:47:01 UTC<br>ml: 0.59</b><br>lat: -22.3977 lon: -67.0642<br>depth: 82.1 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1844]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.38625</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0642,-22.3977,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-08T12:47:01Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
 			<name>ml: 2.12 06/08/2010</name>
 				<description>
 					<![CDATA[<b>06/08/2010 18:52:24 UTC<br>ml: 2.12</b><br>lat: -22.2543 lon: -67.8441<br>depth: 46.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1845]]>
@@ -2599,7 +2355,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/09/10 (4 events)</name>
+			<name>06/09/10 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -2629,19 +2385,6 @@
 				<TimeStamp><when>2010-06-09T13:59:26Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>ml: 1.80 06/09/2010</name>
-				<description>
-					<![CDATA[<b>06/09/2010 21:02:25 UTC<br>ml: 1.80</b><br>lat: -22.0483 lon: -67.7938<br>depth: 57.7 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1848]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.5375</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7938,-22.0483,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-09T21:02:25Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
 			<name>ml: 1.05 06/09/2010</name>
 				<description>
 					<![CDATA[<b>06/09/2010 23:52:55 UTC<br>ml: 1.05</b><br>lat: -21.8653 lon: -67.6701<br>depth: 34.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1850]]>
@@ -2656,7 +2399,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/10/10 (3 events)</name>
+			<name>06/10/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -2685,37 +2428,11 @@
 				</Point>
 				<TimeStamp><when>2010-06-10T06:50:21Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>ml: 1.37 06/10/2010</name>
-				<description>
-					<![CDATA[<b>06/10/2010 09:30:35 UTC<br>ml: 1.37</b><br>lat: -22.6980 lon: -66.6434<br>depth: 65.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1853]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.48375</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-66.6434,-22.6980,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-10T09:30:35Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/11/10 (2 events)</name>
+			<name>06/11/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 2.72 06/11/2010</name>
-				<description>
-					<![CDATA[<b>06/11/2010 03:10:12 UTC<br>ml: 2.72</b><br>lat: -22.7836 lon: -67.2536<br>depth: 92.1 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1854]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.6525</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2536,-22.7836,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-11T03:10:12Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 1.60 06/11/2010</name>
 				<description>
@@ -2731,22 +2448,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/12/10 (4 events)</name>
+			<name>06/12/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 0.98 06/12/2010</name>
-				<description>
-					<![CDATA[<b>06/12/2010 00:43:12 UTC<br>ml: 0.98</b><br>lat: -22.5942 lon: -67.1032<br>depth: 60.0 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1856]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.435</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1032,-22.5942,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-12T00:43:12Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 1.04 06/12/2010</name>
 				<description>
@@ -2760,50 +2464,11 @@
 				</Point>
 				<TimeStamp><when>2010-06-12T01:07:43Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>ml: 2.42 06/12/2010</name>
-				<description>
-					<![CDATA[<b>06/12/2010 07:31:51 UTC<br>ml: 2.42</b><br>lat: -22.7062 lon: -67.1324<br>depth: 91.1 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1858]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.615</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1324,-22.7062,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-12T07:31:51Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.86 06/12/2010</name>
-				<description>
-					<![CDATA[<b>06/12/2010 14:49:22 UTC<br>ml: 1.86</b><br>lat: -22.7503 lon: -67.2350<br>depth: 90.7 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1859]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.545</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2350,-22.7503,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-12T14:49:22Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/13/10 (3 events)</name>
+			<name>06/13/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.22 06/13/2010</name>
-				<description>
-					<![CDATA[<b>06/13/2010 00:39:12 UTC<br>ml: 1.22</b><br>lat: -21.7724 lon: -67.0563<br>depth: 95.3 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1860]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.465</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0563,-21.7724,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-13T00:39:12Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 2.38 06/13/2010</name>
 				<description>
@@ -2816,19 +2481,6 @@
 					<coordinates>-67.1419,-21.7808,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-06-13T02:21:18Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 2.03 06/13/2010</name>
-				<description>
-					<![CDATA[<b>06/13/2010 21:35:19 UTC<br>ml: 2.03</b><br>lat: -22.4987 lon: -67.1256<br>depth: 83.3 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1862]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.56625</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1256,-22.4987,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-13T21:35:19Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -2863,22 +2515,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/15/10 (7 events)</name>
+			<name>06/15/10 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 2.14 06/15/2010</name>
-				<description>
-					<![CDATA[<b>06/15/2010 00:24:01 UTC<br>ml: 2.14</b><br>lat: -22.8379 lon: -67.6207<br>depth: 71.0 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1865]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.58</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.6207,-22.8379,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-15T00:24:01Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 2.54 06/15/2010</name>
 				<description>
@@ -2906,19 +2545,6 @@
 				<TimeStamp><when>2010-06-15T05:22:41Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>ml: 1.70 06/15/2010</name>
-				<description>
-					<![CDATA[<b>06/15/2010 06:27:01 UTC<br>ml: 1.70</b><br>lat: -21.9439 lon: -67.1037<br>depth: 88.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1868]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.525</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1037,-21.9439,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-15T06:27:01Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
 			<name>ml: 1.39 06/15/2010</name>
 				<description>
 					<![CDATA[<b>06/15/2010 06:34:55 UTC<br>ml: 1.39</b><br>lat: -22.3019 lon: -67.7106<br>depth: 39.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1869]]>
@@ -2930,32 +2556,6 @@
 					<coordinates>-67.7106,-22.3019,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-06-15T06:34:55Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.33 06/15/2010</name>
-				<description>
-					<![CDATA[<b>06/15/2010 09:00:45 UTC<br>ml: 1.33</b><br>lat: -22.5011 lon: -67.0584<br>depth: 96.0 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1870]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.47875</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0584,-22.5011,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-15T09:00:45Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 0.99 06/15/2010</name>
-				<description>
-					<![CDATA[<b>06/15/2010 13:57:25 UTC<br>ml: 0.99</b><br>lat: -21.8724 lon: -67.0300<br>depth: 88.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1871]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.43625</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0300,-21.8724,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-15T13:57:25Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -2990,35 +2590,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/18/10 (4 events)</name>
+			<name>06/18/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.49 06/18/2010</name>
-				<description>
-					<![CDATA[<b>06/18/2010 00:47:35 UTC<br>ml: 1.49</b><br>lat: -22.2173 lon: -67.8420<br>depth: 56.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1874]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.49875</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8420,-22.2173,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-18T00:47:35Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.63 06/18/2010</name>
-				<description>
-					<![CDATA[<b>06/18/2010 11:29:01 UTC<br>ml: 1.63</b><br>lat: -21.9205 lon: -67.6847<br>depth: 61.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1875]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.51625</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.6847,-21.9205,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-18T11:29:01Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 1.92 06/18/2010</name>
 				<description>
@@ -3047,22 +2621,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/19/10 (2 events)</name>
+			<name>06/19/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 2.08 06/19/2010</name>
-				<description>
-					<![CDATA[<b>06/19/2010 00:56:09 UTC<br>ml: 2.08</b><br>lat: -22.3673 lon: -67.9183<br>depth: 54.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1878]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.5725</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.9183,-22.3673,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-19T00:56:09Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 1.41 06/19/2010</name>
 				<description>
@@ -3078,7 +2639,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/20/10 (4 events)</name>
+			<name>06/20/10 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -3120,19 +2681,6 @@
 				</Point>
 				<TimeStamp><when>2010-06-20T08:12:32Z</when></TimeStamp>
 			</Placemark>
-			<Placemark>
-			<name>ml: 1.14 06/20/2010</name>
-				<description>
-					<![CDATA[<b>06/20/2010 16:57:38 UTC<br>ml: 1.14</b><br>lat: -21.8495 lon: -66.9645<br>depth: 93.1 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1883]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.455</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-66.9645,-21.8495,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-20T16:57:38Z</when></TimeStamp>
-			</Placemark>
 		</Folder>
 		<Folder>
 			<name>06/21/10 (2 events)</name>
@@ -3166,22 +2714,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>06/22/10 (4 events)</name>
+			<name>06/22/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.31 06/22/2010</name>
-				<description>
-					<![CDATA[<b>06/22/2010 02:31:39 UTC<br>ml: 1.31</b><br>lat: -22.9147 lon: -67.5626<br>depth: 65.9 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1886]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.47625</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.5626,-22.9147,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-22T02:31:39Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 0.43 06/22/2010</name>
 				<description>
@@ -3207,37 +2742,6 @@
 					<coordinates>-67.7171,-22.3998,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-06-22T20:24:13Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 0.96 06/22/2010</name>
-				<description>
-					<![CDATA[<b>06/22/2010 23:16:04 UTC<br>ml: 0.96</b><br>lat: -22.1426 lon: -67.7297<br>depth: 50.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1889]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4325</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7297,-22.1426,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-22T23:16:04Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>06/23/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.13 06/23/2010</name>
-				<description>
-					<![CDATA[<b>06/23/2010 08:51:58 UTC<br>ml: 1.13</b><br>lat: -22.0026 lon: -67.7491<br>depth: 56.3 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1890]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.45375</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7491,-22.0026,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-06-23T08:51:58Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -3357,24 +2861,6 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>07/24/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.96 07/24/2010</name>
-				<description>
-					<![CDATA[<b>07/24/2010 01:58:00 UTC<br>ml: 1.96</b><br>lat: -22.8832 lon: -67.2060<br>depth: 91.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1898]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.5575</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2060,-22.8832,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-07-24T01:58:00Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>07/29/10 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
@@ -3491,24 +2977,6 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>08/06/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.32 08/06/2010</name>
-				<description>
-					<![CDATA[<b>08/06/2010 08:15:44 UTC<br>ml: 1.32</b><br>lat: -21.5981 lon: -67.9780<br>depth: 67.7 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1906]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4775</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.9780,-21.5981,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-06T08:15:44Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>08/07/10 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
@@ -3553,7 +3021,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>08/08/10 (4 events)</name>
+			<name>08/08/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -3568,63 +3036,6 @@
 					<coordinates>-67.6258,-22.3658,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-08-08T00:05:38Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.14 08/08/2010</name>
-				<description>
-					<![CDATA[<b>08/08/2010 04:09:56 UTC<br>ml: 1.14</b><br>lat: -22.0483 lon: -67.7636<br>depth: 53.9 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1911]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.455</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7636,-22.0483,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-08T04:09:56Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 2.00 08/08/2010</name>
-				<description>
-					<![CDATA[<b>08/08/2010 11:09:39 UTC<br>ml: 2.00</b><br>lat: -22.3911 lon: -67.7220<br>depth: 93.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1912]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.5625</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7220,-22.3911,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-08T11:09:39Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.17 08/08/2010</name>
-				<description>
-					<![CDATA[<b>08/08/2010 13:38:10 UTC<br>ml: 1.17</b><br>lat: -22.5430 lon: -67.0320<br>depth: 201.1 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2085]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.45875</scale><color>FFFF0000</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0320,-22.5430,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-08T13:38:10Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>08/09/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.35 08/09/2010</name>
-				<description>
-					<![CDATA[<b>08/09/2010 05:53:23 UTC<br>ml: 1.35</b><br>lat: -22.0389 lon: -67.8192<br>depth: 59.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1913]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.48125</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8192,-22.0389,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-09T05:53:23Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -3700,55 +3111,6 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>08/22/10 (2 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.89 08/22/2010</name>
-				<description>
-					<![CDATA[<b>08/22/2010 04:52:11 UTC<br>ml: 1.89</b><br>lat: -22.2339 lon: -67.8208<br>depth: 54.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1918]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.54875</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8208,-22.2339,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-22T04:52:11Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 3.37 08/22/2010</name>
-				<description>
-					<![CDATA[<b>08/22/2010 08:06:47 UTC<br>ml: 3.37</b><br>lat: -21.7771 lon: -67.2956<br>depth: 91.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1919]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.73375</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2956,-21.7771,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-22T08:06:47Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>08/23/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.47 08/23/2010</name>
-				<description>
-					<![CDATA[<b>08/23/2010 06:42:01 UTC<br>ml: 1.47</b><br>lat: -22.5240 lon: -67.1327<br>depth: 73.9 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1920]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.49625</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.1327,-22.5240,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-23T06:42:01Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>08/26/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
@@ -3782,104 +3144,6 @@
 					<coordinates>-67.0982,-22.7226,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-08-27T13:35:13Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>08/31/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.16 08/31/2010</name>
-				<description>
-					<![CDATA[<b>08/31/2010 07:19:31 UTC<br>ml: 1.16</b><br>lat: -22.1073 lon: -67.7261<br>depth: 56.0 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1923]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4575</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7261,-22.1073,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-08-31T07:19:31Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>09/04/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 2.30 09/04/2010</name>
-				<description>
-					<![CDATA[<b>09/04/2010 03:47:52 UTC<br>ml: 2.30</b><br>lat: -22.4868 lon: -67.2711<br>depth: 107.2 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2086]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.6</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2711,-22.4868,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-09-04T03:47:52Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>09/08/10 (3 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 0.69 09/08/2010</name>
-				<description>
-					<![CDATA[<b>09/08/2010 01:27:41 UTC<br>ml: 0.69</b><br>lat: -21.8872 lon: -67.3053<br>depth: 81.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1924]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.39875</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.3053,-21.8872,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-09-08T01:27:41Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.78 09/08/2010</name>
-				<description>
-					<![CDATA[<b>09/08/2010 12:01:12 UTC<br>ml: 1.78</b><br>lat: -22.6844 lon: -67.2901<br>depth: 142.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2098]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.535</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2901,-22.6844,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-09-08T12:01:12Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.04 09/08/2010</name>
-				<description>
-					<![CDATA[<b>09/08/2010 12:15:30 UTC<br>ml: 1.04</b><br>lat: -21.9967 lon: -67.3817<br>depth: 107.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2087]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4425</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.3817,-21.9967,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-09-08T12:15:30Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>09/09/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.23 09/09/2010</name>
-				<description>
-					<![CDATA[<b>09/09/2010 09:03:54 UTC<br>ml: 1.23</b><br>lat: -22.1058 lon: -67.8520<br>depth: 59.7 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1925]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.46625</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8520,-22.1058,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-09-09T09:03:54Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -3950,24 +3214,6 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>09/20/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.31 09/20/2010</name>
-				<description>
-					<![CDATA[<b>09/20/2010 10:27:44 UTC<br>ml: 1.31</b><br>lat: -21.8975 lon: -67.3638<br>depth: 124.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2088]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.47625</scale><color>FF805900</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.3638,-21.8975,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-09-20T10:27:44Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>09/21/10 (2 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
@@ -4035,22 +3281,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>09/30/10 (25 events)</name>
+			<name>09/30/10 (24 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.42 09/30/2010</name>
-				<description>
-					<![CDATA[<b>09/30/2010 05:25:50 UTC<br>ml: 1.42</b><br>lat: -21.8479 lon: -66.9340<br>depth: 90.1 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1934]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.49</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-66.9340,-21.8479,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-09-30T05:25:50Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 0.48 09/30/2010</name>
 				<description>
@@ -4662,24 +3895,6 @@
 					<coordinates>-67.0391,-22.3769,0</coordinates>
 				</Point>
 				<TimeStamp><when>2010-11-04T21:07:19Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>11/07/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.43 11/07/2010</name>
-				<description>
-					<![CDATA[<b>11/07/2010 09:14:49 UTC<br>ml: 1.43</b><br>lat: -22.0034 lon: -67.5789<br>depth: 55.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 1979]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.49125</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.5789,-22.0034,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-11-07T09:14:49Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -5579,24 +4794,6 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>01/29/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.08 01/29/2011</name>
-				<description>
-					<![CDATA[<b>01/29/2011 17:11:19 UTC<br>ml: 1.08</b><br>lat: -21.8564 lon: -67.3047<br>depth: 74.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2037]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4475</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.3047,-21.8564,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-01-29T17:11:19Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>01/31/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
@@ -5767,25 +4964,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>02/20/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.36 02/20/2011</name>
-				<description>
-					<![CDATA[<b>02/20/2011 01:21:20 UTC<br>ml: 1.36</b><br>lat: -21.8934 lon: -67.6181<br>depth: 62.5 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2048]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4825</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.6181,-21.8934,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-02-20T01:21:20Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>02/27/11 (2 events)</name>
+			<name>02/27/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -5800,50 +4979,6 @@
 					<coordinates>-67.3982,-21.9070,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-02-27T02:12:54Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.49 02/27/2011</name>
-				<description>
-					<![CDATA[<b>02/27/2011 10:18:14 UTC<br>ml: 1.49</b><br>lat: -21.9074 lon: -67.7112<br>depth: 53.6 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2050]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.49875</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7112,-21.9074,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-02-27T10:18:14Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>02/28/11 (2 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.51 02/28/2011</name>
-				<description>
-					<![CDATA[<b>02/28/2011 16:57:11 UTC<br>ml: 1.51</b><br>lat: -21.4918 lon: -67.0079<br>depth: 198.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2089]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.50125</scale><color>FFFF0000</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0079,-21.4918,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-02-28T16:57:11Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 3.20 02/28/2011</name>
-				<description>
-					<![CDATA[<b>02/28/2011 20:46:10 UTC<br>ml: 3.20</b><br>lat: -21.8417 lon: -67.5370<br>depth: 57.8 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2051]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.7125</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.5370,-21.8417,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-02-28T20:46:10Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -6695,35 +5830,9 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/04/11 (3 events)</name>
+			<name>05/04/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.26 05/04/2011</name>
-				<description>
-					<![CDATA[<b>05/04/2011 03:12:28 UTC<br>ml: 1.26</b><br>lat: -22.8512 lon: -67.0674<br>depth: 95.6 <br>author: UAF:alexMl<br>event type: -<br>origin id: 2168]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.47</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.0674,-22.8512,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-04T03:12:28Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.08 05/04/2011</name>
-				<description>
-					<![CDATA[<b>05/04/2011 14:26:37 UTC<br>ml: 1.08</b><br>lat: -22.0040 lon: -67.8770<br>depth: 66.3 <br>author: UAF:alexMl<br>event type: -<br>origin id: 2192]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.4475</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.8770,-22.0040,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-04T14:26:37Z</when></TimeStamp>
-			</Placemark>
 			<Placemark>
 			<name>ml: 0.21 05/04/2011</name>
 				<description>
@@ -6739,25 +5848,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/05/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.77 05/05/2011</name>
-				<description>
-					<![CDATA[<b>05/05/2011 13:35:59 UTC<br>ml: 1.77</b><br>lat: -22.2966 lon: -68.3882<br>depth: 96.4 <br>author: UAF:alexMl<br>event type: -<br>origin id: 2170]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.53375</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.3882,-22.2966,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-05T13:35:59Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>05/06/11 (4 events)</name>
+			<name>05/06/11 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -6798,19 +5889,6 @@
 					<coordinates>-67.1505,-22.1857,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-05-06T22:03:30Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 2.91 05/06/2011</name>
-				<description>
-					<![CDATA[<b>05/06/2011 23:30:45 UTC<br>ml: 2.91</b><br>lat: -22.1445 lon: -67.7028<br>depth: 53.8 <br>author: UAF:alexMl<br>event type: -<br>origin id: 2251]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.67625</scale><color>FF00B300</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.7028,-22.1445,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-06T23:30:45Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -6876,7 +5954,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/09/11 (4 events)</name>
+			<name>05/09/11 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -6904,19 +5982,6 @@
 					<coordinates>-67.2248,-22.1940,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-05-09T02:25:29Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 1.37 05/09/2011</name>
-				<description>
-					<![CDATA[<b>05/09/2011 19:29:51 UTC<br>ml: 1.37</b><br>lat: -22.8419 lon: -66.8273<br>depth: 199.2 <br>author: UAF:alexMl<br>event type: -<br>origin id: 2179]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.48375</scale><color>FFFF0000</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-66.8273,-22.8419,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-09T19:29:51Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
 			<name>ml: 2.76 05/09/2011</name>
@@ -6997,24 +6062,6 @@
 					<coordinates>-66.8155,-22.3453,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-05-12T17:03:27Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>05/13/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 1.98 05/13/2011</name>
-				<description>
-					<![CDATA[<b>05/13/2011 03:34:27 UTC<br>ml: 1.98</b><br>lat: -21.8353 lon: -67.2705<br>depth: 179.1 <br>author: UAF:alexMl<br>event type: -<br>origin id: 2183]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.56</scale><color>FFBF2D00</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2705,-21.8353,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-13T03:34:27Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -8371,7 +7418,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>07/28/11 (4 events)</name>
+			<name>07/28/11 (3 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -8386,19 +7433,6 @@
 					<coordinates>-67.4854,-21.8686,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-07-28T13:22:55Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 0.81 07/28/2011</name>
-				<description>
-					<![CDATA[<b>07/28/2011 14:26:33 UTC<br>ml: 0.81</b><br>lat: -21.8608 lon: -67.2218<br>depth: 100.4 <br>author: UAF:qyuMl<br>event type: -<br>origin id: 2282]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.41375</scale><color>FF408600</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-67.2218,-21.8608,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-07-28T14:26:33Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
 			<name>ml: 0.51 07/28/2011</name>

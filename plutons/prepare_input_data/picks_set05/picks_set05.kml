@@ -999,24 +999,6 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>07/26/10 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 3.63 07/26/2010</name>
-				<description>
-					<![CDATA[<b>07/26/2010 04:23:23 UTC<br>ml: 3.63</b><br>lat: -22.9700 lon: -65.4080<br>depth: 32.0 <br>author: OSC<br>event type: -<br>origin id: 2574]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.76625</scale><color>FF0000BF</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-65.4080,-22.9700,0</coordinates>
-				</Point>
-				<TimeStamp><when>2010-07-26T04:23:23Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
 			<name>08/01/10 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
@@ -1649,12 +1631,12 @@
 				<TimeStamp><when>2011-04-08T10:12:07Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>ml: 3.58 04/08/2011</name>
+			<name>Unknown magnitude: 0 04/08/2011</name>
 				<description>
-					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>ml: 3.58</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2544]]>
+					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>Unknown magnitude: 0</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2612]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.76</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
 				<Point>
 				<altitudeMode>clampToGround></altitudeMode>
 					<coordinates>-67.3140,-20.6700,0</coordinates>
@@ -1662,12 +1644,12 @@
 				<TimeStamp><when>2011-04-08T22:09:18Z</when></TimeStamp>
 			</Placemark>
 			<Placemark>
-			<name>Unknown magnitude: 0 04/08/2011</name>
+			<name>ml: 3.58 04/08/2011</name>
 				<description>
-					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>Unknown magnitude: 0</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2612]]>
+					<![CDATA[<b>04/08/2011 22:09:18 UTC<br>ml: 3.58</b><br>lat: -20.6700 lon: -67.3140<br>depth: 179.0 <br>author: OSC<br>event type: -<br>origin id: 2544]]>
 				</description>
 				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.3125</scale><color>FFBF2D00</color></IconStyle></Style>
+				<Style><IconStyle><scale>0.76</scale><color>FFBF2D00</color></IconStyle></Style>
 				<Point>
 				<altitudeMode>clampToGround></altitudeMode>
 					<coordinates>-67.3140,-20.6700,0</coordinates>
@@ -2202,7 +2184,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>05/19/11 (2 events)</name>
+			<name>05/19/11 (1 events)</name>
 			<styleUrl>#checkHideChildrenStyle</styleUrl>
 			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
 			<Placemark>
@@ -2217,19 +2199,6 @@
 					<coordinates>-65.6950,-22.1740,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-05-19T15:20:24Z</when></TimeStamp>
-			</Placemark>
-			<Placemark>
-			<name>ml: 3.73 05/19/2011</name>
-				<description>
-					<![CDATA[<b>05/19/2011 23:01:29 UTC<br>ml: 3.73</b><br>lat: -22.4380 lon: -68.6040<br>depth: 25.0 <br>author: OSC<br>event type: -<br>origin id: 2533]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.77875</scale><color>FF0000DF</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.6040,-22.4380,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-05-19T23:01:29Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>
@@ -2333,24 +2302,6 @@
 					<coordinates>-68.0470,-21.1370,0</coordinates>
 				</Point>
 				<TimeStamp><when>2011-06-08T03:55:56Z</when></TimeStamp>
-			</Placemark>
-		</Folder>
-		<Folder>
-			<name>06/14/11 (1 events)</name>
-			<styleUrl>#checkHideChildrenStyle</styleUrl>
-			<LookAt><longitude>-149</longitude><latitude>61</latitude><altitude>0</altitude><range>4000000</range><tilt>0</tilt><heading>0</heading></LookAt>
-			<Placemark>
-			<name>ml: 3.39 06/14/2011</name>
-				<description>
-					<![CDATA[<b>06/14/2011 15:26:40 UTC<br>ml: 3.39</b><br>lat: -21.9780 lon: -68.5580<br>depth: 10.0 <br>author: OSC<br>event type: -<br>origin id: 2562]]>
-				</description>
-				<styleUrl>#hypo</styleUrl>
-				<Style><IconStyle><scale>0.73625</scale><color>FF0060FF</color></IconStyle></Style>
-				<Point>
-				<altitudeMode>clampToGround></altitudeMode>
-					<coordinates>-68.5580,-21.9780,0</coordinates>
-				</Point>
-				<TimeStamp><when>2011-06-14T15:26:40Z</when></TimeStamp>
 			</Placemark>
 		</Folder>
 		<Folder>

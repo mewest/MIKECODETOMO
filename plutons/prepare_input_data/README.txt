@@ -103,6 +103,7 @@ dbjoin /home/admin/databases/PLUTONS/origin/total/total.origin event |\
    dbsubset - "prefor==orid" |\
    dbsubset - "time>='04/15/2010'" |\
    dbsubset - "deg2km(distance(origin.lat,origin.lon,-22.26,-67.18))<200" |\
+   dbsubset - 'depth<50' |\
    dbsubset - 'auth!="OSC" && auth!="UdC"' |\
    dbjoin - assoc arrival |\
    dbsubset - "iphase=~/P|S/" |\
@@ -137,6 +138,7 @@ dbjoin /home/admin/databases/PLUTONS/origin/total/total.origin event |\
    dbsubset - "prefor==orid" |\
    dbsubset - "time>='04/15/2010'" |\
    dbsubset - "deg2km(distance(origin.lat,origin.lon,-22.26,-67.18))<200" |\
+   dbsubset - 'depth>50' |\
    dbsubset - 'auth=="OSC" || auth=="UdC"' |\
    dbjoin - assoc arrival |\
    dbsubset - "iphase=~/P|S/" |\
