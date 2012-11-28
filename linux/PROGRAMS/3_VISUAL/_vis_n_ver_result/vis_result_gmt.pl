@@ -127,6 +127,7 @@ sub get_cpts($$$$)
     
     my $cmd = "makecpt -C$cpt_main -T$z0/$zn/$dz > $cpt";
     system($cmd) == 0 or die "Error call makecpt : $?";
+    open(GMT,">",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
     
     open(CPT_IN,"<",$cpt) or die "Can't open $cpt : $!";
     open(CPT_OUT,">",$cpt_NaN) or die "Can't open $cpt_NaN : $!";
@@ -169,6 +170,7 @@ sub get_cpts($$$$)
     
     $cmd = "makecpt -C$cpt_main -T$z0/$zn/$dz > $cpt";
     system($cmd) == 0 or die "Error call makecpt : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
 
     return ($cpt,$cpt_NaN);
 }
@@ -183,7 +185,7 @@ sub draw_hor_sections()
     print "Converting .grd files to xyz tables...\n";
     open(LIST_HOR,"<",$LIST_HOR) or die "Can't open $LIST_HOR : $!";
     
-    my ($grd_in,$xyz_out,$ztr_file);
+    my ($grd_in,$xyz_out,$ztr_file,$gmt_out);
     my ($title) = "";
 
     my $n_map = 0;
@@ -197,8 +199,12 @@ sub draw_hor_sections()
 	$title = <LIST_HOR>;
 	chomp $title;
 	$xyz_out = $grd_in . ".xyz";
+	$gmt_out = $xyz_out.'.grd';
+
+	
 	push @list_xyz ,  $xyz_out . '|' . $title . '|' . $ztr_file;   
 	convert2xyz($grd_in,$xyz_out);	
+	convert2gmt($grd_in,$xyz_out,$gmt_out);	
     }
     
     
@@ -219,7 +225,8 @@ sub draw_hor_sections()
     my $cmd = "gmtset BASEMAP_TYPE PLAIN BASEMAP_FRAME_RGB black ANNOT_FONT_PRIMARY 0 ANNOT_FONT_SIZE_PRIMARY 10";
     $cmd = $cmd . " HEADER_FONT_SIZE 10 HEADER_OFFSET -0.5c PAGE_ORIENTATION portrait LABEL_FONT_SIZE 12";    
     system($cmd) == 0 or die "Error call gmtset : $?";
-    
+	open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
     my ($title_x,$title_y) = ($MARGIN_LEFT,$PAGE_HEIGHT-$TITLE_SHIFT_TOP);
     
     if ( $iter != 0 )
@@ -234,7 +241,8 @@ sub draw_hor_sections()
     $cmd = $cmd . " | pstext -R0/$PAGE_WIDTH/0/$PAGE_HEIGHT -JX${PAGE_WIDTH}c/${PAGE_HEIGHT}c -Xa0 -Ya0 -K";
     $cmd = $cmd . " --PAPER_MEDIA=Custom_${PAGE_WIDTH}cx${PAGE_HEIGHT}c > $ps_out";
     system($cmd) == 0 or die "Error call pstext : $?";
-     
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
 
 
     #Calculating $YMAP
@@ -253,20 +261,20 @@ sub draw_hor_sections()
 	    {
 		if ($j == 0)
 		{
-		    draw_map($xyz_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),3);
+		    draw_map($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),3);
 		}
 		else
 		{
-		    draw_map($xyz_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),2);
+		    draw_map($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),2);
 		}
 	    }
 	    elsif($j == 0)
 	    {
-		draw_map($xyz_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),1);
+		draw_map($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),1);
 	    }
 	    else
 	    {
-		draw_map($xyz_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),0);
+		draw_map($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+($XMAP_HOR+$DX)*$j,$PAGE_HEIGHT-$MARGIN_TOP+$DY-($YMAP_HOR+$DY)*($i+1),0);
 	    }
 	}
     }
@@ -301,6 +309,8 @@ sub draw_scale_hor()
 	$ypos = $PAGE_HEIGHT-$MARGIN_TOP+$DY/2.0-($YMAP_HOR+$DY)*$N_ROWS_HOR/2.0;
 	my $cmd = "psscale -D${xpos}c/${ypos}c/${SCALE_LENGTH}c/${SCALE_THICKNESS}c -S -C$cpt -O -K >> '$ps_out'";    
 	system($cmd) == 0 or die "Error call psscale : $?";	
+	open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
 	$cmd = "echo \"0 0 12 90 1 TC velocity anomalies, %\"";
 	$xpos = $xpos + $SCALE_THICKNESS + 1.1;
 	$ypos = $ypos - $SCALE_LENGTH/2.0;
@@ -313,6 +323,7 @@ sub draw_scale_hor()
 	    $cmd = $cmd . " | pstext -R0/1/-10/10 -JX10c/${SCALE_LENGTH}c -Xa${xpos} -Ya${ypos} -O -K >> '$ps_out'";
 	}
 	system($cmd) == 0 or die "Error call pstext : $?";
+	open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
 #    }
 }
 
@@ -352,7 +363,8 @@ sub draw_vert_sections()
 	$cmd = $cmd . " | pstext -R0/$PAGE_WIDTH/0/$PAGE_HEIGHT -JX${PAGE_WIDTH}c/${PAGE_HEIGHT}c -Xa0 -Ya0 -O -K >> $ps_out";
     }
     system($cmd) == 0 or die "Error call pstext : $?";
- 
+ 	open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
     #($cpt,$cpt_NaN) = get_cpts($CPT_MAIN,$Z0,$ZN,$N_STEPZ);
     my ($grd_in,$xyz_out,$ztr_file);
     my ($title) = "";
@@ -400,35 +412,35 @@ sub draw_vert_sections()
 	    #print "i = $i j=$j\n";
 	    
 	    ($grd_in,$title,$ztr_file) = split(/\|/,$info);
-	    $xyz_out = $grd_in . ".xyz";	
+	    $xyz_out = $grd_in . ".xyz";
+	    my $gmt_out = $xyz_out.'.grd';   # Seems like this should be passed in to function and not redefined. But this is the precident	
 	    convert2xyz($grd_in,$xyz_out);
+	    convert2gmt($grd_in,$xyz_out);
 	    if ($XMAP_VER == 0)
 	    {
 		$XMAP_VER = ($x_max-$x_min)/($y_max-$y_min)*$YMAP_VER;
 	    }
 	    
 	    $XMAP_CUR = $XMAP_VER;
-	    
-	    
-	    
+	    	    
 	    if ($i+1 == $N_ROWS_VER)
 	    {
 		if ($j == 0)
 		{
-		    draw_map_ver($xyz_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),3);
+		    draw_map_ver($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),3);
 		}
 		else
 		{
-		    draw_map_ver($xyz_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),2);
+		    draw_map_ver($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),2);
 		}
 	    }
 	    elsif($j == 0)
 	    {
-		draw_map_ver($xyz_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),1);
+		draw_map_ver($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),1);
 	    }
 	    else
 	    {
-		draw_map_ver($xyz_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),0);
+		draw_map_ver($xyz_out,$gmt_out,$ztr_file,$title,$MARGIN_LEFT+$SHIFT_LEFT,$SHIFT_TOP-$MARGIN_TOP+$DY-($YMAP_VER+$DY)*($i+1),0);
 	    }
 	    
 	    $XMAP_VER = get_var("XMAP_VER");
@@ -513,44 +525,56 @@ sub draw_marks($$$$)
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     print $cmd . "\n";
     system($cmd) == 0 or die "Error call psxy : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
 }
 
 
 #draw plot map
-sub draw_map($$$$$$)
+sub draw_map($$$$$$$)
 {
     #$axis  0 - no axis labels
     #$axis  1 - y-axis label
     #$axis  2 - x-axis label
     #$axis 3 - x- and y-axis labels    
-    my ($xyz_out,$ztr,$title,$OFF_X,$OFF_Y,$axis) = @_;
+    my ($xyz_out,$gmt_out,$ztr,$title,$OFF_X,$OFF_Y,$axis) = @_;
+    
+    print "----- AXIS: $axis\n\n";
     
     my $cmd;
     if ($axis == 1)
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage   -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_HOR/$TICK_Y_HOR:\"latitude, degrees\"::.\"$title\":WeSn";
     }
     elsif ($axis == 2)
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage   -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_HOR:\"longitude, degrees\":/$TICK_Y_HOR:.\"$title\":WeSn";
 	
     }
     elsif ($axis == 3)
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage   -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_HOR:\"longitude, degrees\":/$TICK_Y_HOR:\"latitude, degrees\"::.\"$title\":WeSn";
     }
     else
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage   -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_HOR/$TICK_Y_HOR:.\"$title\":WeSn";
     }
     
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
-    ###print "$cmd\n";
-    system($cmd) == 0 or die "Error call pscontour : $?";
+    
+    print "   $cmd\n"; #####
+    
+    system($cmd) == 0 or die "Error call grdimage : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
     
 
     ### COUNTRY BOUNDARIES
@@ -566,50 +590,60 @@ sub draw_map($$$$$$)
     $cmd="psxy '$ztr' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -Sc0.13c -m -W0.25p,150/150/150";
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
 
     ### BULLSEYE
     my $linesFile = '../../../COMMON/gmt/crosshairs.xy';
     $cmd="psxy '$linesFile' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_HOR}c/${YMAP_HOR}c -m -W0.25p,0/0/0,.";
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
     #print "$cmd\n";
 
 }
 
-sub draw_map_ver($$$$$$)
+sub draw_map_ver($$$$$$$)
 {
     #$axis  0 - no axis labels
     #$axis  1 - y-axis label
     #$axis  2 - x-axis label
     #$axis 3 - x- and y-axis labels    
-    my ($xyz_out,$ztr,$title,$OFF_X,$OFF_Y,$axis) = @_;
+    my ($xyz_out,$gmt_out,$ztr,$title,$OFF_X,$OFF_Y,$axis) = @_;
     
     my $cmd;
     if ($axis == 1)
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage  -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_VER/$TICK_Y_VER:\"depth, km\"::.\"$title\":WeSn";
     }
     elsif ($axis == 2)
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage  -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_VER:\"distance along profile, km\":/$TICK_Y_VER:.\"$title\":WeSn";
 	
     }
     elsif ($axis == 3)
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage  -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_VER:\"distance along profile, km\":/$TICK_Y_VER:\"depth, km\"::.\"$title\":WeSn";
     }
     else
     {
-	$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	#$cmd="pscontour -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$xyz_out' -C$cpt_NaN -I";
+	$cmd="grdimage  -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c '$gmt_out' -C$cpt_NaN";
 	$cmd = $cmd . " -B$TICK_X_VER/$TICK_Y_VER:.\"$title\":WeSn";
     }
     
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     ###print "$cmd\n";
     system($cmd) == 0 or die "Error call pscontour : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
     
     
     #$cmd="pscoast -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c -Di -N1/3,100/0/0 -I1/3,blue -W3";
@@ -624,6 +658,8 @@ sub draw_map_ver($$$$$$)
     $cmd="psxy '$ztr' -R$x_min/$x_max/$y_min/$y_max -JX${XMAP_VER}c/${YMAP_VER}c -Sc0.13c -m -W0.25p,150/150/150";
     $cmd = $cmd . " -Xa${OFF_X}c -Ya${OFF_Y}c -O -K >> '$ps_out'";
     system($cmd) == 0 or die "Error call psxy : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
 }
 
 
@@ -642,11 +678,14 @@ sub draw_scale_vert()
     $ypos = $ypos - $MARGIN_TOP+$DY-($YMAP_VER+$DY)*($N_ROWS_VER) - $SCALE_SHIFT;
     my $cmd = "psscale -D${xpos}c/${ypos}c/${SCALE_LENGTH}c/${SCALE_THICKNESS}ch -S -C$cpt -O -K >> '$ps_out'";    
     system($cmd) == 0 or die "Error call psscale : $?";
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
     $cmd = "echo \"0 0 12 0 1 BC velocity anomalies, %\"";
     $ypos = $ypos - $SCALE_THICKNESS - 1.3;
     $xpos = $xpos - $SCALE_LENGTH/2.0;
     $cmd = $cmd . " | pstext -R-10/10/-0.1/10 -JX${SCALE_LENGTH}c/10c -Xa${xpos} -Ya${ypos} -O >> '$ps_out'";
     system($cmd) == 0 or die "Error call pstext : $?";	
+    open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
+
 }
 
 #convert DSAA surfer .grd file into xyz table
@@ -703,6 +742,50 @@ sub convert2xyz($$)
     ###print "Converting OK. Processed $cnt grid nodes\n";
     
 }
+
+############### MEW - START
+
+#convert DSAA surfer .grd file into GMT .grd
+sub convert2gmt($$$)
+{
+    my ($grd_in,$xyz_out,$gmt_out) = @_;
+    
+    open(IN,"<",$grd_in) or die "Can't open '$grd_in' : $!";
+    
+    print "Start converting $grd_in to GMT table...\n";
+    
+    my ($header,$nx,$ny,$z_min,$z_max,$line);
+    
+
+    die "Error: Incorrect file format" unless (defined ($header = <IN>) );
+    
+    die "Error: Incorrect file format" unless (defined ($line = <IN>) );
+    ($nx,$ny) = split(' ',$line);
+
+    die "Error: Incorrect file format" unless (defined ($line = <IN>) );
+    ($x_min,$x_max) = split(' ',$line);
+    
+    die "Error: Incorrect file format" unless (defined ($line = <IN>) );
+    ($y_min,$y_max) = split(' ',$line);
+    
+    die "Error: Incorrect file format" unless (defined ($line = <IN>) );
+    ($z_min,$z_max) = split(' ',$line);
+    
+    die "Error: Incorrect file format" if ($ny < 2 || $nx < 2);
+    
+	close IN;
+	    
+    ####my $xinc = ($x_max - $x_min) / ($nx-1);
+    
+    ###my $yinc = ($y_max - $y_min) / ($ny-1);
+    
+    ###print "       $x_min $x_max $xinc          $y_min $y_max $yinc\n\n";
+        
+}
+
+################ MEW - END
+
+
 
 sub calc_map_sizes($)
 {
