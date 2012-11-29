@@ -572,7 +572,7 @@ sub draw_map($$$$$$$)
         
     system($cmd) == 0 or die "Error call grdimage : $?";
     open(GMT,">>",'GMT_SCRIPT.txt'); print GMT "$cmd\n"; close GMT;
-    print "$cmd\n";
+    #print "$cmd\n";
 
     
 
