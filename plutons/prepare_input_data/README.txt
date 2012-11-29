@@ -162,4 +162,38 @@ rm -rf *.ps
 
 
 
+############## PICKS_SET06 ##########################
+#      11/28/2012
+# Shallow events within 60km plus all slab events within 200
+# This dataset is being put together because shallow outlying events appear to cause problems
+#####################################################
+
+rm -rf picks_set06/*
+dbjoin /home/admin/databases/PLUTONS/origin/total/total.origin event |\
+   dbsubset - "prefor==orid" |\
+   dbsubset - "time>='04/15/2010'" |\
+   dbsubset - "deg2km(distance(origin.lat,origin.lon,-22.26,-67.18))<200" |\
+   dbsubset - "depth>50 || deg2km(distance(origin.lat,origin.lon,-22.26,-67.18))<60" |\
+   dbjoin - assoc arrival |\
+   dbsubset - "iphase=~/P|S/" |\
+   dbjoin - site |\
+   dbsubset - "deg2km(distance(site.lat,site.lon,-22.26,-67.18))<100" |\
+   dbunjoin -o picks_set06/picks_set06 -
+     
+db2kml -sbl picks_set06/picks_set06 > picks_set06/picks_set06.kml
+
+# IN MATLAB
+     cd picks_set06
+     ttimes.do_all('picks_set06')
+     addpath('..');
+     uturuncu_section('picks_set06')
+     cd ..
+
+# SHELL
+cat FIG*.ps > picks_set06_FIGS.ps
+ps2pdf picks_set06_FIGS.ps
+rm -rf *.ps
+
+
+
 
