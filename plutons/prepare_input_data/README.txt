@@ -88,9 +88,10 @@ db2kml -sbl picks_set03/picks_set03 > picks_set03/picks_set03.kml
      cd ..
 
 # SHELL
-cat FIG*.ps > picks_set03_FIGS.ps
-ps2pdf picks_set03_FIGS.ps
-rm -rf *.ps
+cat picks_set03/FIG*.ps > picks_set03/picks_set03_FIGS.ps
+pstopdf picks_set03/picks_set03_FIGS.ps
+# rm -rf picks_set03/*.ps
+# copy to working dir ...
 
 
 ############## PICKS_SET04 ##########################
@@ -121,10 +122,10 @@ db2kml -sbl picks_set04/picks_set04 > picks_set04/picks_set04.kml
      cd ..
 
 # SHELL
-cat FIG*.ps > picks_set04_FIGS.ps
-ps2pdf picks_set04_FIGS.ps
-rm -rf *.ps
-
+cat picks_set04/FIG*.ps > picks_set04/picks_set04_FIGS.ps
+pstopdf picks_set04/picks_set04_FIGS.ps
+# rm -rf picks_set04/*.ps
+# copy to working dir ...
 
 
 
@@ -156,9 +157,10 @@ db2kml -sbl picks_set05/picks_set05 > picks_set05/picks_set05.kml
      cd ..
 
 # SHELL
-cat FIG*.ps > picks_set05_FIGS.ps
-ps2pdf picks_set05_FIGS.ps
-rm -rf *.ps
+cat picks_set05/FIG*.ps > picks_set05/picks_set05_FIGS.ps
+pstopdf picks_set05/picks_set05_FIGS.ps
+# rm -rf picks_set05/*.ps
+# copy to working dir ...
 
 
 

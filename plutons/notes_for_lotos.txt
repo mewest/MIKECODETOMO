@@ -3,7 +3,7 @@
 
 
 ## REMOVE PREVIOUS RUNS (not usually necessary)
-rm -rf  $TOMO/linux/PICS  $TOMO/linux/TMP_files $TOMO/linux/DATA/UT_SET01/*/data
+rm -rf  $TOMO/linux/PICS  $TOMO/linux/TMP_files $TOMO/linux/DATA/*/*/data
 
 ## RUN
 export TOMO=/Users/west/Repositories/TOMO
@@ -13,8 +13,8 @@ export TOMO=/Users/west/Repositories/TOMO
 cd $TOMO/linux; time start.sh &> log;   # tail -f log
 
 ## PLOT
-export SET=UT_SET02
-export MOD=MODEL_02
+export SET=UT_SET03
+export MOD=MODEL_03
 cat $TOMO/linux/PICS/ps/$SET/$MOD/vis*ps > $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
 pstopdf $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
 mv $TOMO/linux/PICS/ps/$SET/$MOD/all.pdf $TOMO/plutons/figures
@@ -22,11 +22,10 @@ ar $TOMO/plutons/figures/all.pdf
  
 
 
-
 ## TO PLOT AFTER THE FACT
 #  may only work on plots for final iteration??
 cd PROGRAMS/3_VISUAL/_vis_n_ver_result
-perl ../../../COMMON/gmt/vis_result_gmt.pl UT_SET01 COLUMN10 0 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P   
+perl ../../../COMMON/gmt/vis_result_gmt.pl UT_SET03 MODEL_02 0 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P   
 pstopdf $TOMO/linux/PICS/ps/UT_SET01/COLUMN10/vis_result_P_1.ps
 ar $TOMO/linux/PICS/ps/UT_SET01/COLUMN10/vis_result_P_1.pdf
 
@@ -52,4 +51,5 @@ anomaly.dat spacings:
 
 cd /Users/west/Repositories/TOMO/linux/DATA/UT_SET02/MODEL_02
 
-grdreraster 
+grdreformat data/vel_p_54.dat=sf junk
+grdreformat surfer.grd=sf junk
