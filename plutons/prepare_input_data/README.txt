@@ -198,4 +198,6 @@ rm -rf *.ps
 
 
 
+# FOR IVAN 
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
 

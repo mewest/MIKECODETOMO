@@ -2,4 +2,4 @@
 2: name of the model (any 8 characters)
 3: number of iterations
 **********************************************
-UT_SET06 ONEDEM01 1
+UT_SET06 MODEL_06 6

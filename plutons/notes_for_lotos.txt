@@ -5,16 +5,21 @@
 ## REMOVE PREVIOUS RUNS (not usually necessary)
 rm -rf  $TOMO/linux/PICS  $TOMO/linux/TMP_files $TOMO/linux/DATA/*/*/data
 
-## RUN
-export TOMO=/Users/west/Repositories/TOMO
+
+
+## MODEL #########
+MODEL_04 Output from one of Ivan's 1-D inversion attempts. (called MODEL_09 in LOTOS/lotos/... on network)
+MODEL_05 Same as 04 but with faster to 10 km, fixed 1.65 vpvs and P/S smoothing reduced from 2/6 to 1/4
+MODEL_06 Same as 05 but with faster Vp throughout by ~0.2. Fixed 1.70 vpvs to keep Vs about the same. Smoothing same as 05.
 
 
 ## RUN #########
-cd $TOMO/linux; time start.sh &> log;   # tail -f log
+# export TOMO=/Users/west/Repositories/TOMO
+export SET=UT_SET06
+export MOD=MODEL_06
+cd $TOMO/linux; time start.sh &> log-$SET-$MOD;   # tail -f log
 
 ## PLOT
-export SET=UT_SET03
-export MOD=MODEL_03
 cat $TOMO/linux/PICS/ps/$SET/$MOD/vis*ps > $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
 pstopdf $TOMO/linux/PICS/ps/$SET/$MOD/all.ps
 mv $TOMO/linux/PICS/ps/$SET/$MOD/all.pdf $TOMO/plutons/figures

@@ -1,0 +1,3781 @@
+  n_ar=           1
+  DATASET:UT_SET06 MODEL:MODEL_06
+  key_ft1_xy2=           1  kref=           0
+  _________________________________________________________
+  COMPUTING THE REFERENCE TABLE WITH THE UPDATED 1D MODEL
+  Computing the reference table:
+  ar=UT_SET06 md=MODEL_06
+  nref=          13
+  i=          10  z=   3.0000000      ips=           1  nref=         270
+  i=          10  z=   3.0000000      ips=           2  nref=         269
+  i=          20  z=   13.000000      ips=           1  nref=         275
+  i=          20  z=   13.000000      ips=           2  nref=         274
+  i=          30  z=   25.000000      ips=           1  nref=         274
+  i=          30  z=   25.000000      ips=           2  nref=         276
+  i=          40  z=   45.000000      ips=           1  nref=         283
+  i=          40  z=   45.000000      ips=           2  nref=         282
+  i=          50  z=   86.000000      ips=           1  nref=         286
+  i=          50  z=   86.000000      ips=           2  nref=         286
+  i=          60  z=   136.00000      ips=           1  nref=         287
+  i=          60  z=   136.00000      ips=           2  nref=         287
+  i=          70  z=   186.00000      ips=           1  nref=         286
+  i=          70  z=   186.00000      ips=           2  nref=         286
+  i=          80  z=   236.00000      ips=           1  nref=         285
+  i=          80  z=   236.00000      ips=           2  nref=         285
+  i=          90  z=   286.00000      ips=           1  nref=         284
+  i=          90  z=   286.00000      ips=           2  nref=         284
+  i=         100  z=   336.00000      ips=           1  nref=         283
+  i=         100  z=   336.00000      ips=           2  nref=         282
+  i=         110  z=   386.00000      ips=           1  nref=         283
+  i=         110  z=   386.00000      ips=           2  nref=         283
+  i=         120  z=   436.00000      ips=           1  nref=         282
+  i=         120  z=   436.00000      ips=           2  nref=         282
+  i=         130  z=   486.00000      ips=           1  nref=         283
+  i=         130  z=   486.00000      ips=           2  nref=         282
+  i=         140  z=   536.00000      ips=           1  nref=         283
+  i=         140  z=   536.00000      ips=           2  nref=         283
+  i=         150  z=   586.00000      ips=           1  nref=         284
+  i=         150  z=   586.00000      ips=           2  nref=         284
+  _________________________________________________________
+  LOCALIZATION OF SOURCES USING THE 1D REFERENCE TABLE
+  area=UT_SET06 model=MODEL_06 koe=           0  k_re1_syn2=           1
+  ar=UT_SET06 md=MODEL_06
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
+  nref=          13
+           3
+  ******************************************
+  REAL DATA INVERSION
+    22 Old: x=  -23.91 y=  -22.50 z=   37.31 ank=   0.82
+    20 New: x=  -44.91 y=  -43.00 z=   46.31 ank=   0.90
+  nkrat=          10  nk=          10  ntot=         262
+
+    42 Old: x=    5.57 y=  -13.02 z=    3.03 ank=   0.49
+    40 New: x=    5.57 y=  -12.02 z=   -0.47 ank=   0.83
+  nkrat=          14  nk=          13  ntot=         541
+
+    62 Old: x=    2.62 y=   57.68 z=   82.47 ank=   0.92
+    60 New: x=    0.62 y=   86.18 z=  125.47 ank=   0.97
+  nkrat=           7  nk=           7  ntot=         769
+
+    90 Old: x=    9.93 y=   39.59 z=   88.57 ank=   0.88
+    80 New: x=   30.43 y=   86.59 z=  175.57 ank=   0.97
+  nkrat=           8  nk=           8  ntot=         937
+
+   112 Old: x=    3.64 y=   -2.76 z=    3.88 ank=   0.46
+   100 New: x=    5.14 y=   -0.76 z=   -0.12 ank=   0.85
+  nkrat=          14  nk=          14  ntot=        1112
+
+   133 Old: x=   -0.89 y=    2.92 z=    7.67 ank=   0.46
+   120 New: x=    0.11 y=    2.42 z=   -0.83 ank=   0.87
+  nkrat=          10  nk=          10  ntot=        1301
+
+   156 Old: x=   10.61 y=  -18.50 z=    4.59 ank=   0.44
+   140 New: x=   10.61 y=  -17.00 z=   -0.41 ank=   0.83
+  nkrat=          11  nk=          11  ntot=        1488
+
+   176 Old: x=    9.20 y=  -18.87 z=    5.39 ank=   0.41
+   160 New: x=    9.20 y=  -17.37 z=    0.39 ank=   0.78
+  nkrat=          11  nk=          10  ntot=        1688
+
+   197 Old: x=   40.33 y=  -20.70 z=    5.19 ank=   0.82
+   180 New: x=   66.33 y=  -40.20 z=   14.69 ank=   0.97
+  nkrat=           7  nk=           7  ntot=        1893
+
+   217 Old: x=   -6.24 y=   11.37 z=    4.19 ank=   0.47
+   200 New: x=   -5.74 y=   11.87 z=   -0.31 ank=   0.88
+  nkrat=          17  nk=          17  ntot=        2189
+
+   237 Old: x=    3.11 y=   -0.19 z=    3.31 ank=   0.53
+   220 New: x=    4.11 y=    0.31 z=   -0.19 ank=   0.91
+  nkrat=          10  nk=          10  ntot=        2420
+
+   262 Old: x=    9.59 y=   -7.31 z=    6.36 ank=   0.34
+   240 New: x=   16.59 y=  -10.31 z=    0.36 ank=   0.79
+  nkrat=          11  nk=          10  ntot=        2660
+
+   283 Old: x=   22.22 y=  -12.15 z=   20.86 ank=   0.25
+   260 New: x=   17.72 y=   -9.15 z=    0.36 ank=   0.82
+  nkrat=          14  nk=          13  ntot=        2914
+
+   304 Old: x=  -78.41 y=   -3.95 z=   89.79 ank=   0.46
+   280 New: x=  -88.41 y=  -10.45 z=   47.29 ank=   0.74
+  nkrat=          13  nk=          12  ntot=        3179
+
+   324 Old: x=    5.11 y=  -12.59 z=    4.65 ank=   0.47
+   300 New: x=    5.11 y=  -11.09 z=   -0.35 ank=   0.87
+  nkrat=          14  nk=          14  ntot=        3478
+
+   345 Old: x=    4.89 y=   -0.41 z=    2.13 ank=   0.34
+   320 New: x=    4.89 y=   -2.41 z=    0.13 ank=   0.75
+  nkrat=          14  nk=          12  ntot=        3779
+
+   370 Old: x=   -7.28 y=   51.67 z=  179.15 ank=   0.48
+   340 New: x=  -10.78 y=   69.67 z=  197.15 ank=   0.88
+  nkrat=          38  nk=          38  ntot=        4206
+
+   396 Old: x=    3.29 y=   -4.64 z=    9.83 ank=   0.27
+   360 New: x=    4.29 y=   -4.14 z=   -0.17 ank=   0.88
+  nkrat=          18  nk=          16  ntot=        4440
+
+   416 Old: x=    3.74 y=   -5.40 z=    4.72 ank=   0.43
+   380 New: x=    3.74 y=   -4.90 z=   -0.28 ank=   0.86
+  nkrat=          27  nk=          27  ntot=        4844
+
+   436 Old: x=   -2.55 y=   11.79 z=   18.23 ank=   0.20
+   400 New: x=   -5.05 y=   11.79 z=   -0.27 ank=   0.85
+  nkrat=          15  nk=          15  ntot=        5129
+
+   457 Old: x=   40.13 y=  -21.45 z=   17.43 ank=   0.28
+   420 New: x=   61.13 y=  -36.45 z=   13.43 ank=   0.80
+  nkrat=          28  nk=          28  ntot=        5577
+
+   479 Old: x=  -14.31 y=   35.33 z=    4.26 ank=   0.52
+   440 New: x=  -10.81 y=   35.83 z=    7.26 ank=   0.58
+  nkrat=          10  nk=           8  ntot=        5927
+
+   499 Old: x=    6.51 y=    3.51 z=    4.13 ank=   0.47
+   460 New: x=    5.01 y=    4.51 z=    0.13 ank=   0.90
+  nkrat=          12  nk=          12  ntot=        6241
+
+   521 Old: x=   42.09 y=   -5.67 z=    0.00 ank=   0.26
+   480 New: x=   62.09 y=  -36.17 z=   10.50 ank=   0.82
+  nkrat=          17  nk=          17  ntot=        6556
+
+   542 Old: x=    4.07 y=   -0.16 z=    3.75 ank=   0.44
+   500 New: x=    3.57 y=   -0.16 z=   -0.25 ank=   0.89
+  nkrat=          20  nk=          20  ntot=        6860
+
+   563 Old: x=    7.18 y=    5.40 z=    4.78 ank=   0.41
+   520 New: x=    7.18 y=    5.90 z=   -0.22 ank=   0.90
+  nkrat=          16  nk=          16  ntot=        7184
+
+   583 Old: x=    2.43 y=    6.80 z=    6.66 ank=   0.43
+   540 New: x=    2.43 y=    6.30 z=   -0.34 ank=   0.85
+  nkrat=          17  nk=          17  ntot=        7493
+
+   605 Old: x=   40.87 y=  -18.99 z=    6.29 ank=   0.32
+   560 New: x=   58.87 y=  -33.99 z=   13.29 ank=   0.88
+  nkrat=          29  nk=          29  ntot=        7837
+
+   625 Old: x=   13.24 y=  -11.00 z=    4.74 ank=   0.45
+   580 New: x=   11.24 y=  -12.50 z=   -0.26 ank=   0.85
+  nkrat=          14  nk=          14  ntot=        8228
+
+   646 Old: x=   42.14 y=  -25.49 z=    6.28 ank=   0.34
+   600 New: x=   60.64 y=  -33.99 z=   10.78 ank=   0.83
+  nkrat=          25  nk=          25  ntot=        8633
+
+   666 Old: x=   35.39 y=  -14.77 z=    5.00 ank=   0.63
+   620 New: x=   68.89 y=  -40.77 z=   10.00 ank=   0.92
+  nkrat=          12  nk=          12  ntot=        8989
+
+   701 Old: x=   44.90 y=  -53.99 z=  198.00 ank=   0.36
+   640 New: x=   66.90 y=  -66.99 z=  235.00 ank=   0.76
+  nkrat=          41  nk=          40  ntot=        9533
+
+   729 Old: x=    1.75 y=   21.46 z=  164.09 ank=   0.32
+   660 New: x=  -27.25 y=  -24.54 z=  179.09 ank=   0.89
+  nkrat=          16  nk=          16  ntot=       10003
+
+   756 Old: x= -100.46 y=  -23.45 z=  167.00 ank=   0.47
+   680 New: x=  -82.46 y=  -18.45 z=  140.00 ank=   0.86
+  nkrat=          16  nk=          16  ntot=       10365
+
+   790 Old: x=  -57.83 y=   58.82 z=  205.20 ank=   0.40
+   700 New: x=   -6.83 y=   83.82 z=  192.70 ank=   0.83
+  nkrat=          30  nk=          30  ntot=       10983
+
+  nztgood=         712
+  _________________________________________________________
+  LOCATE THE SOURCES USING THE 3D RAY TRACING 
+  SOURCE LOCATION: ar=UT_SET06 md=MODEL_06 it=1
+  ar=UT_SET06 md=MODEL_06
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
+  nan=           0
+           4
+  nref=          13
+  -44.905418      -43.001953       46.306900              10
+  -44.630051      -43.146706       50.735088    
+  old resid=  0.20068604      new_resid=  0.18595783      red=   7.3389320    
+          20         262  ds=   4.4391026      G=  0.92878515    
+  ********************************************
+   5.5712552      -12.022217     -0.47219992              13
+   4.8456616      -11.824136       3.9189806    
+  old resid=  0.21490549      new_resid=  0.20134845      red=   6.3083725    
+          40         541  ds=   4.4551306      G=  0.87660813    
+  ********************************************
+  0.62253189       86.176025       125.46939               7
+  0.63799030       85.913628       131.45465    
+  old resid=  0.22739597      new_resid=  0.21787703      red=   4.1860571    
+          60         769  ds=   5.9910293      G=  0.97314441    
+  ********************************************
+   30.432085       86.593018       175.56750               8
+   30.311211       86.449677       179.86565    
+  old resid=  0.20903030      new_resid=  0.20220840      red=   3.2635939    
+          80         937  ds=   4.3022294      G=  0.96986055    
+  ********************************************
+   5.1412964     -0.75805664     -0.12380004              14
+   4.8684230     -0.93197608      0.66706079    
+  old resid=  0.20378099      new_resid=  0.19735259      red=   3.1545613    
+         100        1112  ds=  0.85449910      G=  0.88098079    
+  ********************************************
+  0.11446440       2.4240723     -0.82800007              10
+ -5.28178364E-02   2.4901729       5.2840276    
+  old resid=  0.20740581      new_resid=  0.20231891      red=   2.4526372    
+         120        1301  ds=   6.1146736      G=  0.87351292    
+  ********************************************
+   10.614083      -16.995361     -0.40829992              11
+   11.107826      -16.019745       2.8327770    
+  old resid=  0.20938808      new_resid=  0.20033132      red=   4.3253503    
+         140        1488  ds=   3.4205539      G=  0.90621221    
+  ********************************************
+   9.1964521      -17.372803      0.39190006              10
+   9.1934967      -16.429436       4.6366720    
+  old resid=  0.22660360      new_resid=  0.21443175      red=   5.3714280    
+         160        1688  ds=   4.3483377      G=  0.86010569    
+  ********************************************
+   66.325058      -40.201416       14.687000               7
+   66.325058      -40.201416       14.687000    
+  old resid=  0.23679541      new_resid=  0.22284135      red=   5.8928766    
+         180        1893  ds=   0.0000000      G=  0.97681397    
+  ********************************************
+  -5.7390275       11.874023     -0.31379986              17
+  -4.4693670       11.295769       3.3733382    
+  old resid=  0.23263304      new_resid=  0.21799214      red=   6.2935581    
+         200        2189  ds=   3.9422586      G=  0.91440618    
+  ********************************************
+   4.1066027      0.31054688     -0.19499993              10
+   3.5199919      0.12007710      0.93586278    
+  old resid=  0.23050757      new_resid=  0.21616983      red=   6.2200727    
+         220        2420  ds=   1.2881155      G=  0.92312551    
+  ********************************************
+   16.594036      -10.308594      0.36180019              10
+   16.889427      -10.201551       3.9015255    
+  old resid=  0.22861262      new_resid=  0.21402586      red=   6.3805575    
+         240        2660  ds=   3.5536418      G=  0.94153607    
+  ********************************************
+   17.724295      -9.1474609      0.36409950              13
+   18.339178      -8.6836853       3.3373132    
+  old resid=  0.23051569      new_resid=  0.21599434      red=   6.2995019    
+         260        2914  ds=   3.0713463      G=  0.85495758    
+  ********************************************
+  -88.413971      -10.445313       47.291702              12
+  -88.367760      -10.695814       52.285210    
+  old resid=  0.23138040      new_resid=  0.21723217      red=   6.1147075    
+         280        3179  ds=   5.0000000      G=  0.90884525    
+  ********************************************
+   5.1086960      -11.088135     -0.35309982              14
+   4.6167159      -11.905274       3.6295357    
+  old resid=  0.23234707      new_resid=  0.21761245      red=   6.3416429    
+         300        3478  ds=   4.0952592      G=  0.89982361    
+  ********************************************
+   4.8866673      -2.4123535      0.13210011              12
+   4.8129039      -1.7426584      -1.6426213    
+  old resid=  0.23283876      new_resid=  0.21782507      red=   6.4481082    
+         320        3779  ds=   1.8983067      G=  0.82125646    
+  ********************************************
+  -10.777163       69.669922       197.14729              38
+  -11.436942       70.455147       213.69418    
+  old resid=  0.23267074      new_resid=  0.21809001      red=   6.2666721    
+         340        4206  ds=   16.578646      G=  0.90554720    
+  ********************************************
+   4.2908940      -4.1374512     -0.17010021              16
+   4.3157310      -4.2504787      0.74283671    
+  old resid=  0.23036113      new_resid=  0.21578085      red=   6.3293147    
+         360        4440  ds=  0.92024231      G=  0.90728128    
+  ********************************************
+   3.7434614      -4.9045410     -0.28100014              27
+   3.9340587      -5.1742024       1.2300717    
+  old resid=  0.23103538      new_resid=  0.21672715      red=   6.1930919    
+         380        4844  ds=   1.5467329      G=  0.88992703    
+  ********************************************
+  -5.0536470       11.786377     -0.26959991              15
+  -4.1923680       11.562944       4.6505909    
+  old resid=  0.22964615      new_resid=  0.21600153      red=   5.9415860    
+         400        5129  ds=   5.0000000      G=  0.88730729    
+  ********************************************
+   61.127945      -36.445557       13.429600              28
+   65.667084      -41.778236       20.557905    
+  old resid=  0.23326562      new_resid=  0.21797641      red=   6.5544224    
+         420        5577  ds=   9.9926968      G=  0.84578151    
+  ********************************************
+  -10.811965       35.830811       7.2625999               8
+  -16.207500       36.058525       11.740017    
+  old resid=  0.23451754      new_resid=  0.21947134      red=   6.4158101    
+         440        5927  ds=   7.0150495      G=  0.66538233    
+  ********************************************
+   5.0130138       4.5122070      0.12739992              12
+   5.9112697       4.1650319       2.7554793    
+  old resid=  0.23393632      new_resid=  0.21949020      red=   6.1752338    
+         460        6241  ds=   2.7989633      G=  0.93908519    
+  ********************************************
+   62.092022      -36.172852       10.500000              17
+   67.231682      -37.284435       12.930793    
+  old resid=  0.23391567      new_resid=  0.22002180      red=   5.9396949    
+         480        6556  ds=   5.7931404      G=  0.83823162    
+  ********************************************
+   3.5735984     -0.15625000     -0.25160003              20
+   3.1670575     -0.25955811      0.48361284    
+  old resid=  0.23236826      new_resid=  0.21885505      red=   5.8154249    
+         500        6860  ds=  0.84645492      G=  0.91287452    
+  ********************************************
+   7.1827736       5.9023438     -0.22079992              16
+   7.1049094       5.9596395      0.83835328    
+  old resid=  0.23281640      new_resid=  0.21909016      red=   5.8957329    
+         520        7184  ds=   1.0635560      G=  0.91905254    
+  ********************************************
+   2.4287629       6.3046875     -0.33949995              17
+   2.3617513       7.1513386       2.2960339    
+  old resid=  0.23167151      new_resid=  0.21850711      red=   5.6823568    
+         540        7493  ds=   2.7689974      G=  0.87395763    
+  ********************************************
+   58.874371      -33.990479       13.287800              29
+   64.883972      -38.204357       15.961182    
+  old resid=  0.23180753      new_resid=  0.21944334      red=   5.3338189    
+         560        7837  ds=   7.8114696      G=  0.91668087    
+  ********************************************
+   11.241298      -12.502930     -0.25740004              14
+   11.334559      -12.465158       1.3926666    
+  old resid=  0.23388258      new_resid=  0.22116540      red=   5.4374213    
+         580        8228  ds=   1.6531317      G=  0.88157815    
+  ********************************************
+   60.640644      -33.987305       10.777400              25
+   63.998680      -39.213554       14.366328    
+  old resid=  0.23800227      new_resid=  0.22461231      red=   5.6259766    
+         600        8633  ds=   7.1742940      G=  0.85952836    
+  ********************************************
+   68.887138      -40.774170       10.003500              12
+   68.906334      -40.767376       9.3479290    
+  old resid=  0.24017319      new_resid=  0.22552823      red=   6.0976672    
+         620        8989  ds=  0.65588713      G=  0.94969153    
+  ********************************************
+   66.901932      -66.993896       235.00000              40
+   67.500282      -67.698578       249.50920    
+  old resid=  0.24346076      new_resid=  0.22994672      red=   5.5508084    
+         640        9533  ds=   14.538622      G=  0.83083439    
+  ********************************************
+  -27.248833      -24.539795       179.09000              16
+  -27.624687      -24.647623       197.06332    
+  old resid=  0.24321136      new_resid=  0.23058446      red=   5.1917396    
+         660       10003  ds=   17.977581      G=  0.91696584    
+  ********************************************
+  -82.460411      -18.453857       140.00000              16
+  -83.429031      -18.776148       159.79512    
+  old resid=  0.24277304      new_resid=  0.23044990      red=   5.0759883    
+         680       10365  ds=   19.821424      G=  0.87860948    
+  ********************************************
+  -6.8277473       83.824951       192.70000              30
+  -7.5654335       84.593483       211.02599    
+  old resid=  0.24485840      new_resid=  0.23343202      red=   4.6665225    
+         700       10983  ds=   18.356924      G=  0.86448503    
+  ********************************************
+  nzt=         712  nray=       11411
+  _________________________________________________________
+  COMPUTE THE RAY DENSITY 
+  Computing ray density
+  ar=UT_SET06 md=MODEL_06 it=1 gr=1
+  orient=   0.0000000    
+  nx=          67  ny=          67  nz=          52
+  nzt=         100  nray=         820         292
+  nzt=         200  nray=        1445         744
+  nzt=         300  nray=        2192        1286
+  nzt=         400  nray=        3231        1898
+  nzt=         500  nray=        4232        2628
+  nzt=         600  nray=        5272        3361
+  nzt=         700  nray=        6804        4179
+  total number of rays:        7063        4348
+  _________________________________________________________
+  DEFINE THE PARAMETERIZATION GRID 
+  execution grid
+  ar=UT_SET06 md=MODEL_06 it=1 gr=1
+  nx=          67  ny=          67  nz=          52
+  nmax_p=      100000
+  aver ray lenght in one block=   9.5950499    
+  iy=           5  node=          58  yy=  -86.500000    
+  iy=          10  node=         128  yy=  -71.500000    
+  iy=          15  node=         245  yy=  -56.500000    
+  iy=          20  node=         400  yy=  -41.500000    
+  iy=          25  node=         594  yy=  -26.500000    
+  iy=          30  node=         693  yy=  -11.500000    
+  iy=          35  node=         636  yy=   3.5000000    
+  iy=          40  node=         673  yy=   18.500000    
+  iy=          45  node=         614  yy=   33.500000    
+  iy=          50  node=         498  yy=   48.500000    
+  iy=          55  node=         280  yy=   63.500000    
+  iy=          60  node=         127  yy=   78.500000    
+  iy=          65  node=          51  yy=   93.500000    
+  number of valuable velocity parameters:       19299
+  aver ray lenght in one block=   7.5827818    
+  iy=           5  node=          18  yy=  -86.500000    
+  iy=          10  node=          71  yy=  -71.500000    
+  iy=          15  node=         145  yy=  -56.500000    
+  iy=          20  node=         266  yy=  -41.500000    
+  iy=          25  node=         378  yy=  -26.500000    
+  iy=          30  node=         410  yy=  -11.500000    
+  iy=          35  node=         420  yy=   3.5000000    
+  iy=          40  node=         428  yy=   18.500000    
+  iy=          45  node=         330  yy=   33.500000    
+  iy=          50  node=         245  yy=   48.500000    
+  iy=          55  node=         113  yy=   63.500000    
+  iy=          60  node=          48  yy=   78.500000    
+  iy=          65  node=          21  yy=   93.500000    
+  number of valuable velocity parameters:       10531
+  execution of Tetrad
+  ar=UT_SET06 md=MODEL_06 it=1 gr=1
+  nur=           5  ntet=         197  ntop=          44
+  nur=          10  ntet=         569  ntop=         116
+  nur=          15  ntet=        1168  ntop=         207
+  nur=          20  ntet=        2060  ntop=         387
+  nur=          25  ntet=        3123  ntop=         555
+  nur=          30  ntet=        3699  ntop=         658
+  nur=          35  ntet=        3591  ntop=         678
+  nur=          40  ntet=        3825  ntop=         712
+  nur=          45  ntet=        3203  ntop=         562
+  nur=          50  ntet=        2727  ntop=         526
+  nur=          55  ntet=        1476  ntop=         316
+  nur=          60  ntet=         656  ntop=         157
+  nur=          65  ntet=         217  ntop=          58
+  nur=           5  ntet=         128  ntop=          27
+  nur=          10  ntet=         532  ntop=         102
+  nur=          15  ntet=        1015  ntop=         183
+  nur=          20  ntet=        1548  ntop=         284
+  nur=          25  ntet=        2133  ntop=         408
+  nur=          30  ntet=        1992  ntop=         390
+  nur=          35  ntet=        2423  ntop=         470
+  nur=          40  ntet=        1944  ntop=         372
+  nur=          45  ntet=        1458  ntop=         281
+  nur=          50  ntet=         847  ntop=         178
+  nur=          55  ntet=         334  ntop=          81
+  nur=          60  ntet=         109  ntop=          29
+  execution of sosedi
+  ar=UT_SET06 md=MODEL_06 it=  gr= 
+  ilev=           5  notr(ilev)=          66  total=         197
+  ilev=          10  notr(ilev)=         422  total=        1446
+  ilev=          15  notr(ilev)=        1070  total=        5374
+  ilev=          20  notr(ilev)=        1862  total=       13083
+  ilev=          25  notr(ilev)=        3127  total=       25525
+  ilev=          30  notr(ilev)=        3723  total=       43296
+  ilev=          35  notr(ilev)=        3513  total=       61362
+  ilev=          40  notr(ilev)=        3806  total=       80576
+  ilev=          45  notr(ilev)=        3229  total=       97144
+  ilev=          50  notr(ilev)=        2500  total=      111634
+  ilev=          55  notr(ilev)=        1133  total=      119781
+  ilev=          60  notr(ilev)=         390  total=      123194
+  ilev=          65  notr(ilev)=          77  total=      123914
+  ilev=           5  notr(ilev)=          53  total=         101
+  ilev=          10  notr(ilev)=         429  total=        1403
+  ilev=          15  notr(ilev)=         918  total=        4878
+  ilev=          20  notr(ilev)=        1422  total=       11121
+  ilev=          25  notr(ilev)=        1933  total=       20449
+  ilev=          30  notr(ilev)=        1795  total=       29819
+  ilev=          35  notr(ilev)=        2225  total=       40521
+  ilev=          40  notr(ilev)=        1819  total=       50981
+  ilev=          45  notr(ilev)=        1353  total=       58887
+  ilev=          50  notr(ilev)=         679  total=       63895
+  ilev=          55  notr(ilev)=         162  total=       65549
+  ilev=          60  notr(ilev)=          43  total=       65833
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=1 gr=1
+  orient=   0.0000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19299
+  nmax=         712  otr nmax=        2025
+  number of velocity parameters=       19299
+  number of velocity parameters=       10531
+  1000    88     1    20  -0.010
+  2000   187     2    20  -0.174
+  3000   267     1   189  -0.233
+  4000   328     2    33  -0.512
+  5000   392     1    39  -0.383
+  6000   445     1    38   0.061
+  7000   509     1    28   0.241
+  8000   567     2    38  -0.519
+  9000   621     1    36  -0.072
+ 10000   660     1    93  -0.221
+ 11000   701     2   150   0.011
+  nray=       11411  nzt=         712
+  nobr=       19299       10531  nonzer=      833784
+  nrp=        7063  nonz_p=      580589
+  nrs=        4348  nonz_s=      253195
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=1
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      201254  N nonzer=     1270525
+
+  N rows=      201254  N columns=       32744  N nonzer=     1270525
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.23715261      avres=  0.14251858      red=   39.904274    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.75930345      avdv_s=  0.79153901    
+  avstat_p=  0.12311551      avstat_s=  0.22518335    
+  source corrections:
+  av1=   1.1233579      av2=  0.95356596      av3=  0.14252229    
+  _________________________________________________________
+  COMPUTE THE RAY DENSITY 
+  Computing ray density
+  ar=UT_SET06 md=MODEL_06 it=1 gr=2
+  orient=   22.000000    
+  nx=          67  ny=          67  nz=          52
+  nzt=         100  nray=         820         292
+  nzt=         200  nray=        1445         744
+  nzt=         300  nray=        2192        1286
+  nzt=         400  nray=        3231        1898
+  nzt=         500  nray=        4232        2628
+  nzt=         600  nray=        5272        3361
+  nzt=         700  nray=        6804        4179
+  total number of rays:        7063        4348
+  _________________________________________________________
+  DEFINE THE PARAMETERIZATION GRID 
+  execution grid
+  ar=UT_SET06 md=MODEL_06 it=1 gr=2
+  nx=          67  ny=          67  nz=          52
+  nmax_p=      100000
+  aver ray lenght in one block=   9.5612192    
+  iy=           5  node=          56  yy=  -86.500000    
+  iy=          10  node=         152  yy=  -71.500000    
+  iy=          15  node=         210  yy=  -56.500000    
+  iy=          20  node=         402  yy=  -41.500000    
+  iy=          25  node=         511  yy=  -26.500000    
+  iy=          30  node=         532  yy=  -11.500000    
+  iy=          35  node=         560  yy=   3.5000000    
+  iy=          40  node=         726  yy=   18.500000    
+  iy=          45  node=         725  yy=   33.500000    
+  iy=          50  node=         466  yy=   48.500000    
+  iy=          55  node=         275  yy=   63.500000    
+  iy=          60  node=         156  yy=   78.500000    
+  iy=          65  node=          90  yy=   93.500000    
+  number of valuable velocity parameters:       19525
+  aver ray lenght in one block=   7.5263586    
+  iy=           5  node=          25  yy=  -86.500000    
+  iy=          10  node=          91  yy=  -71.500000    
+  iy=          15  node=         168  yy=  -56.500000    
+  iy=          20  node=         321  yy=  -41.500000    
+  iy=          25  node=         370  yy=  -26.500000    
+  iy=          30  node=         334  yy=  -11.500000    
+  iy=          35  node=         327  yy=   3.5000000    
+  iy=          40  node=         448  yy=   18.500000    
+  iy=          45  node=         467  yy=   33.500000    
+  iy=          50  node=         232  yy=   48.500000    
+  iy=          55  node=          66  yy=   63.500000    
+  iy=          60  node=          30  yy=   78.500000    
+  iy=          65  node=           6  yy=   93.500000    
+  number of valuable velocity parameters:       10793
+  execution of Tetrad
+  ar=UT_SET06 md=MODEL_06 it=1 gr=2
+  nur=           5  ntet=         210  ntop=          42
+  nur=          10  ntet=         681  ntop=         132
+  nur=          15  ntet=         996  ntop=         184
+  nur=          20  ntet=        2118  ntop=         372
+  nur=          25  ntet=        2758  ntop=         487
+  nur=          30  ntet=        2846  ntop=         523
+  nur=          35  ntet=        3093  ntop=         576
+  nur=          40  ntet=        4002  ntop=         719
+  nur=          45  ntet=        4074  ntop=         747
+  nur=          50  ntet=        2651  ntop=         535
+  nur=          55  ntet=        1446  ntop=         306
+  nur=          60  ntet=         791  ntop=         179
+  nur=          65  ntet=         436  ntop=         107
+  nur=           5  ntet=         196  ntop=          42
+  nur=          10  ntet=         647  ntop=         125
+  nur=          15  ntet=        1295  ntop=         227
+  nur=          20  ntet=        2093  ntop=         377
+  nur=          25  ntet=        1990  ntop=         378
+  nur=          30  ntet=        1768  ntop=         352
+  nur=          35  ntet=        2124  ntop=         393
+  nur=          40  ntet=        2629  ntop=         523
+  nur=          45  ntet=        1780  ntop=         373
+  nur=          50  ntet=         619  ntop=         149
+  nur=          55  ntet=         183  ntop=          47
+  nur=          60  ntet=          69  ntop=          22
+  execution of sosedi
+  ar=UT_SET06 md=MODEL_06 it=  gr= 
+  ilev=           5  notr(ilev)=          83  total=         236
+  ilev=          10  notr(ilev)=         526  total=        1781
+  ilev=          15  notr(ilev)=         879  total=        5500
+  ilev=          20  notr(ilev)=        2146  total=       13865
+  ilev=          25  notr(ilev)=        2830  total=       27455
+  ilev=          30  notr(ilev)=        2774  total=       41862
+  ilev=          35  notr(ilev)=        3039  total=       56662
+  ilev=          40  notr(ilev)=        4084  total=       75996
+  ilev=          45  notr(ilev)=        4095  total=       97116
+  ilev=          50  notr(ilev)=        2367  total=      112728
+  ilev=          55  notr(ilev)=        1103  total=      120576
+  ilev=          60  notr(ilev)=         533  total=      124256
+  ilev=          65  notr(ilev)=         248  total=      125825
+  ilev=           5  notr(ilev)=          80  total=         175
+  ilev=          10  notr(ilev)=         492  total=        1843
+  ilev=          15  notr(ilev)=        1233  total=        5972
+  ilev=          20  notr(ilev)=        2046  total=       14690
+  ilev=          25  notr(ilev)=        1864  total=       24351
+  ilev=          30  notr(ilev)=        1563  total=       32531
+  ilev=          35  notr(ilev)=        1991  total=       41420
+  ilev=          40  notr(ilev)=        2330  total=       52858
+  ilev=          45  notr(ilev)=        1466  total=       62608
+  ilev=          50  notr(ilev)=         363  total=       66506
+  ilev=          55  notr(ilev)=          56  total=       67115
+  ilev=          60  notr(ilev)=          10  total=       67272
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=1 gr=2
+  orient=   22.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19525
+  nmax=         782  otr nmax=        2227
+  number of velocity parameters=       19525
+  number of velocity parameters=       10793
+  1000    88     1    17  -0.010
+  2000   187     2    17  -0.174
+  3000   267     1   180  -0.233
+  4000   328     2    33  -0.512
+  5000   392     1    43  -0.383
+  6000   445     1    40   0.061
+  7000   509     1    27   0.241
+  8000   567     2    37  -0.519
+  9000   621     1    34  -0.072
+ 10000   660     1   100  -0.221
+ 11000   701     2   142   0.011
+  nray=       11411  nzt=         712
+  nobr=       19525       10793  nonzer=      836196
+  nrp=        7063  nonz_p=      581440
+  nrs=        4348  nonz_s=      254756
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=1
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      204674  N nonzer=     1279777
+
+  N rows=      204674  N columns=       33232  N nonzer=     1279777
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.23715261      avres=  0.14257821      red=   39.879128    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.72675008      avdv_s=  0.75469941    
+  avstat_p=  0.12379791      avstat_s=  0.22497475    
+  source corrections:
+  av1=   1.1140392      av2=  0.94692677      av3=  0.14117719    
+  _________________________________________________________
+  COMPUTE THE RAY DENSITY 
+  Computing ray density
+  ar=UT_SET06 md=MODEL_06 it=1 gr=3
+  orient=   45.000000    
+  nx=          67  ny=          67  nz=          52
+  nzt=         100  nray=         820         292
+  nzt=         200  nray=        1445         744
+  nzt=         300  nray=        2192        1286
+  nzt=         400  nray=        3231        1898
+  nzt=         500  nray=        4232        2628
+  nzt=         600  nray=        5272        3361
+  nzt=         700  nray=        6804        4179
+  total number of rays:        7063        4348
+  _________________________________________________________
+  DEFINE THE PARAMETERIZATION GRID 
+  execution grid
+  ar=UT_SET06 md=MODEL_06 it=1 gr=3
+  nx=          67  ny=          67  nz=          52
+  nmax_p=      100000
+  aver ray lenght in one block=   9.4971552    
+  iy=           5  node=          37  yy=  -86.500000    
+  iy=          10  node=          86  yy=  -71.500000    
+  iy=          15  node=         301  yy=  -56.500000    
+  iy=          20  node=         529  yy=  -41.500000    
+  iy=          25  node=         543  yy=  -26.500000    
+  iy=          30  node=         455  yy=  -11.500000    
+  iy=          35  node=         466  yy=   3.5000000    
+  iy=          40  node=         719  yy=   18.500000    
+  iy=          45  node=         697  yy=   33.500000    
+  iy=          50  node=         481  yy=   48.500000    
+  iy=          55  node=         328  yy=   63.500000    
+  iy=          60  node=         204  yy=   78.500000    
+  iy=          65  node=         110  yy=   93.500000    
+  number of valuable velocity parameters:       19816
+  aver ray lenght in one block=   7.4792347    
+  iy=          10  node=          67  yy=  -71.500000    
+  iy=          15  node=         233  yy=  -56.500000    
+  iy=          20  node=         422  yy=  -41.500000    
+  iy=          25  node=         427  yy=  -26.500000    
+  iy=          30  node=         320  yy=  -11.500000    
+  iy=          35  node=         275  yy=   3.5000000    
+  iy=          40  node=         438  yy=   18.500000    
+  iy=          45  node=         402  yy=   33.500000    
+  iy=          50  node=         190  yy=   48.500000    
+  iy=          55  node=         109  yy=   63.500000    
+  iy=          60  node=          60  yy=   78.500000    
+  iy=          65  node=          19  yy=   93.500000    
+  number of valuable velocity parameters:       11102
+  execution of Tetrad
+  ar=UT_SET06 md=MODEL_06 it=1 gr=3
+  nur=           5  ntet=         128  ntop=          29
+  nur=          10  ntet=         346  ntop=          71
+  nur=          15  ntet=        1421  ntop=         245
+  nur=          20  ntet=        2799  ntop=         484
+  nur=          25  ntet=        2977  ntop=         529
+  nur=          30  ntet=        2588  ntop=         485
+  nur=          35  ntet=        2501  ntop=         455
+  nur=          40  ntet=        3826  ntop=         668
+  nur=          45  ntet=        3984  ntop=         748
+  nur=          50  ntet=        2606  ntop=         494
+  nur=          55  ntet=        1758  ntop=         371
+  nur=          60  ntet=        1029  ntop=         224
+  nur=          65  ntet=         567  ntop=         134
+  nur=           5  ntet=         255  ntop=          51
+  nur=          10  ntet=        1094  ntop=         199
+  nur=          15  ntet=        2190  ntop=         387
+  nur=          20  ntet=        2334  ntop=         431
+  nur=          25  ntet=        1768  ntop=         344
+  nur=          30  ntet=        1426  ntop=         275
+  nur=          35  ntet=        2192  ntop=         387
+  nur=          40  ntet=        2267  ntop=         462
+  nur=          45  ntet=         939  ntop=         216
+  nur=          50  ntet=         516  ntop=         124
+  nur=          55  ntet=         280  ntop=          70
+  nur=          60  ntet=          90  ntop=          26
+  execution of sosedi
+  ar=UT_SET06 md=MODEL_06 it=  gr= 
+  ilev=           5  notr(ilev)=          47  total=         107
+  ilev=          10  notr(ilev)=         206  total=         711
+  ilev=          15  notr(ilev)=        1360  total=        4628
+  ilev=          20  notr(ilev)=        2896  total=       16232
+  ilev=          25  notr(ilev)=        3062  total=       30917
+  ilev=          30  notr(ilev)=        2562  total=       44884
+  ilev=          35  notr(ilev)=        2500  total=       56875
+  ilev=          40  notr(ilev)=        3931  total=       75159
+  ilev=          45  notr(ilev)=        3917  total=       96230
+  ilev=          50  notr(ilev)=        2419  total=      111215
+  ilev=          55  notr(ilev)=        1393  total=      120579
+  ilev=          60  notr(ilev)=         741  total=      125257
+  ilev=          65  notr(ilev)=         357  total=      127870
+  ilev=           5  notr(ilev)=         145  total=         272
+  ilev=          10  notr(ilev)=         957  total=        3067
+  ilev=          15  notr(ilev)=        2165  total=       11638
+  ilev=          20  notr(ilev)=        2283  total=       23120
+  ilev=          25  notr(ilev)=        1626  total=       32297
+  ilev=          30  notr(ilev)=        1269  total=       39152
+  ilev=          35  notr(ilev)=        2097  total=       48669
+  ilev=          40  notr(ilev)=        1918  total=       60541
+  ilev=          45  notr(ilev)=         556  total=       65899
+  ilev=          50  notr(ilev)=         281  total=       67828
+  ilev=          55  notr(ilev)=         141  total=       68624
+  ilev=          60  notr(ilev)=          40  total=       69027
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=1 gr=3
+  orient=   45.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19816
+  nmax=         788  otr nmax=        2243
+  number of velocity parameters=       19816
+  number of velocity parameters=       11102
+  1000    88     1    22  -0.010
+  2000   187     2    18  -0.174
+  3000   267     1   154  -0.233
+  4000   328     2    29  -0.512
+  5000   392     1    47  -0.383
+  6000   445     1    40   0.061
+  7000   509     1    30   0.241
+  8000   567     2    37  -0.519
+  9000   621     1    35  -0.072
+ 10000   660     1   104  -0.221
+ 11000   701     2   139   0.011
+  nray=       11411  nzt=         712
+  nobr=       19816       11102  nonzer=      831761
+  nrp=        7063  nonz_p=      579124
+  nrs=        4348  nonz_s=      252637
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=1
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      208565  N nonzer=     1283124
+
+  N rows=      208565  N columns=       33832  N nonzer=     1283124
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.23715261      avres=  0.14199266      red=   40.126041    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.74790192      avdv_s=  0.67715681    
+  avstat_p=  0.12834509      avstat_s=  0.22539841    
+  source corrections:
+  av1=   1.1742985      av2=   1.0317496      av3=  0.14576265    
+  _________________________________________________________
+  COMPUTE THE RAY DENSITY 
+  Computing ray density
+  ar=UT_SET06 md=MODEL_06 it=1 gr=4
+  orient=   67.000000    
+  nx=          67  ny=          67  nz=          52
+  nzt=         100  nray=         820         292
+  nzt=         200  nray=        1445         744
+  nzt=         300  nray=        2192        1286
+  nzt=         400  nray=        3231        1898
+  nzt=         500  nray=        4232        2628
+  nzt=         600  nray=        5272        3361
+  nzt=         700  nray=        6804        4179
+  total number of rays:        7063        4348
+  _________________________________________________________
+  DEFINE THE PARAMETERIZATION GRID 
+  execution grid
+  ar=UT_SET06 md=MODEL_06 it=1 gr=4
+  nx=          67  ny=          67  nz=          52
+  nmax_p=      100000
+  aver ray lenght in one block=   9.5363445    
+  iy=           5  node=          14  yy=  -86.500000    
+  iy=          10  node=          41  yy=  -71.500000    
+  iy=          15  node=         311  yy=  -56.500000    
+  iy=          20  node=         588  yy=  -41.500000    
+  iy=          25  node=         566  yy=  -26.500000    
+  iy=          30  node=         486  yy=  -11.500000    
+  iy=          35  node=         602  yy=   3.5000000    
+  iy=          40  node=         635  yy=   18.500000    
+  iy=          45  node=         521  yy=   33.500000    
+  iy=          50  node=         416  yy=   48.500000    
+  iy=          55  node=         314  yy=   63.500000    
+  iy=          60  node=         235  yy=   78.500000    
+  iy=          65  node=         161  yy=   93.500000    
+  number of valuable velocity parameters:       19587
+  aver ray lenght in one block=   7.4890561    
+  iy=          10  node=          37  yy=  -71.500000    
+  iy=          15  node=         260  yy=  -56.500000    
+  iy=          20  node=         484  yy=  -41.500000    
+  iy=          25  node=         445  yy=  -26.500000    
+  iy=          30  node=         357  yy=  -11.500000    
+  iy=          35  node=         372  yy=   3.5000000    
+  iy=          40  node=         399  yy=   18.500000    
+  iy=          45  node=         217  yy=   33.500000    
+  iy=          50  node=         125  yy=   48.500000    
+  iy=          55  node=          98  yy=   63.500000    
+  iy=          60  node=          70  yy=   78.500000    
+  iy=          65  node=          45  yy=   93.500000    
+  number of valuable velocity parameters:       10819
+  execution of Tetrad
+  ar=UT_SET06 md=MODEL_06 it=1 gr=4
+  nur=           5  ntet=          57  ntop=          16
+  nur=          10  ntet=         165  ntop=          32
+  nur=          15  ntet=        1413  ntop=         243
+  nur=          20  ntet=        3150  ntop=         556
+  nur=          25  ntet=        3063  ntop=         546
+  nur=          30  ntet=        2658  ntop=         490
+  nur=          35  ntet=        3008  ntop=         499
+  nur=          40  ntet=        3389  ntop=         587
+  nur=          45  ntet=        3089  ntop=         620
+  nur=          50  ntet=        2197  ntop=         408
+  nur=          55  ntet=        1712  ntop=         339
+  nur=          60  ntet=        1229  ntop=         249
+  nur=          65  ntet=         823  ntop=         188
+  nur=           5  ntet=         235  ntop=          37
+  nur=          10  ntet=        1492  ntop=         260
+  nur=          15  ntet=        2681  ntop=         484
+  nur=          20  ntet=        2339  ntop=         445
+  nur=          25  ntet=        1994  ntop=         357
+  nur=          30  ntet=        2026  ntop=         372
+  nur=          35  ntet=        2007  ntop=         399
+  nur=          40  ntet=        1089  ntop=         217
+  nur=          45  ntet=         603  ntop=         125
+  nur=          50  ntet=         423  ntop=          98
+  nur=          55  ntet=         294  ntop=          70
+  nur=          60  ntet=         157  ntop=          45
+  execution of sosedi
+  ar=UT_SET06 md=MODEL_06 it=  gr= 
+  ilev=           5  notr(ilev)=          26  total=          71
+  ilev=          10  notr(ilev)=         130  total=         382
+  ilev=          15  notr(ilev)=        1292  total=        3688
+  ilev=          20  notr(ilev)=        3206  total=       16419
+  ilev=          25  notr(ilev)=        3113  total=       33071
+  ilev=          30  notr(ilev)=        2610  total=       48247
+  ilev=          35  notr(ilev)=        3109  total=       62328
+  ilev=          40  notr(ilev)=        3521  total=       79104
+  ilev=          45  notr(ilev)=        2854  total=       96054
+  ilev=          50  notr(ilev)=        2071  total=      107705
+  ilev=          55  notr(ilev)=        1542  total=      116780
+  ilev=          60  notr(ilev)=        1024  total=      122833
+  ilev=          65  notr(ilev)=         553  total=      126429
+  ilev=           5  notr(ilev)=         170  total=         340
+  ilev=          10  notr(ilev)=        1377  total=        4239
+  ilev=          15  notr(ilev)=        2654  total=       15621
+  ilev=          20  notr(ilev)=        2213  total=       27717
+  ilev=          25  notr(ilev)=        1893  total=       37253
+  ilev=          30  notr(ilev)=        1926  total=       45944
+  ilev=          35  notr(ilev)=        1774  total=       54829
+  ilev=          40  notr(ilev)=         857  total=       60867
+  ilev=          45  notr(ilev)=         451  total=       64063
+  ilev=          50  notr(ilev)=         282  total=       65913
+  ilev=          55  notr(ilev)=         154  total=       66881
+  ilev=          60  notr(ilev)=          62  total=       67458
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=1 gr=4
+  orient=   67.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19587
+  nmax=         658  otr nmax=        1867
+  number of velocity parameters=       19587
+  number of velocity parameters=       10819
+  1000    88     1    23  -0.010
+  2000   187     2    17  -0.174
+  3000   267     1   132  -0.233
+  4000   328     2    35  -0.512
+  5000   392     1    38  -0.383
+  6000   445     1    38   0.061
+  7000   509     1    30   0.241
+  8000   567     2    30  -0.519
+  9000   621     1    35  -0.072
+ 10000   660     1   101  -0.221
+ 11000   701     2   138   0.011
+  nray=       11411  nzt=         712
+  nobr=       19587       10819  nonzer=      825059
+  nrp=        7063  nonz_p=      574446
+  nrs=        4348  nonz_s=      250613
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=1
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      205732  N nonzer=     1270756
+
+  N rows=      205732  N columns=       33320  N nonzer=     1270756
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.23715261      avres=  0.14250891      red=   39.908352    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.76974583      avdv_s=  0.62117994    
+  avstat_p=  0.12568901      avstat_s=  0.22282355    
+  source corrections:
+  av1=   1.1680092      av2=   1.0251263      av3=  0.14416802    
+  _________________________________________________________
+  COMPUTE THE VELOCITY FIELS IN 3D REGILAR GRID (VP-VS SCHEME) 
+  AREA : UT_SET06 model:MODEL_06 iter=           1
+  nref=          13
+  nxx=          67  nyy=          67  nzz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  _________________________________________________________
+  VISUALIZE THE RESULT IN HORIZONTAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06
+  npix_x=           0  npix_y=           0
+  nfmap=          79  ntmap=          73
+  nref=          13
+  ilev=           1  nzzt=         255
+  ilev=           2  nzzt=         174
+  ilev=           3  nzzt=          50
+  ilev=           4  nzzt=          43
+  ilev=           5  nzzt=           8
+  ilev=           6  nzzt=           2
+  ilev=           7  nzzt=           3
+  ilev=           8  nzzt=          17
+  ilev=           9  nzzt=          34
+  ilev=           1  zzz=   0.0000000    
+  ilev=           2  zzz=   5.0000000    
+  ilev=           3  zzz=   10.000000    
+  ilev=           4  zzz=   15.000000    
+  ilev=           5  zzz=   20.000000    
+  ilev=           6  zzz=   25.000000    
+  ilev=           7  zzz=   30.000000    
+  ilev=           8  zzz=   50.000000    
+  ilev=           9  zzz=   80.000000    
+  _________________________________________________________
+  VISUALIZE THE RESULT IN VERTICAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06 iter=           1
+mkdir: ../../../TMP_files/vert: File exists
+  nref=          13
+  nst1=          17  nzt1=         187
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          25  nzt1=         472
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         442
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          17  nzt1=         216
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          27  nzt1=         453
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         304
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl UT_SET06 MODEL_06 1 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P                                           
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '1' '../../../TMP_files/list_hor_s.txt' '../../../TMP_files/list_ver_s.txt' 'S'                               
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '1' '../../../TMP_files/list_hor_vpvs.txt' '../../../TMP_files/list_ver_vpvs.txt' 'VpVs'                      
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+  _________________________________________________________
+  LOCATE THE SOURCES USING THE 3D RAY TRACING 
+  SOURCE LOCATION: ar=UT_SET06 md=MODEL_06 it=2
+  ar=UT_SET06 md=MODEL_06
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
+  nan=           0
+           4
+  nref=          13
+  -44.058617      -43.466328       50.981529              10
+  -44.058617      -43.466328       50.981529    
+  old resid=  0.18595783      new_resid=  0.12465966      red=   32.963478    
+          20         262  ds=  0.69959146      G=  0.93324184    
+  ********************************************
+   5.2563791      -12.644467       4.3052874              13
+   5.4819899      -12.320965       3.5270450    
+  old resid=  0.20134845      new_resid=  0.11059613      red=   45.072273    
+          40         541  ds=  0.89742196      G=  0.97566485    
+  ********************************************
+  0.56079680       85.914818       131.44978               7
+  0.56079680       85.914818       131.44978    
+  old resid=  0.21787703      new_resid=  0.10847054      red=   50.214790    
+          60         769  ds=  7.73559660E-02  G=  0.97003937    
+  ********************************************
+   30.281445       86.484413       179.85133               8
+   30.281445       86.484413       179.85133    
+  old resid=  0.20220840      new_resid=  0.10946956      red=   45.862999    
+          80         937  ds=  4.79323268E-02  G=  0.97893739    
+  ********************************************
+   4.6419134     -0.85950637       2.9988844              14
+   4.6419134     -0.85950637       2.9988844    
+  old resid=  0.19735259      new_resid=  0.10969982      red=   44.414299    
+         100        1112  ds=   2.3439198      G=  0.95255786    
+  ********************************************
+  -1.5104636       1.9570105       5.1854696              10
+  -1.5104636       1.9570105       5.1854696    
+  old resid=  0.20231891      new_resid=  0.11067765      red=   45.295444    
+         120        1301  ds=   1.5552193      G=  0.96168596    
+  ********************************************
+   10.180177      -18.159529       3.7357576              11
+   10.047338      -17.636141       2.7159319    
+  old resid=  0.20033132      new_resid=  0.10996451      red=   45.108673    
+         140        1488  ds=   1.9367564      G=  0.96929169    
+  ********************************************
+   9.8908234      -18.371710       3.6239347              10
+   9.8908234      -18.371710       3.6239347    
+  old resid=  0.21443175      new_resid=  0.10899009      red=   49.172600    
+         160        1688  ds=   2.2987671      G=  0.97114503    
+  ********************************************
+   65.899124      -40.736149       14.890224               7
+   65.477318      -41.187206       15.822085    
+  old resid=  0.22284135      new_resid=  0.10951606      red=   50.854698    
+         180        1893  ds=   1.7259387      G=  0.96813184    
+  ********************************************
+  -6.1100979       11.136861       3.9722207              17
+  -5.9801092       10.559870       3.0288517    
+  old resid=  0.21799214      new_resid=  0.10596657      red=   51.389732    
+         200        2189  ds=   1.7153893      G=  0.96573114    
+  ********************************************
+   3.7687528      0.34236541      9.92105603E-02          10
+   3.7687528      0.34236541      9.92105603E-02
+  old resid=  0.21616983      new_resid=  0.10840477      red=   49.852036    
+         220        2420  ds=  0.90071142      G=  0.95052719    
+  ********************************************
+   16.922781      -10.223859       4.8130360              10
+   16.411810      -9.9991140       4.8927650    
+  old resid=  0.21402586      new_resid=  0.10973653      red=   48.727444    
+         240        2660  ds=   1.1187738      G=  0.94358259    
+  ********************************************
+   18.088524      -10.327693       7.1242647              13
+   17.531584      -9.6587648       5.0422993    
+  old resid=  0.21599434      new_resid=  0.10987227      red=   49.131874    
+         260        2914  ds=   2.1236682      G=  0.90487552    
+  ********************************************
+  -88.286797      -10.761584       52.633007              12
+  -88.316048      -10.913200       53.371059    
+  old resid=  0.21723217      new_resid=  0.11875813      red=   45.331238    
+         280        3179  ds=   1.1086030      G=  0.91574669    
+  ********************************************
+   5.2272215      -12.371244       3.5724814              14
+   5.2272215      -12.371244       3.5724814    
+  old resid=  0.21761245      new_resid=  0.11672363      red=   46.361694    
+         300        3478  ds=  0.77013004      G=  0.98402572    
+  ********************************************
+   5.1546559      -1.2432370      -1.7972081              12
+   4.4782510      -1.0471842      -1.3161416    
+  old resid=  0.21782507      new_resid=  0.11683680      red=   46.362099    
+         320        3779  ds=  0.83801299      G=  0.81326705    
+  ********************************************
+  -12.364525       72.572685       215.49072              38
+  -12.364525       72.572685       215.49072    
+  old resid=  0.21809001      new_resid=  0.11899579      red=   45.437305    
+         340        4206  ds=   2.9277861      G=  0.91887146    
+  ********************************************
+   3.1091628      -4.6978512       2.8151782              16
+   3.2264721      -4.5656309       2.1091421    
+  old resid=  0.21578085      new_resid=  0.11921015      red=   44.754063    
+         360        4440  ds=   1.7755551      G=  0.97055078    
+  ********************************************
+   3.1932998      -4.7796674       2.4828458              27
+   3.2204986      -4.6974287       1.6331800    
+  old resid=  0.21672715      new_resid=  0.11612673      red=   46.418003    
+         380        4844  ds=  0.94814426      G=  0.96338487    
+  ********************************************
+  -4.0184627       11.635748       5.3925261              15
+  -4.0184627       11.635748       5.3925261    
+  old resid=  0.21600153      new_resid=  0.11581101      red=   46.384174    
+         400        5129  ds=  0.76551378      G=  0.94032252    
+  ********************************************
+   67.366173      -42.403297       17.235050              28
+   67.366173      -42.403297       17.235050    
+  old resid=  0.21797641      new_resid=  0.12027249      red=   44.823158    
+         420        5577  ds=   3.7840416      G=  0.84489536    
+  ********************************************
+  -14.258692       35.994587       9.6886454               8
+  -17.730120       36.762501       14.691825    
+  old resid=  0.21947134      new_resid=  0.12189166      red=   44.461239    
+         440        5927  ds=   3.3951614      G=  0.65239382    
+  ********************************************
+   4.8021460       4.2414570      0.89862001              12
+   4.5007238       4.3556800       3.0310626    
+  old resid=  0.21949020      new_resid=  0.12110117      red=   44.826164    
+         460        6241  ds=   1.4498042      G=  0.93907934    
+  ********************************************
+   65.304825      -38.656288       12.727921              17
+   65.304825      -38.656288       12.727921    
+  old resid=  0.22002180      new_resid=  0.12146346      red=   44.794804    
+         480        6556  ds=   2.3740082      G=  0.84922767    
+  ********************************************
+   3.3024793     -0.33008516      0.62009490              20
+   3.3024793     -0.33008516      0.62009490    
+  old resid=  0.21885505      new_resid=  0.12109522      red=   44.668758    
+         500        6860  ds=  0.20479372      G=  0.95342934    
+  ********************************************
+   7.3191037       4.7448864       2.4704466              16
+   7.3141613       4.8905244       1.5418339    
+  old resid=  0.21909016      new_resid=  0.12164985      red=   44.474987    
+         520        7184  ds=   1.2967955      G=  0.95980430    
+  ********************************************
+   1.9881883       6.5434580       3.3190284              17
+   1.9881883       6.5434580       3.3190284    
+  old resid=  0.21850711      new_resid=  0.12075669      red=   44.735577    
+         540        7493  ds=   1.2472312      G=  0.96302611    
+  ********************************************
+   64.075813      -39.494587       13.112968              29
+   64.167419      -39.480721       13.998928    
+  old resid=  0.21944334      new_resid=  0.12204608      red=   44.383785    
+         560        7837  ds=   2.4480586      G=  0.91023928    
+  ********************************************
+   12.117091      -10.543070       2.5338652              14
+   11.900620      -10.427191       1.4438403    
+  old resid=  0.22116540      new_resid=  0.12484991      red=   43.549080    
+         580        8228  ds=   2.1157401      G=  0.92781335    
+  ********************************************
+   64.887764      -39.661118       11.520839              25
+   64.887764      -39.661118       11.520839    
+  old resid=  0.22461231      new_resid=  0.12831911      red=   42.870846    
+         600        8633  ds=   3.0145636      G=  0.87489730    
+  ********************************************
+   68.732460      -40.880718       9.0226259              12
+   68.293205      -41.497421       9.3100548    
+  old resid=  0.22552823      new_resid=  0.12874797      red=   42.912701    
+         620        8989  ds=  0.95411080      G=  0.93635029    
+  ********************************************
+   68.165428      -69.223038       249.30791              40
+   68.364838      -69.606163       250.29982    
+  old resid=  0.22994672      new_resid=  0.13657859      red=   40.604244    
+         640        9533  ds=   2.2386191      G=  0.82590163    
+  ********************************************
+  -26.668093      -25.420671       198.31009              16
+  -26.600311      -25.303764       199.20024    
+  old resid=  0.23058446      new_resid=  0.14021206      red=   39.192757    
+         660       10003  ds=   2.4589188      G=  0.88840872    
+  ********************************************
+  -83.804741      -19.141392       160.46159              16
+  -83.698586      -19.141134       162.77104    
+  old resid=  0.23044990      new_resid=  0.14191613      red=   38.417797    
+         680       10365  ds=   3.0103130      G=  0.90943611    
+  ********************************************
+  -8.7819786       87.571877       212.67026              30
+  -8.7819786       87.571877       212.67026    
+  old resid=  0.23343202      new_resid=  0.14786460      red=   36.656254    
+         700       10983  ds=   3.6130931      G=  0.88302749    
+  ********************************************
+  nzt=         712  nray=       11411
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=2 gr=1
+  orient=   0.0000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19299
+  nmax=         712  otr nmax=        2025
+  number of velocity parameters=       19299
+  number of velocity parameters=       10531
+  1000    88     1    21   0.008
+  2000   187     2    23  -0.097
+  3000   267     1   204  -0.305
+  4000   328     2    35  -0.100
+  5000   392     1    44  -0.133
+  6000   445     1    41  -0.016
+  7000   509     1    28   0.141
+  8000   567     2    35  -0.005
+  9000   621     1    38   0.103
+ 10000   660     1    96  -0.257
+ 11000   701     2   147   0.094
+  nray=       11411  nzt=         712
+  nobr=       19299       10531  nonzer=      839481
+  nrp=        7063  nonz_p=      585157
+  nrs=        4348  nonz_s=      254324
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=2
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      201254  N nonzer=     1276222
+
+  N rows=      201254  N columns=       32744  N nonzer=     1276222
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.15277714      avres=  0.13046692      red=   14.603109    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.27534690      avdv_s=  0.37319055    
+  avstat_p=  2.07624249E-02  avstat_s=  3.45964730E-02
+  source corrections:
+  av1=  0.57197857      av2=  0.65394878      av3=  7.95031637E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=2 gr=2
+  orient=   22.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19525
+  nmax=         782  otr nmax=        2227
+  number of velocity parameters=       19525
+  number of velocity parameters=       10793
+  1000    88     1    17   0.008
+  2000   187     2    18  -0.097
+  3000   267     1   195  -0.305
+  4000   328     2    35  -0.100
+  5000   392     1    47  -0.133
+  6000   445     1    39  -0.016
+  7000   509     1    25   0.141
+  8000   567     2    35  -0.005
+  9000   621     1    36   0.103
+ 10000   660     1    98  -0.257
+ 11000   701     2   147   0.094
+  nray=       11411  nzt=         712
+  nobr=       19525       10793  nonzer=      841718
+  nrp=        7063  nonz_p=      585301
+  nrs=        4348  nonz_s=      256417
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=2
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      204674  N nonzer=     1285299
+
+  N rows=      204674  N columns=       33232  N nonzer=     1285299
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.15277714      avres=  0.13054532      red=   14.551796    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.26930630      avdv_s=  0.35774183    
+  avstat_p=  2.10020915E-02  avstat_s=  3.49891111E-02
+  source corrections:
+  av1=  0.57181835      av2=  0.65640271      av3=  7.91416094E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=2 gr=3
+  orient=   45.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19816
+  nmax=         788  otr nmax=        2243
+  number of velocity parameters=       19816
+  number of velocity parameters=       11102
+  1000    88     1    23   0.008
+  2000   187     2    18  -0.097
+  3000   267     1   155  -0.305
+  4000   328     2    30  -0.100
+  5000   392     1    47  -0.133
+  6000   445     1    41  -0.016
+  7000   509     1    30   0.141
+  8000   567     2    41  -0.005
+  9000   621     1    37   0.103
+ 10000   660     1   104  -0.257
+ 11000   701     2   151   0.094
+  nray=       11411  nzt=         712
+  nobr=       19816       11102  nonzer=      838009
+  nrp=        7063  nonz_p=      583113
+  nrs=        4348  nonz_s=      254896
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=2
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      208565  N nonzer=     1289372
+
+  N rows=      208565  N columns=       33832  N nonzer=     1289372
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.15277714      avres=  0.13059254      red=   14.520886    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.25775629      avdv_s=  0.31223255    
+  avstat_p=  2.23811474E-02  avstat_s=  3.83446813E-02
+  source corrections:
+  av1=  0.61974615      av2=  0.71182895      av3=  8.27829540E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=2 gr=4
+  orient=   67.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19587
+  nmax=         658  otr nmax=        1867
+  number of velocity parameters=       19587
+  number of velocity parameters=       10819
+  1000    88     1    27   0.008
+  2000   187     2    17  -0.097
+  3000   267     1   136  -0.305
+  4000   328     2    37  -0.100
+  5000   392     1    45  -0.133
+  6000   445     1    41  -0.016
+  7000   509     1    31   0.141
+  8000   567     2    37  -0.005
+  9000   621     1    34   0.103
+ 10000   660     1    97  -0.257
+ 11000   701     2   148   0.094
+  nray=       11411  nzt=         712
+  nobr=       19587       10819  nonzer=      833924
+  nrp=        7063  nonz_p=      580299
+  nrs=        4348  nonz_s=      253625
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=2
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      205732  N nonzer=     1279621
+
+  N rows=      205732  N columns=       33320  N nonzer=     1279621
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.15277714      avres=  0.13091165      red=   14.312016    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.25804725      avdv_s=  0.28420016    
+  avstat_p=  2.37137042E-02  avstat_s=  3.76384966E-02
+  source corrections:
+  av1=  0.61995035      av2=  0.71291405      av3=  8.29395875E-02
+  _________________________________________________________
+  COMPUTE THE VELOCITY FIELS IN 3D REGILAR GRID (VP-VS SCHEME) 
+  AREA : UT_SET06 model:MODEL_06 iter=           2
+  nref=          13
+  nxx=          67  nyy=          67  nzz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  _________________________________________________________
+  VISUALIZE THE RESULT IN HORIZONTAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06
+  npix_x=           0  npix_y=           0
+  nfmap=          79  ntmap=          73
+  nref=          13
+  ilev=           1  nzzt=         184
+  ilev=           2  nzzt=         232
+  ilev=           3  nzzt=          53
+  ilev=           4  nzzt=          55
+  ilev=           5  nzzt=           7
+  ilev=           6  nzzt=           1
+  ilev=           7  nzzt=           3
+  ilev=           8  nzzt=          17
+  ilev=           9  nzzt=          34
+  ilev=           1  zzz=   0.0000000    
+  ilev=           2  zzz=   5.0000000    
+  ilev=           3  zzz=   10.000000    
+  ilev=           4  zzz=   15.000000    
+  ilev=           5  zzz=   20.000000    
+  ilev=           6  zzz=   25.000000    
+  ilev=           7  zzz=   30.000000    
+  ilev=           8  zzz=   50.000000    
+  ilev=           9  zzz=   80.000000    
+  _________________________________________________________
+  VISUALIZE THE RESULT IN VERTICAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06 iter=           2
+mkdir: ../../../TMP_files/vert: File exists
+  nref=          13
+  nst1=          17  nzt1=         184
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          25  nzt1=         471
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         443
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          17  nzt1=         217
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          27  nzt1=         456
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         303
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl UT_SET06 MODEL_06 2 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P                                           
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '2' '../../../TMP_files/list_hor_s.txt' '../../../TMP_files/list_ver_s.txt' 'S'                               
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '2' '../../../TMP_files/list_hor_vpvs.txt' '../../../TMP_files/list_ver_vpvs.txt' 'VpVs'                      
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+  _________________________________________________________
+  LOCATE THE SOURCES USING THE 3D RAY TRACING 
+  SOURCE LOCATION: ar=UT_SET06 md=MODEL_06 it=3
+  ar=UT_SET06 md=MODEL_06
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
+  nan=           0
+           4
+  nref=          13
+  -43.460377      -43.986542       51.049702              10
+  -43.460377      -43.986542       51.049702    
+  old resid=  0.12465966      new_resid=  0.11475398      red=   7.9461770    
+          20         262  ds=  0.79571426      G=  0.93410182    
+  ********************************************
+   5.2325416      -12.676556       4.1190729              13
+   5.2325416      -12.676556       4.1190729    
+  old resid=  0.11059613      new_resid=  9.80402604E-02  red=   11.352901    
+          40         541  ds=  0.73427945      G=  0.98207998    
+  ********************************************
+  0.55395198       86.027321       131.39264               7
+  0.56445962       86.053177       130.81004    
+  old resid=  0.10847054      new_resid=  9.08852741E-02  red=   16.212015    
+          60         769  ds=  0.65454096      G=  0.97048694    
+  ********************************************
+   30.264427       86.597679       179.79486               8
+   30.264427       86.597679       179.79486    
+  old resid=  0.10946956      new_resid=  9.34932083E-02  red=   14.594333    
+          80         937  ds=  0.12770258      G=  0.98209888    
+  ********************************************
+   4.6090341     -0.93055516       2.7130165              14
+   4.6090341     -0.93055516       2.7130165    
+  old resid=  0.10969982      new_resid=  9.40620378E-02  red=   14.255067    
+         100        1112  ds=  0.29639408      G=  0.95193547    
+  ********************************************
+  -1.6030614       1.9052997       4.7952490              10
+  -1.6030614       1.9052997       4.7952490    
+  old resid=  0.11067765      new_resid=  9.56324637E-02  red=   13.593697    
+         120        1301  ds=  0.40437669      G=  0.97115928    
+  ********************************************
+   10.015896      -18.313148       3.5581713              11
+   10.015896      -18.313148       3.5581713    
+  old resid=  0.10996451      new_resid=  9.47881117E-02  red=   13.801184    
+         140        1488  ds=   1.0810621      G=  0.97502512    
+  ********************************************
+   9.8056459      -18.393711       3.4992230              10
+   9.7080097      -18.742531       3.9517729    
+  old resid=  0.10899009      new_resid=  9.32012424E-02  red=   14.486493    
+         160        1688  ds=  0.52764279      G=  0.97260201    
+  ********************************************
+   65.154587      -41.558296       15.946629               7
+   64.905907      -41.795788       17.214485    
+  old resid=  0.10951606      new_resid=  9.34101120E-02  red=   14.706469    
+         180        1893  ds=   1.6234714      G=  0.97246104    
+  ********************************************
+  -6.2352343       11.069933       4.0421028              17
+  -6.2225113       10.659482       3.4495416    
+  old resid=  0.10596657      new_resid=  9.02013183E-02  red=   14.877569    
+         200        2189  ds=  0.49564230      G=  0.97273850    
+  ********************************************
+   3.8709753      0.27562374      0.44987822              10
+   3.8709753      0.27562374      0.44987822    
+  old resid=  0.10840477      new_resid=  9.32261348E-02  red=   14.001816    
+         220        2420  ds=  0.37131077      G=  0.95086247    
+  ********************************************
+   16.940178      -10.127464       5.5825973              10
+   16.940178      -10.127464       5.5825973    
+  old resid=  0.10973653      new_resid=  9.47479233E-02  red=   13.658720    
+         240        2660  ds=  0.87835926      G=  0.95300674    
+  ********************************************
+   17.942436      -10.580145       7.8191404              13
+   17.675911      -9.9432611       5.6359644    
+  old resid=  0.10987227      new_resid=  9.51014236E-02  red=   13.443658    
+         260        2914  ds=  0.67394865      G=  0.91365689    
+  ********************************************
+  -88.397133      -11.032007       53.423298              12
+  -88.397133      -11.032007       53.423298    
+  old resid=  0.11875813      new_resid=  0.10447975      red=   12.023073    
+         280        3179  ds=  0.15303180      G=  0.91747826    
+  ********************************************
+   5.2943316      -12.504620       3.6376922              14
+   5.2943316      -12.504620       3.6376922    
+  old resid=  0.11672363      new_resid=  0.10188362      red=   12.713801    
+         300        3478  ds=  0.16292681      G=  0.98026097    
+  ********************************************
+   4.9918199      -1.2036715      -1.5311373              12
+   4.9918199      -1.2036715      -1.5311373    
+  old resid=  0.11683680      new_resid=  0.10203356      red=   12.670019    
+         320        3779  ds=  0.57832897      G=  0.81669819    
+  ********************************************
+  -12.430224       74.249939       216.55811              38
+  -12.430224       74.249939       216.55811    
+  old resid=  0.11899579      new_resid=  0.10462556      red=   12.076251    
+         340        4206  ds=   1.9891713      G=  0.93063164    
+  ********************************************
+   3.0099463      -4.6979194       3.0152338              16
+   3.0099463      -4.6979194       3.0152338    
+  old resid=  0.11921015      new_resid=  0.10519177      red=   11.759384    
+         360        4440  ds=  0.94094938      G=  0.97115141    
+  ********************************************
+   3.1409688      -4.8111935       2.5365381              27
+   3.1409688      -4.8111935       2.5365381    
+  old resid=  0.11612673      new_resid=  0.10218549      red=   12.005196    
+         380        4844  ds=  0.91396016      G=  0.96846098    
+  ********************************************
+  -4.0255957       11.638572       5.1755176              15
+  -4.0255957       11.638572       5.1755176    
+  old resid=  0.11581101      new_resid=  0.10220850      red=   11.745428    
+         400        5129  ds=  0.21714415      G=  0.94765341    
+  ********************************************
+   66.835930      -42.382778       15.776940              28
+   66.835930      -42.382778       15.776940    
+  old resid=  0.12027249      new_resid=  0.10662078      red=   11.350655    
+         420        5577  ds=   1.5516646      G=  0.86079711    
+  ********************************************
+  -14.390891       37.066769       11.760889               8
+  -18.422752       37.647133       14.660419    
+  old resid=  0.12189166      new_resid=  0.10867039      red=   10.846742    
+         440        5927  ds=   1.1239663      G=  0.66635674    
+  ********************************************
+   5.0645785       4.2813444       1.0552468              12
+   4.3803673       4.4563513       3.4798682    
+  old resid=  0.12110117      new_resid=  0.10812258      red=   10.717148    
+         460        6241  ds=  0.47544387      G=  0.93471324    
+  ********************************************
+   65.292435      -39.237030       12.923717              17
+   65.292435      -39.237030       12.923717    
+  old resid=  0.12146346      new_resid=  0.10874741      red=   10.469037    
+         480        6556  ds=  0.61298543      G=  0.86159796    
+  ********************************************
+   3.3224783     -0.30571347      0.89046025              20
+   3.3224783     -0.30571347      0.89046025    
+  old resid=  0.12109522      new_resid=  0.10875914      red=   10.187096    
+         500        6860  ds=  0.27219731      G=  0.95408899    
+  ********************************************
+   7.3114300       4.6202521       2.5561504              16
+   7.4782147       4.7958674       1.8644342    
+  old resid=  0.12164985      new_resid=  0.10915298      red=   10.272814    
+         520        7184  ds=  0.37409151      G=  0.96530318    
+  ********************************************
+   1.8563542       6.4863477       2.9447918              17
+   1.8563542       6.4863477       2.9447918    
+  old resid=  0.12075669      new_resid=  0.10846770      red=   10.176656    
+         540        7493  ds=  0.40086758      G=  0.96162313    
+  ********************************************
+   63.932167      -39.471207       12.832973              29
+   64.470856      -39.734077       15.963673    
+  old resid=  0.12204608      new_resid=  0.10980193      red=   10.032399    
+         560        7837  ds=   2.0041168      G=  0.91428638    
+  ********************************************
+   12.104628      -10.596718       2.0800333              14
+   12.104628      -10.596718       2.0800333    
+  old resid=  0.12484991      new_resid=  0.11251376      red=   9.8807840    
+         580        8228  ds=  0.68927491      G=  0.93367118    
+  ********************************************
+   64.478867      -39.903111       10.971800              25
+   64.478867      -39.903111       10.971800    
+  old resid=  0.12831911      new_resid=  0.11557879      red=   9.9286327    
+         600        8633  ds=  0.72608632      G=  0.87802422    
+  ********************************************
+   68.099480      -41.602863       8.8296356              12
+   67.831085      -42.054382       9.6103773    
+  old resid=  0.12874797      new_resid=  0.11620952      red=   9.7387552    
+         620        8989  ds=  0.78355229      G=  0.93783057    
+  ********************************************
+   68.487289      -70.518143       249.70396              40
+   68.681618      -70.862076       250.20601    
+  old resid=  0.13657859      new_resid=  0.12324521      red=   9.7624187    
+         640        9533  ds=   1.2986405      G=  0.82530820    
+  ********************************************
+  -25.795328      -25.586079       199.58531              16
+  -25.795328      -25.586079       199.58531    
+  old resid=  0.14021206      new_resid=  0.12662432      red=   9.6908531    
+         660       10003  ds=  0.93593735      G=  0.90235692    
+  ********************************************
+  -83.551338      -19.389585       162.38138              16
+  -83.551338      -19.389585       162.38138    
+  old resid=  0.14191613      new_resid=  0.12816559      red=   9.6892061    
+         680       10365  ds=  0.48502329      G=  0.91436660    
+  ********************************************
+  -9.6694851       89.974960       213.63895              30
+  -9.7268057       90.128952       213.16003    
+  old resid=  0.14786460      new_resid=  0.13375053      red=   9.5452633    
+         700       10983  ds=   2.7696958      G=  0.89706111    
+  ********************************************
+  nzt=         712  nray=       11411
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=3 gr=1
+  orient=   0.0000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19299
+  nmax=         712  otr nmax=        2025
+  number of velocity parameters=       19299
+  number of velocity parameters=       10531
+  1000    88     1    20  -0.011
+  2000   187     2    21  -0.024
+  3000   267     1   202  -0.268
+  4000   328     2    36  -0.072
+  5000   392     1    43  -0.120
+  6000   445     1    42  -0.009
+  7000   509     1    28   0.124
+  8000   567     2    34  -0.027
+  9000   621     1    40   0.116
+ 10000   660     1    98  -0.232
+ 11000   701     2   150   0.007
+  nray=       11411  nzt=         712
+  nobr=       19299       10531  nonzer=      838629
+  nrp=        7063  nonz_p=      584131
+  nrs=        4348  nonz_s=      254498
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=3
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      201254  N nonzer=     1275370
+
+  N rows=      201254  N columns=       32744  N nonzer=     1275370
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13840167      avres=  0.12493960      red=   9.7268152    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.21041587      avdv_s=  0.24812299    
+  avstat_p=  1.24731828E-02  avstat_s=  2.30516270E-02
+  source corrections:
+  av1=  0.43014750      av2=  0.49451005      av3=  6.40401542E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=3 gr=2
+  orient=   22.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19525
+  nmax=         782  otr nmax=        2227
+  number of velocity parameters=       19525
+  number of velocity parameters=       10793
+  1000    88     1    16  -0.011
+  2000   187     2    19  -0.024
+  3000   267     1   194  -0.268
+  4000   328     2    37  -0.072
+  5000   392     1    46  -0.120
+  6000   445     1    43  -0.009
+  7000   509     1    25   0.124
+  8000   567     2    35  -0.027
+  9000   621     1    37   0.116
+ 10000   660     1   101  -0.232
+ 11000   701     2   139   0.007
+  nray=       11411  nzt=         712
+  nobr=       19525       10793  nonzer=      840894
+  nrp=        7063  nonz_p=      584746
+  nrs=        4348  nonz_s=      256148
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=3
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      204674  N nonzer=     1284475
+
+  N rows=      204674  N columns=       33232  N nonzer=     1284475
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13840167      avres=  0.12506673      red=   9.6349602    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.19796416      avdv_s=  0.23393621    
+  avstat_p=  1.21783018E-02  avstat_s=  2.30867211E-02
+  source corrections:
+  av1=  0.42906260      av2=  0.49222142      av3=  6.30055740E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=3 gr=3
+  orient=   45.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19816
+  nmax=         788  otr nmax=        2243
+  number of velocity parameters=       19816
+  number of velocity parameters=       11102
+  1000    88     1    24  -0.011
+  2000   187     2    19  -0.024
+  3000   267     1   151  -0.268
+  4000   328     2    30  -0.072
+  5000   392     1    47  -0.120
+  6000   445     1    40  -0.009
+  7000   509     1    29   0.124
+  8000   567     2    41  -0.027
+  9000   621     1    31   0.116
+ 10000   660     1   102  -0.232
+ 11000   701     2   147   0.007
+  nray=       11411  nzt=         712
+  nobr=       19816       11102  nonzer=      836323
+  nrp=        7063  nonz_p=      581511
+  nrs=        4348  nonz_s=      254812
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=3
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      208565  N nonzer=     1287686
+
+  N rows=      208565  N columns=       33832  N nonzer=     1287686
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13840167      avres=  0.12497978      red=   9.6977825    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.18414050      avdv_s=  0.21438459    
+  avstat_p=  1.47115886E-02  avstat_s=  2.56913323E-02
+  source corrections:
+  av1=  0.46537045      av2=  0.53067815      av3=  6.59350902E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=3 gr=4
+  orient=   67.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19587
+  nmax=         658  otr nmax=        1867
+  number of velocity parameters=       19587
+  number of velocity parameters=       10819
+  1000    88     1    22  -0.011
+  2000   187     2    18  -0.024
+  3000   267     1   135  -0.268
+  4000   328     2    35  -0.072
+  5000   392     1    47  -0.120
+  6000   445     1    40  -0.009
+  7000   509     1    30   0.124
+  8000   567     2    35  -0.027
+  9000   621     1    32   0.116
+ 10000   660     1    96  -0.232
+ 11000   701     2   143   0.007
+  nray=       11411  nzt=         712
+  nobr=       19587       10819  nonzer=      833749
+  nrp=        7063  nonz_p=      579585
+  nrs=        4348  nonz_s=      254164
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=3
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      205732  N nonzer=     1279446
+
+  N rows=      205732  N columns=       33320  N nonzer=     1279446
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13840167      avres=  0.12519374      red=   9.5431852    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.17594758      avdv_s=  0.19578338    
+  avstat_p=  1.65325608E-02  avstat_s=  2.47364510E-02
+  source corrections:
+  av1=  0.46662945      av2=  0.53039598      av3=  6.56175166E-02
+  _________________________________________________________
+  COMPUTE THE VELOCITY FIELS IN 3D REGILAR GRID (VP-VS SCHEME) 
+  AREA : UT_SET06 model:MODEL_06 iter=           3
+  nref=          13
+  nxx=          67  nyy=          67  nzz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  _________________________________________________________
+  VISUALIZE THE RESULT IN HORIZONTAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06
+  npix_x=           0  npix_y=           0
+  nfmap=          79  ntmap=          73
+  nref=          13
+  ilev=           1  nzzt=         133
+  ilev=           2  nzzt=         283
+  ilev=           3  nzzt=          60
+  ilev=           4  nzzt=          49
+  ilev=           5  nzzt=           7
+  ilev=           6  nzzt=           0
+  ilev=           7  nzzt=           3
+  ilev=           8  nzzt=          17
+  ilev=           9  nzzt=          34
+  ilev=           1  zzz=   0.0000000    
+  ilev=           2  zzz=   5.0000000    
+  ilev=           3  zzz=   10.000000    
+  ilev=           4  zzz=   15.000000    
+  ilev=           5  zzz=   20.000000    
+  ilev=           6  zzz=   25.000000    
+  ilev=           7  zzz=   30.000000    
+  ilev=           8  zzz=   50.000000    
+  ilev=           9  zzz=   80.000000    
+  _________________________________________________________
+  VISUALIZE THE RESULT IN VERTICAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06 iter=           3
+mkdir: ../../../TMP_files/vert: File exists
+  nref=          13
+  nst1=          17  nzt1=         181
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          25  nzt1=         468
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         445
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          17  nzt1=         218
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          27  nzt1=         455
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         303
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl UT_SET06 MODEL_06 3 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P                                           
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '3' '../../../TMP_files/list_hor_s.txt' '../../../TMP_files/list_ver_s.txt' 'S'                               
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '3' '../../../TMP_files/list_hor_vpvs.txt' '../../../TMP_files/list_ver_vpvs.txt' 'VpVs'                      
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+  _________________________________________________________
+  LOCATE THE SOURCES USING THE 3D RAY TRACING 
+  SOURCE LOCATION: ar=UT_SET06 md=MODEL_06 it=4
+  ar=UT_SET06 md=MODEL_06
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
+  nan=           0
+           4
+  nref=          13
+  -42.957283      -44.393257       51.102558              10
+  -42.957283      -44.393257       51.102558    
+  old resid=  0.11475398      new_resid=  0.11108878      red=   3.1939723    
+          20         262  ds=  0.64908743      G=  0.93516189    
+  ********************************************
+   5.2867651      -12.674961       4.2260575              13
+   5.2867651      -12.674961       4.2260575    
+  old resid=  9.80402604E-02  new_resid=  9.52999666E-02  red=   2.7950685    
+          40         541  ds=  0.11995183      G=  0.96599227    
+  ********************************************
+  0.61521780       86.204254       130.73718               7
+  0.65413773       86.262238       129.45686    
+  old resid=  9.08852741E-02  new_resid=  8.77768472E-02  red=   3.4201663    
+          60         769  ds=   1.3721678      G=  0.97174209    
+  ********************************************
+   30.205845       86.736877       179.73820               8
+   30.205845       86.736877       179.73820    
+  old resid=  9.34932083E-02  new_resid=  9.01600346E-02  red=   3.5651512    
+          80         937  ds=  0.16130078      G=  0.98240924    
+  ********************************************
+   4.6183615     -0.87787968       2.9110110              14
+   4.6183615     -0.87787968       2.9110110    
+  old resid=  9.40620378E-02  new_resid=  9.05360505E-02  red=   3.7485769    
+         100        1112  ds=  0.20509394      G=  0.95257068    
+  ********************************************
+  -1.6129555       1.8981197       4.7391028              10
+  -1.6129555       1.8981197       4.7391028    
+  old resid=  9.56324637E-02  new_resid=  9.19151381E-02  red=   3.8870974    
+         120        1301  ds=  5.74615784E-02  G=  0.97181135    
+  ********************************************
+   10.075884      -18.338818       3.5745077              11
+   10.075884      -18.338818       3.5745077    
+  old resid=  9.47881117E-02  new_resid=  9.08063948E-02  red=   4.2006464    
+         140        1488  ds=  6.72632456E-02  G=  0.97533762    
+  ********************************************
+   9.7889547      -18.411797       3.6501126              10
+   9.7082596      -18.937683       4.1230283    
+  old resid=  9.32012424E-02  new_resid=  8.87952074E-02  red=   4.7274461    
+         160        1688  ds=  0.25963989      G=  0.97259682    
+  ********************************************
+   64.702484      -41.993412       17.283844               7
+   64.702484      -41.993412       17.283844    
+  old resid=  9.34101120E-02  new_resid=  8.84633884E-02  red=   5.2957063    
+         180        1893  ds=  0.29197040      G=  0.97358328    
+  ********************************************
+  -6.2857113       11.054164       4.0321498              17
+  -6.2778912       10.732046       3.5327063    
+  old resid=  9.02013183E-02  new_resid=  8.54492337E-02  red=   5.2683096    
+         200        2189  ds=  0.12348623      G=  0.97512364    
+  ********************************************
+   3.8736844      0.32383436      0.54322761              10
+   3.8736844      0.32383436      0.54322761    
+  old resid=  9.32261348E-02  new_resid=  8.82424638E-02  red=   5.3457818    
+         220        2420  ds=  0.10509859      G=  0.95146155    
+  ********************************************
+   17.094521      -10.150450       5.8953133              10
+   17.094521      -10.150450       5.8953133    
+  old resid=  9.47479233E-02  new_resid=  9.04967785E-02  red=   4.4867945    
+         240        2660  ds=  0.34948719      G=  0.95836216    
+  ********************************************
+   17.976362      -10.646399       7.9669218              13
+   17.787426      -9.9949570       5.8694286    
+  old resid=  9.51014236E-02  new_resid=  9.08704996E-02  red=   4.4488568    
+         260        2914  ds=  0.26384392      G=  0.91732681    
+  ********************************************
+  -88.492027      -11.123178       53.487736              12
+  -88.492027      -11.123178       53.487736    
+  old resid=  0.10447975      new_resid=  9.95949656E-02  red=   4.6753459    
+         280        3179  ds=  0.14652435      G=  0.92013699    
+  ********************************************
+   5.3262763      -12.525324       3.8283906              14
+   5.3262763      -12.525324       3.8283906    
+  old resid=  0.10188362      new_resid=  9.69035849E-02  red=   4.8879628    
+         300        3478  ds=  0.19446081      G=  0.97822541    
+  ********************************************
+   4.9902506      -1.1980932      -1.0042336              12
+   4.4186988     -0.94720900     -0.92256582    
+  old resid=  0.10203356      new_resid=  9.73245576E-02  red=   4.6151505    
+         320        3779  ds=  0.87441409      G=  0.81515467    
+  ********************************************
+  -12.163097       75.186691       217.07660              38
+  -12.163097       75.186691       217.07660    
+  old resid=  0.10462556      new_resid=  9.99333262E-02  red=   4.4847870    
+         340        4206  ds=   1.1034932      G=  0.93726283    
+  ********************************************
+   3.0488966      -4.6681647       2.9939542              16
+   3.0488966      -4.6681647       2.9939542    
+  old resid=  0.10519177      new_resid=  0.10054667      red=   4.4158506    
+         360        4440  ds=  5.34347929E-02  G=  0.97325426    
+  ********************************************
+   3.1417420      -4.7554507       2.5083692              27
+   3.1417420      -4.7554507       2.5083692    
+  old resid=  0.10218549      new_resid=  9.76236314E-02  red=   4.4642944    
+         380        4844  ds=  6.24607019E-02  G=  0.96837795    
+  ********************************************
+  -4.0185003       11.628355       5.1056099              15
+  -4.0185003       11.628355       5.1056099    
+  old resid=  0.10220850      new_resid=  9.76599082E-02  red=   4.4503093    
+         400        5129  ds=  7.10056797E-02  G=  0.95010930    
+  ********************************************
+   66.918144      -42.471497       15.045893              28
+   66.918144      -42.471497       15.045893    
+  old resid=  0.10662078      new_resid=  0.10227539      red=   4.0755587    
+         420        5577  ds=  0.74098635      G=  0.86587912    
+  ********************************************
+  -14.553208       37.216328       12.171879               8
+  -18.670099       38.050468       14.883966    
+  old resid=  0.10867039      new_resid=  0.10450827      red=   3.8300498    
+         440        5927  ds=  0.52329123      G=  0.67235905    
+  ********************************************
+   5.0415311       4.3455162       1.2356575              12
+   4.3331795       4.5174117       3.5371437    
+  old resid=  0.10812258      new_resid=  0.10391649      red=   3.8901179    
+         460        6241  ds=  9.61017758E-02  G=  0.93340385    
+  ********************************************
+   65.220291      -39.259602       12.965456              17
+   65.220291      -39.259602       12.965456    
+  old resid=  0.10874741      new_resid=  0.10450143      red=   3.9044461    
+         480        6556  ds=  8.63497034E-02  G=  0.86501753    
+  ********************************************
+   3.3267288     -0.24766754       1.0016613              20
+   3.3267288     -0.24766754       1.0016613    
+  old resid=  0.10875914      new_resid=  0.10459922      red=   3.8248839    
+         500        6860  ds=  0.12551123      G=  0.95455736    
+  ********************************************
+   7.2777925       4.6262045       2.6254725              16
+   7.4868727       4.7945743       1.9649071    
+  old resid=  0.10915298      new_resid=  0.10483772      red=   3.9534090    
+         520        7184  ds=  0.10085344      G=  0.96643347    
+  ********************************************
+   1.8246231       6.4899855       3.1180823              17
+   1.8246231       6.4899855       3.1180823    
+  old resid=  0.10846770      new_resid=  0.10420870      red=   3.9265110    
+         540        7493  ds=  0.17620923      G=  0.96254349    
+  ********************************************
+   64.137421      -39.978733       13.354440              29
+   64.460297      -40.064941       16.001276    
+  old resid=  0.10980193      new_resid=  0.10549264      red=   3.9246109    
+         560        7837  ds=  0.33316132      G=  0.91696870    
+  ********************************************
+   12.089185      -10.586367       2.2074621              14
+   12.089185      -10.586367       2.2074621    
+  old resid=  0.11251376      new_resid=  0.10827272      red=   3.7693510    
+         580        8228  ds=  0.12877779      G=  0.93286562    
+  ********************************************
+   64.498192      -40.060524       10.648623              25
+   64.498192      -40.060524       10.648623    
+  old resid=  0.11557879      new_resid=  0.11104466      red=   3.9229701    
+         600        8633  ds=  0.35999367      G=  0.88361579    
+  ********************************************
+   67.777817      -41.924404       9.1174459              12
+   67.582901      -42.272579       9.9772291    
+  old resid=  0.11620952      new_resid=  0.11173020      red=   3.8545244    
+         620        8989  ds=  0.49374643      G=  0.93860698    
+  ********************************************
+   68.488548      -71.107391       249.60103              40
+   68.575592      -71.433678       250.26691    
+  old resid=  0.12324521      new_resid=  0.11827710      red=   4.0310750    
+         640        9533  ds=  0.58453286      G=  0.82527894    
+  ********************************************
+  -25.129370      -25.739727       199.94560              16
+  -25.129370      -25.739727       199.94560    
+  old resid=  0.12662432      new_resid=  0.12131076      red=   4.1963148    
+         660       10003  ds=  0.77260447      G=  0.91092747    
+  ********************************************
+  -83.633522      -19.766624       162.48247              16
+  -83.633522      -19.766624       162.48247    
+  old resid=  0.12816559      new_resid=  0.12271219      red=   4.2549586    
+         680       10365  ds=  0.39891309      G=  0.91496974    
+  ********************************************
+  -10.222862       91.687569       213.92781              30
+  -10.265946       91.806046       213.22783    
+  old resid=  0.13375053      new_resid=  0.12792447      red=   4.3559108    
+         700       10983  ds=   1.7629269      G=  0.90627342    
+  ********************************************
+  nzt=         712  nray=       11411
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=4 gr=1
+  orient=   0.0000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19299
+  nmax=         712  otr nmax=        2025
+  number of velocity parameters=       19299
+  number of velocity parameters=       10531
+  1000    88     1    20  -0.034
+  2000   187     2    21  -0.027
+  3000   267     1   196  -0.238
+  4000   328     2    36  -0.066
+  5000   392     1    44  -0.095
+  6000   445     1    40  -0.006
+  7000   509     1    28   0.114
+  8000   567     2    35  -0.042
+  9000   621     1    38   0.129
+ 10000   660     1   100  -0.212
+ 11000   701     2   152   0.002
+  nray=       11411  nzt=         712
+  nobr=       19299       10531  nonzer=      837296
+  nrp=        7063  nonz_p=      583321
+  nrs=        4348  nonz_s=      253975
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=4
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      201254  N nonzer=     1274037
+
+  N rows=      201254  N columns=       32744  N nonzer=     1274037
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13235956      avres=  0.12105133      red=   8.5435686    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.16597512      avdv_s=  0.20067929    
+  avstat_p=  1.05851879E-02  avstat_s=  1.65537894E-02
+  source corrections:
+  av1=  0.36396924      av2=  0.42045915      av3=  5.54723777E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=4 gr=2
+  orient=   22.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19525
+  nmax=         782  otr nmax=        2227
+  number of velocity parameters=       19525
+  number of velocity parameters=       10793
+  1000    88     1    18  -0.034
+  2000   187     2    19  -0.027
+  3000   267     1   195  -0.238
+  4000   328     2    37  -0.066
+  5000   392     1    49  -0.095
+  6000   445     1    42  -0.006
+  7000   509     1    26   0.114
+  8000   567     2    35  -0.042
+  9000   621     1    35   0.129
+ 10000   660     1    95  -0.212
+ 11000   701     2   152   0.002
+  nray=       11411  nzt=         712
+  nobr=       19525       10793  nonzer=      839306
+  nrp=        7063  nonz_p=      583466
+  nrs=        4348  nonz_s=      255840
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=4
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      204674  N nonzer=     1282887
+
+  N rows=      204674  N columns=       33232  N nonzer=     1282887
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13235956      avres=  0.12114915      red=   8.4696712    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.15082395      avdv_s=  0.18650901    
+  avstat_p=  1.06929140E-02  avstat_s=  1.69115309E-02
+  source corrections:
+  av1=  0.36489585      av2=  0.41906610      av3=  5.48453331E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=4 gr=3
+  orient=   45.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19816
+  nmax=         788  otr nmax=        2243
+  number of velocity parameters=       19816
+  number of velocity parameters=       11102
+  1000    88     1    22  -0.034
+  2000   187     2    19  -0.027
+  3000   267     1   147  -0.238
+  4000   328     2    31  -0.066
+  5000   392     1    48  -0.095
+  6000   445     1    40  -0.006
+  7000   509     1    28   0.114
+  8000   567     2    41  -0.042
+  9000   621     1    33   0.129
+ 10000   660     1   104  -0.212
+ 11000   701     2   151   0.002
+  nray=       11411  nzt=         712
+  nobr=       19816       11102  nonzer=      834715
+  nrp=        7063  nonz_p=      580279
+  nrs=        4348  nonz_s=      254436
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=4
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      208565  N nonzer=     1286078
+
+  N rows=      208565  N columns=       33832  N nonzer=     1286078
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13235956      avres=  0.12108077      red=   8.5213280    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.14142588      avdv_s=  0.17525037    
+  avstat_p=  1.27088549E-02  avstat_s=  1.95648260E-02
+  source corrections:
+  av1=  0.39102611      av2=  0.44940421      av3=  5.79299182E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=4 gr=4
+  orient=   67.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19587
+  nmax=         658  otr nmax=        1867
+  number of velocity parameters=       19587
+  number of velocity parameters=       10819
+  1000    88     1    23  -0.034
+  2000   187     2    18  -0.027
+  3000   267     1   132  -0.238
+  4000   328     2    35  -0.066
+  5000   392     1    46  -0.095
+  6000   445     1    40  -0.006
+  7000   509     1    31   0.114
+  8000   567     2    35  -0.042
+  9000   621     1    31   0.129
+ 10000   660     1    94  -0.212
+ 11000   701     2   151   0.002
+  nray=       11411  nzt=         712
+  nobr=       19587       10819  nonzer=      832851
+  nrp=        7063  nonz_p=      578965
+  nrs=        4348  nonz_s=      253886
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=4
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      205732  N nonzer=     1278548
+
+  N rows=      205732  N columns=       33320  N nonzer=     1278548
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.13235956      avres=  0.12118512      red=   8.4424934    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.13378151      avdv_s=  0.15853135    
+  avstat_p=  1.44142210E-02  avstat_s=  1.85936429E-02
+  source corrections:
+  av1=  0.39180997      av2=  0.44902685      av3=  5.83512373E-02
+  _________________________________________________________
+  COMPUTE THE VELOCITY FIELS IN 3D REGILAR GRID (VP-VS SCHEME) 
+  AREA : UT_SET06 model:MODEL_06 iter=           4
+  nref=          13
+  nxx=          67  nyy=          67  nzz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  _________________________________________________________
+  VISUALIZE THE RESULT IN HORIZONTAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06
+  npix_x=           0  npix_y=           0
+  nfmap=          79  ntmap=          73
+  nref=          13
+  ilev=           1  nzzt=         119
+  ilev=           2  nzzt=         299
+  ilev=           3  nzzt=          58
+  ilev=           4  nzzt=          49
+  ilev=           5  nzzt=           7
+  ilev=           6  nzzt=           0
+  ilev=           7  nzzt=           3
+  ilev=           8  nzzt=          17
+  ilev=           9  nzzt=          34
+  ilev=           1  zzz=   0.0000000    
+  ilev=           2  zzz=   5.0000000    
+  ilev=           3  zzz=   10.000000    
+  ilev=           4  zzz=   15.000000    
+  ilev=           5  zzz=   20.000000    
+  ilev=           6  zzz=   25.000000    
+  ilev=           7  zzz=   30.000000    
+  ilev=           8  zzz=   50.000000    
+  ilev=           9  zzz=   80.000000    
+  _________________________________________________________
+  VISUALIZE THE RESULT IN VERTICAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06 iter=           4
+mkdir: ../../../TMP_files/vert: File exists
+  nref=          13
+  nst1=          17  nzt1=         182
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          25  nzt1=         468
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         445
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          17  nzt1=         218
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          27  nzt1=         455
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         305
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl UT_SET06 MODEL_06 4 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P                                           
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '4' '../../../TMP_files/list_hor_s.txt' '../../../TMP_files/list_ver_s.txt' 'S'                               
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '4' '../../../TMP_files/list_hor_vpvs.txt' '../../../TMP_files/list_ver_vpvs.txt' 'VpVs'                      
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+  _________________________________________________________
+  LOCATE THE SOURCES USING THE 3D RAY TRACING 
+  SOURCE LOCATION: ar=UT_SET06 md=MODEL_06 it=5
+  ar=UT_SET06 md=MODEL_06
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
+  nan=           0
+           4
+  nref=          13
+  -42.597343      -44.648323       51.168274              10
+  -42.597343      -44.648323       51.168274    
+  old resid=  0.11108878      new_resid=  0.10792479      red=   2.8481596    
+          20         262  ds=  0.44601983      G=  0.93638718    
+  ********************************************
+   5.2304549      -12.481767       4.1956420              13
+   5.2304549      -12.481767       4.1956420    
+  old resid=  9.52999666E-02  new_resid=  9.10161138E-02  red=   4.4951282    
+          40         541  ds=  0.20351908      G=  0.98183185    
+  ********************************************
+  0.74693424       86.399910       129.39247               7
+  0.77272862       86.430786       128.74609    
+  old resid=  8.77768472E-02  new_resid=  8.32944065E-02  red=   5.1066346    
+          60         769  ds=  0.74004453      G=  0.97249758    
+  ********************************************
+   30.129269       86.876602       179.68732               8
+   30.129269       86.876602       179.68732    
+  old resid=  9.01600346E-02  new_resid=  8.59417319E-02  red=   4.6786785    
+          80         937  ds=  0.16726181      G=  0.98170835    
+  ********************************************
+   4.6183705     -0.81423849       2.8346717              14
+   4.4768600     -0.86911386       2.8113012    
+  old resid=  9.05360505E-02  new_resid=  8.64510834E-02  red=   4.5119758    
+         100        1112  ds=  0.17332491      G=  0.95195109    
+  ********************************************
+  -1.6167789       1.9077997       4.6780324              10
+  -1.6167789       1.9077997       4.6780324    
+  old resid=  9.19151381E-02  new_resid=  8.76755267E-02  red=   4.6125321    
+         120        1301  ds=  6.19509518E-02  G=  0.97057956    
+  ********************************************
+   10.061638      -18.389841       3.7159615              11
+   10.061638      -18.389841       3.7159615    
+  old resid=  9.08063948E-02  new_resid=  8.67931545E-02  red=   4.4195633    
+         140        1488  ds=  0.15104803      G=  0.97556019    
+  ********************************************
+   9.8089695      -18.433577       3.7375546              10
+   9.7214031      -19.041649       4.2063642    
+  old resid=  8.87952074E-02  new_resid=  8.46590847E-02  red=   4.6580410    
+         160        1688  ds=  0.13388988      G=  0.97097796    
+  ********************************************
+   64.544807      -42.135075       17.342964               7
+   64.413467      -42.239613       17.934181    
+  old resid=  8.84633884E-02  new_resid=  8.40762779E-02  red=   4.9592443    
+         180        1893  ds=  0.75304973      G=  0.97466910    
+  ********************************************
+  -6.2983155       11.044210       3.9575582              17
+  -6.2662745       10.764776       3.5411191    
+  old resid=  8.54492337E-02  new_resid=  8.11597779E-02  red=   5.0198874    
+         200        2189  ds=  3.57349031E-02  G=  0.97689545    
+  ********************************************
+   3.8580539      0.35171223      0.60254341              10
+   3.8580539      0.35171223      0.60254341    
+  old resid=  8.82424638E-02  new_resid=  8.42559263E-02  red=   4.5177131    
+         220        2420  ds=  6.73784241E-02  G=  0.95156068    
+  ********************************************
+   17.139715      -10.127521       6.0173306              10
+   17.139715      -10.127521       6.0173306    
+  old resid=  9.04967785E-02  new_resid=  8.65926370E-02  red=   4.3141255    
+         240        2660  ds=  0.13212322      G=  0.96134847    
+  ********************************************
+   18.005653      -10.651944       7.9465809              13
+   17.823950      -9.9629974       6.0052538    
+  old resid=  9.08704996E-02  new_resid=  8.71148854E-02  red=   4.1329255    
+         260        2914  ds=  0.14423548      G=  0.91879451    
+  ********************************************
+  -88.565376      -11.172202       53.631187              12
+  -88.565376      -11.172202       53.631187    
+  old resid=  9.95949656E-02  new_resid=  9.54814777E-02  red=   4.1302180    
+         280        3179  ds=  0.16840956      G=  0.92250133    
+  ********************************************
+   5.3724751      -12.483367       3.8604467              14
+   5.3724751      -12.483367       3.8604467    
+  old resid=  9.69035849E-02  new_resid=  9.32596251E-02  red=   3.7604015    
+         300        3478  ds=  7.01591596E-02  G=  0.97601569    
+  ********************************************
+   4.9324327      -1.0740473      -1.1296619              12
+   4.9324327      -1.0740473      -1.1296619    
+  old resid=  9.73245576E-02  new_resid=  9.36389193E-02  red=   3.7869513    
+         320        3779  ds=  0.56824219      G=  0.81454992    
+  ********************************************
+  -11.720008       75.803856       217.50461              38
+  -11.720008       75.803856       217.50461    
+  old resid=  9.99333262E-02  new_resid=  9.62613076E-02  red=   3.6744704    
+         340        4206  ds=  0.87201613      G=  0.94186831    
+  ********************************************
+   3.0455213      -4.6421342       3.0382304              16
+   3.0455213      -4.6421342       3.0382304    
+  old resid=  0.10054667      new_resid=  9.69528109E-02  red=   3.5743110    
+         360        4440  ds=  5.14720008E-02  G=  0.97501355    
+  ********************************************
+   3.1364558      -4.6946812       2.5290883              27
+   3.1364558      -4.6946812       2.5290883    
+  old resid=  9.76236314E-02  new_resid=  9.40246880E-02  red=   3.6865444    
+         380        4844  ds=  6.44217581E-02  G=  0.96778011    
+  ********************************************
+  -4.0110450       11.625071       4.9808807              15
+  -4.0110450       11.625071       4.9808807    
+  old resid=  9.76599082E-02  new_resid=  9.40629542E-02  red=   3.6831458    
+         400        5129  ds=  0.12499493      G=  0.95169926    
+  ********************************************
+   66.843140      -42.501320       14.806631              28
+   66.843140      -42.501320       14.806631    
+  old resid=  0.10227539      new_resid=  9.88497660E-02  red=   3.3494067    
+         420        5577  ds=  0.25250989      G=  0.86969972    
+  ********************************************
+  -14.765777       37.623589       12.670218               8
+  -18.890198       38.123775       16.762306    
+  old resid=  0.10450827      new_resid=  0.10112299      red=   3.2392397    
+         440        5927  ds=   1.8926113      G=  0.67060214    
+  ********************************************
+   5.0174727       4.3645353       1.3628411              12
+   4.2986398       4.5963941       3.2759118    
+  old resid=  0.10391649      new_resid=  0.10071124      red=   3.0844390    
+         460        6241  ds=  0.27508780      G=  0.93407750    
+  ********************************************
+   65.207703      -39.320896       13.001049              17
+   65.207703      -39.320896       13.001049    
+  old resid=  0.10450143      new_resid=  0.10114107      red=   3.2156115    
+         480        6556  ds=  7.19885901E-02  G=  0.86998630    
+  ********************************************
+   3.3367732     -0.17827411       1.0172745              20
+   3.3367732     -0.17827411       1.0172745    
+  old resid=  0.10459922      new_resid=  0.10128866      red=   3.1649959    
+         500        6860  ds=  7.18338937E-02  G=  0.95665437    
+  ********************************************
+   7.2554512       4.6314154       2.6078279              16
+   7.4373245       4.8089538       1.9750921    
+  old resid=  0.10483772      new_resid=  0.10166023      red=   3.0308652    
+         520        7184  ds=  5.25882468E-02  G=  0.96690917    
+  ********************************************
+   1.7996653       6.4994540       3.0566697              17
+   1.7996653       6.4994540       3.0566697    
+  old resid=  0.10420870      new_resid=  0.10100365      red=   3.0756071    
+         540        7493  ds=  6.69630319E-02  G=  0.96390778    
+  ********************************************
+   64.156532      -40.129272       13.663040              29
+   64.455215      -40.187824       15.897729    
+  old resid=  0.10549264      new_resid=  0.10224009      red=   3.0831935    
+         560        7837  ds=  0.16077317      G=  0.91810894    
+  ********************************************
+   12.097558      -10.574241       2.2474802              14
+   12.097558      -10.574241       2.2474802    
+  old resid=  0.10827272      new_resid=  0.10479286      red=   3.2139740    
+         580        8228  ds=  4.26450185E-02  G=  0.93300039    
+  ********************************************
+   64.433945      -40.081593       10.655017              25
+   64.433945      -40.081593       10.655017    
+  old resid=  0.11104466      new_resid=  0.10742570      red=   3.2590079    
+         600        8633  ds=  6.79150522E-02  G=  0.88648897    
+  ********************************************
+   67.553261      -42.143623       9.4847193              12
+   67.388588      -42.436592       10.106731    
+  old resid=  0.11173020      new_resid=  0.10820930      red=   3.1512501    
+         620        8989  ds=  0.28535703      G=  0.93892980    
+  ********************************************
+   68.062164      -71.259743       249.68285              40
+   68.109421      -71.602280       250.42241    
+  old resid=  0.11827710      new_resid=  0.11448009      red=   3.2102666    
+         640        9533  ds=  0.51954138      G=  0.82578593    
+  ********************************************
+  -24.682796      -25.842171       200.11650              16
+  -24.682796      -25.842171       200.11650    
+  old resid=  0.12131076      new_resid=  0.11733438      red=   3.2778482    
+         660       10003  ds=  0.48900783      G=  0.91655028    
+  ********************************************
+  -83.674873      -20.069756       162.63300              16
+  -83.637772      -20.071283       163.43719    
+  old resid=  0.12271219      new_resid=  0.11863565      red=   3.3220398    
+         680       10365  ds=   1.0021672      G=  0.91341275    
+  ********************************************
+  -10.553494       92.905304       214.08876              30
+  -10.553494       92.905304       214.08876    
+  old resid=  0.12792447      new_resid=  0.12363318      red=   3.3545575    
+         700       10983  ds=   1.4255722      G=  0.91272795    
+  ********************************************
+  nzt=         712  nray=       11411
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=5 gr=1
+  orient=   0.0000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19299
+  nmax=         712  otr nmax=        2025
+  number of velocity parameters=       19299
+  number of velocity parameters=       10531
+  1000    88     1    20  -0.033
+  2000   187     2    21  -0.036
+  3000   267     1   196  -0.215
+  4000   328     2    36  -0.063
+  5000   392     1    44  -0.078
+  6000   445     1    40  -0.004
+  7000   509     1    28   0.104
+  8000   567     2    35  -0.063
+  9000   621     1    36   0.131
+ 10000   660     1   100  -0.195
+ 11000   701     2   148  -0.016
+  nray=       11411  nzt=         712
+  nobr=       19299       10531  nonzer=      835132
+  nrp=        7063  nonz_p=      581955
+  nrs=        4348  nonz_s=      253177
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=5
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      201254  N nonzer=     1271873
+
+  N rows=      201254  N columns=       32744  N nonzer=     1271873
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12798588      avres=  0.11807331      red=   7.7450461    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.14470801      avdv_s=  0.16799438    
+  avstat_p=  9.06442292E-03  avstat_s=  1.35026909E-02
+  source corrections:
+  av1=  0.33569136      av2=  0.39226180      av3=  5.24975248E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=5 gr=2
+  orient=   22.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19525
+  nmax=         782  otr nmax=        2227
+  number of velocity parameters=       19525
+  number of velocity parameters=       10793
+  1000    88     1    18  -0.033
+  2000   187     2    19  -0.036
+  3000   267     1   199  -0.215
+  4000   328     2    36  -0.063
+  5000   392     1    49  -0.078
+  6000   445     1    42  -0.004
+  7000   509     1    25   0.104
+  8000   567     2    37  -0.063
+  9000   621     1    34   0.131
+ 10000   660     1    95  -0.195
+ 11000   701     2   159  -0.016
+  nray=       11411  nzt=         712
+  nobr=       19525       10793  nonzer=      837194
+  nrp=        7063  nonz_p=      582139
+  nrs=        4348  nonz_s=      255055
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=5
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      204674  N nonzer=     1280775
+
+  N rows=      204674  N columns=       33232  N nonzer=     1280775
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12798588      avres=  0.11813825      red=   7.6943121    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.12787414      avdv_s=  0.15643208    
+  avstat_p=  9.35425144E-03  avstat_s=  1.38869435E-02
+  source corrections:
+  av1=  0.33633840      av2=  0.39342713      av3=  5.21344021E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=5 gr=3
+  orient=   45.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19816
+  nmax=         788  otr nmax=        2243
+  number of velocity parameters=       19816
+  number of velocity parameters=       11102
+  1000    88     1    23  -0.033
+  2000   187     2    20  -0.036
+  3000   267     1   154  -0.215
+  4000   328     2    30  -0.063
+  5000   392     1    47  -0.078
+  6000   445     1    40  -0.004
+  7000   509     1    28   0.104
+  8000   567     2    41  -0.063
+  9000   621     1    36   0.131
+ 10000   660     1   105  -0.195
+ 11000   701     2   156  -0.016
+  nray=       11411  nzt=         712
+  nobr=       19816       11102  nonzer=      832272
+  nrp=        7063  nonz_p=      578832
+  nrs=        4348  nonz_s=      253440
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=5
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      208565  N nonzer=     1283635
+
+  N rows=      208565  N columns=       33832  N nonzer=     1283635
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12798588      avres=  0.11812017      red=   7.7084355    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.11880716      avdv_s=  0.14376849    
+  avstat_p=  1.07721146E-02  avstat_s=  1.62743386E-02
+  source corrections:
+  av1=  0.35739350      av2=  0.42197368      av3=  5.51256537E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=5 gr=4
+  orient=   67.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19587
+  nmax=         658  otr nmax=        1867
+  number of velocity parameters=       19587
+  number of velocity parameters=       10819
+  1000    88     1    23  -0.033
+  2000   187     2    18  -0.036
+  3000   267     1   132  -0.215
+  4000   328     2    35  -0.063
+  5000   392     1    46  -0.078
+  6000   445     1    40  -0.004
+  7000   509     1    32   0.104
+  8000   567     2    34  -0.063
+  9000   621     1    31   0.131
+ 10000   660     1    95  -0.195
+ 11000   701     2   153  -0.016
+  nray=       11411  nzt=         712
+  nobr=       19587       10819  nonzer=      830833
+  nrp=        7063  nonz_p=      577486
+  nrs=        4348  nonz_s=      253347
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=5
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      205732  N nonzer=     1276530
+
+  N rows=      205732  N columns=       33320  N nonzer=     1276530
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12798588      avres=  0.11816873      red=   7.6704912    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.11378070      avdv_s=  0.13354932    
+  avstat_p=  1.23027386E-02  avstat_s=  1.61900446E-02
+  source corrections:
+  av1=  0.35788596      av2=  0.42228696      av3=  5.56903034E-02
+  _________________________________________________________
+  COMPUTE THE VELOCITY FIELS IN 3D REGILAR GRID (VP-VS SCHEME) 
+  AREA : UT_SET06 model:MODEL_06 iter=           5
+  nref=          13
+  nxx=          67  nyy=          67  nzz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  _________________________________________________________
+  VISUALIZE THE RESULT IN HORIZONTAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06
+  npix_x=           0  npix_y=           0
+  nfmap=          79  ntmap=          73
+  nref=          13
+  ilev=           1  nzzt=         123
+  ilev=           2  nzzt=         295
+  ilev=           3  nzzt=          58
+  ilev=           4  nzzt=          47
+  ilev=           5  nzzt=           9
+  ilev=           6  nzzt=           0
+  ilev=           7  nzzt=           3
+  ilev=           8  nzzt=          17
+  ilev=           9  nzzt=          34
+  ilev=           1  zzz=   0.0000000    
+  ilev=           2  zzz=   5.0000000    
+  ilev=           3  zzz=   10.000000    
+  ilev=           4  zzz=   15.000000    
+  ilev=           5  zzz=   20.000000    
+  ilev=           6  zzz=   25.000000    
+  ilev=           7  zzz=   30.000000    
+  ilev=           8  zzz=   50.000000    
+  ilev=           9  zzz=   80.000000    
+  _________________________________________________________
+  VISUALIZE THE RESULT IN VERTICAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06 iter=           5
+mkdir: ../../../TMP_files/vert: File exists
+  nref=          13
+  nst1=          17  nzt1=         182
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          25  nzt1=         467
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         442
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          17  nzt1=         217
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          27  nzt1=         455
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         304
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl UT_SET06 MODEL_06 5 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P                                           
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '5' '../../../TMP_files/list_hor_s.txt' '../../../TMP_files/list_ver_s.txt' 'S'                               
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '5' '../../../TMP_files/list_hor_vpvs.txt' '../../../TMP_files/list_ver_vpvs.txt' 'VpVs'                      
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+  _________________________________________________________
+  LOCATE THE SOURCES USING THE 3D RAY TRACING 
+  SOURCE LOCATION: ar=UT_SET06 md=MODEL_06 it=6
+  ar=UT_SET06 md=MODEL_06
+  cannot find SOURCE_LIMITS in MAJOR_PARAM.DAT!!!
+  nan=           0
+           4
+  nref=          13
+  -42.291790      -44.849419       51.241028              10
+  -42.197678      -44.941742       50.581623    
+  old resid=  0.10792479      new_resid=  0.10559995      red=   2.1541226    
+          20         262  ds=  0.76810586      G=  0.93664020    
+  ********************************************
+   5.3429708      -12.547520       4.3062429              13
+   5.3429708      -12.547520       4.3062429    
+  old resid=  9.10161138E-02  new_resid=  8.71471763E-02  red=   4.2508245    
+          40         541  ds=  0.17092647      G=  0.98279577    
+  ********************************************
+  0.86987078       86.556358       128.68898               7
+  0.89841872       86.586067       128.07124    
+  old resid=  8.32944065E-02  new_resid=  7.93247595E-02  red=   4.7658019    
+          60         769  ds=  0.70379925      G=  0.97325701    
+  ********************************************
+   30.046785       87.025154       179.63429               8
+   30.046785       87.025154       179.63429    
+  old resid=  8.59417319E-02  new_resid=  8.23422074E-02  red=   4.1883345    
+          80         937  ds=  0.17799649      G=  0.98052537    
+  ********************************************
+   4.6372371     -0.78891122       2.7478740              14
+   4.5842495     -0.57892275       1.5901313    
+  old resid=  8.64510834E-02  new_resid=  8.29500481E-02  red=   4.0497289    
+         100        1112  ds=   1.2597617      G=  0.95588815    
+  ********************************************
+  -1.6138827       1.9306706       4.5593801              10
+  -1.6138827       1.9306706       4.5593801    
+  old resid=  8.76755267E-02  new_resid=  8.45264867E-02  red=   3.5916913    
+         120        1301  ds=  0.12087119      G=  0.96959203    
+  ********************************************
+   10.060574      -18.396696       3.7456393              11
+   9.8586493      -18.339130       3.1326466    
+  old resid=  8.67931545E-02  new_resid=  8.37717131E-02  red=   3.4811966    
+         140        1488  ds=  0.61970335      G=  0.97622842    
+  ********************************************
+   9.8208952      -18.440891       3.7599983              10
+   9.7568283      -19.081493       4.2578549    
+  old resid=  8.46590847E-02  new_resid=  8.15208405E-02  red=   3.7069244    
+         160        1688  ds=  7.41203725E-02  G=  0.96971762    
+  ********************************************
+   64.324181      -42.295681       17.971794               7
+   64.324181      -42.295681       17.971794    
+  old resid=  8.40762779E-02  new_resid=  8.08765888E-02  red=   3.8056951    
+         180        1893  ds=  0.11193985      G=  0.97391653    
+  ********************************************
+  -6.2645664       11.034684       3.8844242              17
+  -6.2645664       11.034684       3.8844242    
+  old resid=  8.11597779E-02  new_resid=  7.81461746E-02  red=   3.7131698    
+         200        2189  ds=  0.43670541      G=  0.97450197    
+  ********************************************
+   3.8706315      0.38681015      0.63063645              10
+   3.8706315      0.38681015      0.63063645    
+  old resid=  8.42559263E-02  new_resid=  8.13750178E-02  red=   3.4192371    
+         220        2420  ds=  4.66827340E-02  G=  0.95187062    
+  ********************************************
+   17.172813      -10.095277       6.0687547              10
+   17.172813      -10.095277       6.0687547    
+  old resid=  8.65926370E-02  new_resid=  8.39238465E-02  red=   3.0820067    
+         240        2660  ds=  6.91345111E-02  G=  0.95332974    
+  ********************************************
+   18.013815      -10.612469       7.9287529              13
+   17.876743      -9.9397545       5.9619617    
+  old resid=  8.71148854E-02  new_resid=  8.45260024E-02  red=   2.9718096    
+         260        2914  ds=  7.21220523E-02  G=  0.91956204    
+  ********************************************
+  -88.650955      -11.231928       53.743324              12
+  -88.650955      -11.231928       53.743324    
+  old resid=  9.54814777E-02  new_resid=  9.26496610E-02  red=   2.9658298    
+         280        3179  ds=  0.15318482      G=  0.92433524    
+  ********************************************
+   5.4002423      -12.457659       3.8789661              14
+   5.4002423      -12.457659       3.8789661    
+  old resid=  9.32596251E-02  new_resid=  9.01587978E-02  red=   3.3249381    
+         300        3478  ds=  4.21295166E-02  G=  0.97464192    
+  ********************************************
+   5.0079923      -1.1204574      -1.0471534              12
+   5.0079923      -1.1204574      -1.0471534    
+  old resid=  9.36389193E-02  new_resid=  9.06855687E-02  red=   3.1539757    
+         320        3779  ds=  0.12112314      G=  0.81457299    
+  ********************************************
+  -11.346777       76.182281       217.81235              38
+  -11.346777       76.182281       217.81235    
+  old resid=  9.62613076E-02  new_resid=  9.32910740E-02  red=   3.0855932    
+         340        4206  ds=  0.61417484      G=  0.94551712    
+  ********************************************
+   3.0653782      -4.5979338       2.9677596              16
+   3.0653782      -4.5979338       2.9677596    
+  old resid=  9.69528109E-02  new_resid=  9.40972269E-02  red=   2.9453361    
+         360        4440  ds=  8.55225697E-02  G=  0.97667271    
+  ********************************************
+   3.1450636      -4.6358452       2.4917123              27
+   3.1450636      -4.6358452       2.4917123    
+  old resid=  9.40246880E-02  new_resid=  9.11676511E-02  red=   3.0386076    
+         380        4844  ds=  7.02333823E-02  G=  0.96775097    
+  ********************************************
+  -3.9877121       11.626509       4.8515043              15
+  -3.9877121       11.626509       4.8515043    
+  old resid=  9.40629542E-02  new_resid=  9.12680477E-02  red=   2.9713163    
+         400        5129  ds=  0.13147146      G=  0.95315266    
+  ********************************************
+   66.809952      -42.593288       14.680174              28
+   66.809952      -42.593288       14.680174    
+  old resid=  9.88497660E-02  new_resid=  9.61150527E-02  red=   2.7665403    
+         420        5577  ds=  0.15984704      G=  0.87202823    
+  ********************************************
+  -14.744254       38.075188       13.855605               8
+  -18.540979       38.410168       17.091755    
+  old resid=  0.10112299      new_resid=  9.85097513E-02  red=   2.5842152    
+         440        5927  ds=  0.55902630      G=  0.67344415    
+  ********************************************
+   5.0170355       4.3855557       1.2891945              12
+   4.3104534       4.6100597       3.2312741    
+  old resid=  0.10071124      new_resid=  9.81688723E-02  red=   2.5244172    
+         460        6241  ds=  4.81542870E-02  G=  0.93487883    
+  ********************************************
+   65.234352      -39.289829       13.060506              17
+   65.234352      -39.289829       13.060506    
+  old resid=  0.10114107      new_resid=  9.88015682E-02  red=   2.3130977    
+         480        6556  ds=  7.21835196E-02  G=  0.87310338    
+  ********************************************
+   3.3408167     -0.11380652       1.0073119              20
+   3.3408167     -0.11380652       1.0073119    
+  old resid=  0.10128866      new_resid=  9.90558043E-02  red=   2.2044468    
+         500        6860  ds=  6.53580427E-02  G=  0.95865667    
+  ********************************************
+   7.2133956       4.6476755       2.5588155              16
+   7.3797288       4.8339267       1.9364157    
+  old resid=  0.10166023      new_resid=  9.93571877E-02  red=   2.2654293    
+         520        7184  ds=  7.37345070E-02  G=  0.96730417    
+  ********************************************
+   1.7983606       6.5148396       2.9759858              17
+   1.7983606       6.5148396       2.9759858    
+  old resid=  0.10100365      new_resid=  9.86534581E-02  red=   2.3268383    
+         540        7493  ds=  8.21481571E-02  G=  0.96516144    
+  ********************************************
+   64.153496      -40.236691       13.739614              29
+   64.465698      -40.489685       16.356024    
+  old resid=  0.10224009      new_resid=  9.98827517E-02  red=   2.3056922    
+         560        7837  ds=  0.54887521      G=  0.91886622    
+  ********************************************
+   12.102346      -10.546477       2.2568209              14
+   12.102346      -10.546477       2.2568209    
+  old resid=  0.10479286      new_resid=  0.10250165      red=   2.1864221    
+         580        8228  ds=  2.96813603E-02  G=  0.93397504    
+  ********************************************
+   64.413528      -40.140057       10.576676              25
+   64.413528      -40.140057       10.576676    
+  old resid=  0.10742570      new_resid=  0.10503257      red=   2.2277157    
+         600        8633  ds=  9.98604372E-02  G=  0.88908070    
+  ********************************************
+   67.380493      -42.323021       9.6064110              12
+   67.380493      -42.323021       9.6064110    
+  old resid=  0.10820930      new_resid=  0.10584079      red=   2.1888282    
+         620        8989  ds=  0.51311249      G=  0.93749356    
+  ********************************************
+   67.616776      -71.353989       249.79953              40
+   67.638176      -71.668701       250.61971    
+  old resid=  0.11448009      new_resid=  0.11190362      red=   2.2505865    
+         640        9533  ds=  0.51517886      G=  0.82664388    
+  ********************************************
+  -24.193907      -25.904554       200.24438              16
+  -24.193907      -25.904554       200.24438    
+  old resid=  0.11733438      new_resid=  0.11460493      red=   2.3262191    
+         660       10003  ds=  0.50917500      G=  0.92067558    
+  ********************************************
+  -83.510063      -20.375774       163.06650              16
+  -83.510063      -20.375774       163.06650    
+  old resid=  0.11863565      new_resid=  0.11581317      red=   2.3791063    
+         680       10365  ds=  0.49642777      G=  0.91048640    
+  ********************************************
+  -10.757334       93.546227       214.15395              30
+  -10.757334       93.546227       214.15395    
+  old resid=  0.12363318      new_resid=  0.12066820      red=   2.3982041    
+         700       10983  ds=  0.67570800      G=  0.91810954    
+  ********************************************
+  nzt=         712  nray=       11411
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=6 gr=1
+  orient=   0.0000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19299
+  nmax=         712  otr nmax=        2025
+  number of velocity parameters=       19299
+  number of velocity parameters=       10531
+  1000    88     1    20  -0.046
+  2000   187     2    21  -0.043
+  3000   267     1   193  -0.201
+  4000   328     2    36  -0.065
+  5000   392     1    44  -0.065
+  6000   445     1    43   0.010
+  7000   509     1    27   0.091
+  8000   567     2    35  -0.071
+  9000   621     1    37   0.140
+ 10000   660     1   101  -0.173
+ 11000   701     2   148  -0.032
+  nray=       11411  nzt=         712
+  nobr=       19299       10531  nonzer=      832792
+  nrp=        7063  nonz_p=      580687
+  nrs=        4348  nonz_s=      252105
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=6
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      201254  N nonzer=     1269533
+
+  N rows=      201254  N columns=       32744  N nonzer=     1269533
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12495117      avres=  0.11557670      red=   7.5025067    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.12940873      avdv_s=  0.14968970    
+  avstat_p=  7.84991309E-03  avstat_s=  1.06817316E-02
+  source corrections:
+  av1=  0.32156810      av2=  0.37951601      av3=  5.06269410E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=6 gr=2
+  orient=   22.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19525
+  nmax=         782  otr nmax=        2227
+  number of velocity parameters=       19525
+  number of velocity parameters=       10793
+  1000    88     1    18  -0.046
+  2000   187     2    19  -0.043
+  3000   267     1   193  -0.201
+  4000   328     2    36  -0.065
+  5000   392     1    47  -0.065
+  6000   445     1    40   0.010
+  7000   509     1    24   0.091
+  8000   567     2    37  -0.071
+  9000   621     1    32   0.140
+ 10000   660     1   102  -0.173
+ 11000   701     2   156  -0.032
+  nray=       11411  nzt=         712
+  nobr=       19525       10793  nonzer=      834968
+  nrp=        7063  nonz_p=      580944
+  nrs=        4348  nonz_s=      254024
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=6
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      204674  N nonzer=     1278549
+
+  N rows=      204674  N columns=       33232  N nonzer=     1278549
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12495117      avres=  0.11562847      red=   7.4610710    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.11268785      avdv_s=  0.13625498    
+  avstat_p=  8.23369715E-03  avstat_s=  1.12015232E-02
+  source corrections:
+  av1=  0.32191265      av2=  0.38074914      av3=  5.02592251E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=6 gr=3
+  orient=   45.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19816
+  nmax=         788  otr nmax=        2243
+  number of velocity parameters=       19816
+  number of velocity parameters=       11102
+  1000    88     1    24  -0.046
+  2000   187     2    19  -0.043
+  3000   267     1   156  -0.201
+  4000   328     2    30  -0.065
+  5000   392     1    46  -0.065
+  6000   445     1    41   0.010
+  7000   509     1    29   0.091
+  8000   567     2    41  -0.071
+  9000   621     1    34   0.140
+ 10000   660     1   101  -0.173
+ 11000   701     2   155  -0.032
+  nray=       11411  nzt=         712
+  nobr=       19816       11102  nonzer=      829809
+  nrp=        7063  nonz_p=      577395
+  nrs=        4348  nonz_s=      252414
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=6
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      208565  N nonzer=     1281172
+
+  N rows=      208565  N columns=       33832  N nonzer=     1281172
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12495117      avres=  0.11559880      red=   7.4848204    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  0.10414688      avdv_s=  0.12352291    
+  avstat_p=  9.31481086E-03  avstat_s=  1.37195224E-02
+  source corrections:
+  av1=  0.34016010      av2=  0.40702465      av3=  5.31374626E-02
+  _________________________________________________________
+  COMPUTE THE 1ST DERIVATIVE MATRIX (VP-VS SCHEME) 
+  execution of matr
+  ar=UT_SET06 md=MODEL_06 it=6 gr=4
+  orient=   67.000000    
+  -67.199997      -22.299999    
+  nref=          13
+  nymax=          68  ntmax=       19587
+  nmax=         658  otr nmax=        1867
+  number of velocity parameters=       19587
+  number of velocity parameters=       10819
+  1000    88     1    22  -0.046
+  2000   187     2    18  -0.043
+  3000   267     1   131  -0.201
+  4000   328     2    36  -0.065
+  5000   392     1    46  -0.065
+  6000   445     1    39   0.010
+  7000   509     1    31   0.091
+  8000   567     2    34  -0.071
+  9000   621     1    30   0.140
+ 10000   660     1    93  -0.173
+ 11000   701     2   154  -0.032
+  nray=       11411  nzt=         712
+  nobr=       19587       10819  nonzer=      829239
+  nrp=        7063  nonz_p=      576611
+  nrs=        4348  nonz_s=      252628
+  _________________________________________________________
+  PERFORM THE INVERSION (VP-VS SCHEME) 
+  execution of invers
+  ar=UT_SET06 md=MODEL_06 it=6
+  nref=          13
+  nan=           0
+  nst=          33
+  Number of rays =       11411       11411  nzt=         712
+  nst_p=          33  nst_s=          33
+  Preliminary values: N rows=      205732  N nonzer=     1274936
+
+  N rows=      205732  N columns=       33320  N nonzer=     1274936
+
+  iter=          20
+  iter=          40
+  iter=          60
+  iter=          80
+  nray=       11411
+ _____________________________________________________________
+  avres0=  0.12495117      avres=  0.11565780      red=   7.4376016    
+ _____________________________________________________________
+  nrps=        7063        4348
+  total avdv_p=  9.98626649E-02  avdv_s=  0.11582445    
+  avstat_p=  1.04477433E-02  avstat_s=  1.39126722E-02
+  source corrections:
+  av1=  0.33941489      av2=  0.40712261      av3=  5.36231399E-02
+  _________________________________________________________
+  COMPUTE THE VELOCITY FIELS IN 3D REGILAR GRID (VP-VS SCHEME) 
+  AREA : UT_SET06 model:MODEL_06 iter=           6
+  nref=          13
+  nxx=          67  nyy=          67  nzz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  izz=           5  zzz=   7.0000000    
+  izz=          10  zzz=   22.000000    
+  izz=          15  zzz=   37.000000    
+  izz=          20  zzz=   52.000000    
+  izz=          25  zzz=   67.000000    
+  izz=          30  zzz=   82.000000    
+  izz=          35  zzz=   97.000000    
+  nx=          67  ny=          67  nz=          36
+  _________________________________________________________
+  VISUALIZE THE RESULT IN HORIZONTAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06
+  npix_x=           0  npix_y=           0
+  nfmap=          79  ntmap=          73
+  nref=          13
+  ilev=           1  nzzt=         127
+  ilev=           2  nzzt=         290
+  ilev=           3  nzzt=          57
+  ilev=           4  nzzt=          51
+  ilev=           5  nzzt=           7
+  ilev=           6  nzzt=           0
+  ilev=           7  nzzt=           3
+  ilev=           8  nzzt=          17
+  ilev=           9  nzzt=          34
+  ilev=           1  zzz=   0.0000000    
+  ilev=           2  zzz=   5.0000000    
+  ilev=           3  zzz=   10.000000    
+  ilev=           4  zzz=   15.000000    
+  ilev=           5  zzz=   20.000000    
+  ilev=           6  zzz=   25.000000    
+  ilev=           7  zzz=   30.000000    
+  ilev=           8  zzz=   50.000000    
+  ilev=           9  zzz=   80.000000    
+  _________________________________________________________
+  VISUALIZE THE RESULT IN VERTICAL SECTIONS (VP-VS SCHEME) 
+  ar=UT_SET06 md=MODEL_06 iter=           6
+mkdir: ../../../TMP_files/vert: File exists
+  nref=          13
+  nst1=          17  nzt1=         180
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          25  nzt1=         467
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         444
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          17  nzt1=         216
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          27  nzt1=         455
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  nst1=          16  nzt1=         305
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+  igr=           1
+  igr=           2
+  igr=           3
+  igr=           4
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl UT_SET06 MODEL_06 6 ../../../TMP_files/list_hor_p.txt ../../../TMP_files/list_ver_p.txt P                                           
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '6' '../../../TMP_files/list_hor_s.txt' '../../../TMP_files/list_ver_s.txt' 'S'                               
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+perl ../../../PROGRAMS/3_VISUAL/_vis_n_ver_result/vis_result_gmt.pl 'UT_SET06' 'MODEL_06' '6' '../../../TMP_files/list_hor_vpvs.txt' '../../../TMP_files/list_ver_vpvs.txt' 'VpVs'                      
+Checking gmt configuration... OK
+Reading gmt configuration.. [../../../DATA/UT_SET06/gmt.conf] OK
+Creating PostScript...
+Draw Horizontal sections...
+Converting .grd files to xyz tables...
+Conversion OK
+Creating PostScript...
+Draw Vertical sections...
+OK
+  _________________________________________________________
+  CREATING THE REPORT ABOUT THE VARIANCE REDUCTION 
+  ar=UT_SET06 md=MODEL_06 niter=           6
+  nbad=           0
+  iter=           1  dtot_p=  0.17135797      red=   0.0000000    
+  iter=           1  dtot_s=  0.34403020      red=   0.0000000    
+ ___________________________________________________
+  iter=           2  dtot_p=  0.11974652      red=   30.119083    
+  iter=           2  dtot_s=  0.20643270      red=   39.995762    
+ ___________________________________________________
+  iter=           3  dtot_p=  0.10779241      red=   37.095184    
+  iter=           3  dtot_s=  0.18812467      red=   45.317398    
+ ___________________________________________________
+  iter=           4  dtot_p=  0.10238435      red=   40.251190    
+  iter=           4  dtot_s=  0.18105227      red=   47.373150    
+ ___________________________________________________
+  iter=           5  dtot_p=  9.88890603E-02  red=   42.290951    
+  iter=           5  dtot_s=  0.17525168      red=   49.059216    
+ ___________________________________________________
+  iter=           6  dtot_p=  9.65219215E-02  red=   43.672348    
+  iter=           6  dtot_s=  0.17113228      red=   50.256607    
+ ___________________________________________________
+  nsrces=         712  nray_p=        7063  nray_s=        4348
